@@ -22,7 +22,7 @@ const LuxembourgBlog = () => {
         {/* Article Header */}
         <header className="mb-8">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-gray-900 mb-6 leading-tight">
-          Portugal now outranks UK and US in passport power and appeal.
+          Why Portugal Often Beats Canada & UK Startup Routes for Founders
           </h1>
           <div className="flex items-center text-gray-500 text-sm">
             <span>Published on September 19, 2025</span>
@@ -44,43 +44,68 @@ const LuxembourgBlog = () => {
         <article className="prose prose-lg max-w-none">
           <div className="text-gray-700 leading-relaxed space-y-6">
             <p className="text-xl text-gray-600 mb-8 font-medium">
-            The Portuguese passport has surged in global demand, now ranked the fourth most powerful and appealing in the world, according to the newly released Global Passport Power and Appeal Index 2025.
-            </p>
+            Canada and the UK are top choices for entrepreneurs, but their startup and residency tracks can be expensive, 
+endorsement-driven, or slow. Portugal is emerging as a practical alternative for founders seeking speed, 
+lower initial friction, and access to European markets.
+ </p>
 
             <h2 className="text-4xl font-semibold text-gray-900 mt-10 mb-4">
-            Global Passport Power and Appeal Index 2025
+            Practical startup support and lower entry friction
             </h2>
 
             <p>
-            The index, compiled by the World Digital Foundation and published in September 2025, evaluates passports across a wide set of criteria designed for HNWIs, investors, and globally mobile professionals.
-<br />
-<br />
-“Instead of only focusing on visa-free travel, this index was compiled and scored based on broader considerations that affect wealth strategy and lifestyle optimisation,” explains the World Digital Foundation’s Danielle Moxey.
-<br />
-<br />
-“This included global mobility, international banking and investment ease, tax exposure, healthcare and political stability, lifestyle appeal, and HNWI investment opportunities.”
-<br />
-<br />
-Portugal placed fourth overall, higher than any other EU nation.
- </p>
+            Portugal’s startup ecosystem — accelerators, incubators, and local support often lets founders test
+            and scale quickly. Some Portuguese routes have lower procedural thresholds than comparable UK/Canada
+            endorsement or investment requirements.
+            </p>
 
 
 
             <h2 className="text-4xl font-semibold text-gray-900 mt-8 mb-4">
-            Why Portugal is climbing the ranks
+            Phased financial commitments
             </h2>
 
             <p>
-            Portugal is increasingly viewed as one of Europe’s most appealing destinations for investors, wealthy families, and professionals seeking mobility.<br />
-            <br />
+            Rather than large upfront deposits or investor conditions, many Portugal options allow more manageable, 
+            phased commitments, enabling early-stage founders to prioritise product-market fit before heavy spending.
+            </p>
 
-            Its passport offers visa-free travel to more than 190 countries and the right to live, work, and invest anywhere in the European Union.<br />
-<br />
+            <h2 className="text-4xl font-semibold text-gray-900 mt-8 mb-4">
+            Faster time-to-business and permit processing
+            </h2>
 
+            <p>
+            For founders who need to launch quickly, Portugal’s business setup and visa
+            processing can be more streamlined, helping you reach customers and investors sooner.
+            </p>
 
-The country’s IFICI tax framework (known as NHR 2.0) further boosts its attraction, offering 0% tax on most foreign-sourced income (excluding pensions and income from blacklisted jurisdictions) and a flat 20% rate on Portuguese employment or self-employment income for ten years. Portugal also imposes no wealth or inheritance tax, providing additional scope for wealth planning.<br />
-<br />
-</p>
+            <h2 className="text-4xl font-semibold text-gray-900 mt-8 mb-4">
+            Accessible talent and cost-efficient operations
+            </h2>
+
+            <p>
+            Portugal offers access to European talent pools, co-working infrastructure, 
+and lower operational costs in many cities — making it easier for startups to
+ hire and iterate without excessive burn.
+            </p>
+
+            <h2 className="text-4xl font-semibold text-gray-900 mt-8 mb-4">
+            Market proximity & EU access
+            </h2>
+
+            <p>
+            A Portugal base gives you easier access to EU customers, partners, and 
+            supply chains, which can be a strategic advantage for startups targeting European markets.
+            </p>
+
+            <h2 className="text-4xl font-semibold text-gray-900 mt-8 mb-4">
+            Clear longer-term residency pathways
+            </h2>
+
+            <p>
+            Portugal typically provides clearer routes toward long-term residency 
+            and potential citizenship compared with some conditional startup/endorsement schemes abroad.
+            </p>
 
           </div>
         </article>
@@ -113,7 +138,7 @@ The country’s IFICI tax framework (known as NHR 2.0) further boosts its attrac
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
               <img
-                src="/Blog.webp"
+                src="/Blog8.png"
                 alt="Portugal Passport Power"
                 className="w-full h-48 object-cover"
               />
@@ -127,32 +152,6 @@ The country’s IFICI tax framework (known as NHR 2.0) further boosts its attrac
                 <a
                 href="/blogs/luxembourg-golden-visa"
                 className="inline-flex items-center text-black font-medium hover:text-gray-700 transition-colors mt-4"
-                style={{color: 'gray'}}
-              >
-                Read more
-                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
-              <img
-                src="/Blog3.webp"
-                alt="LGBTQ+ Golden Visa"
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-6">
-                <span className="inline-block px-3 py-1 bg-blue-100 text-gray-600 text-sm rounded-full mb-3">
-                  Culture & Heritage
-                </span>
-                <h4 className="text-lg font-semibold text-gray-900 mb-2">
-                  LGBTQ+ Americans choose Portugal's Golden Visa
-                </h4>
-                <a
-                href="/blogs/Lgbtq-golden-visa"
-                className="inline-flex items-center text-black font-medium hover:text-gray-700 transition-colors mt-11"
                 style={{color: 'gray'}}
               >
                 Read more

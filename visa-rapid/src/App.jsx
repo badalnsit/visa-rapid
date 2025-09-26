@@ -17,7 +17,6 @@ import JobSeekerVisa from './pages/JobSeekerVisa'
 import Residency from './pages/Residency'
 import Blogs from './pages/Blogs'
 import LuxembourgBlog from './pages/LuxembourgBlog'
-import LgbtqBlog from './pages/LgbtqBlog'
 import PassportPowerBlog from './pages/PassportPowerBlog'
 
 // Home page component
@@ -88,13 +87,7 @@ const App = () => {
                 <Footer />
               </>
             } />
-            <Route path="/blogs/Lgbtq-golden-visa" element={
-              <>
-                <LgbtqBlog />
-                <Footer />
-              </>
-            } />
-            <Route path="/blogs/Portugal-passport-power" element={
+                        <Route path="/blogs/Portugal-passport-power" element={
               <>
                 <PassportPowerBlog />
                 <Footer />

@@ -20,7 +20,7 @@ const Blogs = () => {
           {/* Left Column - Image */}
           <div className="order-2 lg:order-1">
             <img
-              src="/Blog.webp"
+              src="/Blog8.png"
               alt="Lisbon's iconic Rua Augusta Arch"
               className="w-full h-64 sm:h-80 lg:h-[500px] object-cover rounded-2xl shadow-lg"
             />
@@ -35,11 +35,12 @@ const Blogs = () => {
             </div>
 
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-900 mb-4 lg:mb-6 leading-tight">
-            Luxembourg to scrap Golden Visa as Portugal stands strong
+            Portugal: A Faster, More Predictable Alternative to the H-1B Route
             </h2>
 
             <p className="text-gray-600 text-sm sm:text-md leading-relaxed mb-6">
-            Luxembourg is set to terminate its Golden Visa programme following seven years of limited success and uptake.
+            The H-1B is a familiar route for professionals aiming to work in the U.S., but it can be costly, uncertain, 
+            and slow. 
             </p>
 
             <Link
@@ -71,39 +72,10 @@ const Blogs = () => {
                 </span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4 leading-tight mt-5">
-              Portugal now outranks UK and US in passport power
+              Why Portugal Often Beats Canada & UK Startup Routes for Founders
               </h3>
               <a
                 href="/blogs/Portugal-passport-power"
-                className="inline-flex items-center text-black font-medium hover:text-gray-700 transition-colors mt-4"
-                style={{color: 'gray'}}
-              >
-                Read more
-                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          {/* Article 2 */}
-          <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-            <img
-              src="/Blog3.webp"
-              alt="Portuguese Passport"
-              className="w-full h-48 object-cover rounded-2xl"
-            />
-            <div className="p-8">
-              <div className="mb-3">
-                <span className="inline-block px-3 py-1 bg-blue-100 text-gray-600 text-sm rounded-full">
-                  Culture & Heritage
-                </span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4 leading-tight mt-5">
-              LGBTQ+ Americans choose Portugal's Golden Visa
-              </h3>
-              <a
-                href="/blogs/Lgbtq-golden-visa"
                 className="inline-flex items-center text-black font-medium hover:text-gray-700 transition-colors mt-4"
                 style={{color: 'gray'}}
               >
