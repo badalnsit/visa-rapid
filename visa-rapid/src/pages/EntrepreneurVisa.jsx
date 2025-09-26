@@ -449,7 +449,7 @@ const EntrepreneurVisa = () => {
                 <img
                   src="/Visa.webp"
                   alt="Portugal street scene with colorful buildings and tram"
-                  className="w-full h-150 object-cover rounded-2xl shadow-lg transition-transform duration-500"
+                  className="w-full xl:h-150 h-100 object-cover rounded-2xl shadow-lg transition-transform duration-500"
                 />
               </div>
             </div>
