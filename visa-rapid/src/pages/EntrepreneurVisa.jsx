@@ -475,7 +475,7 @@ const EntrepreneurVisa = () => {
             </div>
 
             {/* Content Overlay */}
-            <div className="relative z-10 p-8 lg:p-16">
+            <div className="relative z-10 lg:p-16">
               <div className="max-w-5xl mx-auto">
                   {/* Calendly Widget */}
                   <div style={{
