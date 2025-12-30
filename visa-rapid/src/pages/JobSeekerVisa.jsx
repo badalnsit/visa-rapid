@@ -3,6 +3,7 @@ import useScrollAnimation from '../hooks/useScrollAnimation'
 
 const JobSeekerVisa = () => {
   const [heroRef, heroVisible] = useScrollAnimation({ threshold: 0.2 })
+  const [oppCardRef, oppCardVisible] = useScrollAnimation({ threshold: 0.1 })
   const [benefitsRef, benefitsVisible] = useScrollAnimation({ threshold: 0.1 })
   const [eligibilityRef, eligibilityVisible] = useScrollAnimation({ threshold: 0.1 })
   const [whoCanApplyRef, whoCanApplyVisible] = useScrollAnimation({ threshold: 0.1 })
@@ -194,13 +195,19 @@ const JobSeekerVisa = () => {
               <div className="space-y-3">
                 <div>
                   <p className="text-5xl font-medium text-gray-900 tracking-wide mb-6">
-                    What is the Portugal Job Seeker Visa & Work Visa?
+                    The Opportunity Card: The ticket to Germany
+
                   </p>
                   <p className="text-xl text-gray-600 leading-relaxed mb-4">
 
-                  The Portugal Job Seeker Visa allows non-EU nationals to enter Portugal temporarily to search for 
-                  employment. Once you secure a job, you can convert it into a residence permit
-                  (such as D1 for employment or D3 for highly qualified activity).
+                 The German government introduced the “Opportunity Card”
+                  (Chancenkarte) to its arsenal of residence permits. This permit came to
+                  replace the job seeker visa, by opening it to further candidates. When the
+                  former job seeker visa was only open to university graduates, the
+                  opportunity card introduced a point-based system, rewarding different
+                  qualifications and paths of life to give more people the chance to come to
+                  Germany.
+
                     </p>
                 </div>
 
@@ -249,6 +256,72 @@ const JobSeekerVisa = () => {
         </div>
       </section>
 
+      {/* What is the Opportunity Card Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto">
+          <div 
+            ref={oppCardRef}
+            className={`fade-in-up ${oppCardVisible ? 'visible' : ''}`}
+          >
+            <div className="relative overflow-hidden bg-gradient-to-br from-yellow-50 via-amber-50 to-orange-50 rounded-3xl p-8 md:p-12 shadow-lg border border-amber-200">
+              {/* Decorative Elements */}
+              <div className="absolute top-0 right-0 w-64 h-64 bg-amber-200/30 rounded-full -translate-y-32 translate-x-32"></div>
+              <div className="absolute bottom-0 left-0 w-48 h-48 bg-yellow-200/30 rounded-full translate-y-24 -translate-x-24"></div>
+              
+              <div className="relative z-10">
+                {/* Header with Icon */}
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="p-3 bg-amber-500 rounded-xl shadow-md">
+                    <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
+                    </svg>
+                  </div>
+                  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">
+                    What is the Opportunity Card?
+                  </h2>
+                </div>
+
+                {/* Description */}
+                <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8 max-w-4xl">
+                  The Opportunity Card is a residence permit in the form of a D-visa for Germany issued by the German missions abroad responsible in the jurisdiction of the applicant. It is issued for a maximum of <span className="font-semibold text-amber-600">1 year</span> and for 2 purposes:
+                </p>
+
+                {/* Purpose Cards */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="bg-white rounded-2xl p-6 shadow-md border border-amber-100 hover:shadow-lg hover:border-amber-200 transition-all duration-300">
+                    <div className="flex items-start gap-4">
+                      <div className="flex-shrink-0 w-10 h-10 bg-green-500 rounded-full flex items-center justify-center shadow-sm">
+                        <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-semibold text-gray-900 mb-2">Job Search</h3>
+                        <p className="text-gray-600">To look for a job in Germany</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-white rounded-2xl p-6 shadow-md border border-amber-100 hover:shadow-lg hover:border-amber-200 transition-all duration-300">
+                    <div className="flex items-start gap-4">
+                      <div className="flex-shrink-0 w-10 h-10 bg-amber-500 rounded-full flex items-center justify-center shadow-sm">
+                        <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                        </svg>
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-semibold text-gray-900 mb-2">Qualification Recognition</h3>
+                        <p className="text-gray-600">To look for a program for the recognition of one's foreign professional qualifications</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Benefits Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
@@ -259,14 +332,15 @@ const JobSeekerVisa = () => {
             {/* Section Header */}
             <div className="text-center mb-12">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-gray-900 mb-6">
-                Benefits of the Portugal Job Seeker Visa & Work Visa
+                What are the key features?
+
               </h2>
             </div>
 
             {/* Benefits Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {/* No Job Offer Required Card */}
-              <div className={`bg-blue-100 p-8 rounded-2xl hover-lift stagger-item h-80 flex flex-col ${benefitsVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.1s' }}>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+              {/* Temporary residence permit Card */}
+              <div className={`bg-blue-100 p-10 rounded-2xl hover-lift stagger-item flex flex-col ${benefitsVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.1s' }}>
                 <div className="flex-1">
                   <div className="mb-4 scale-on-hover">
                     <svg className="w-10 h-10 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -274,65 +348,27 @@ const JobSeekerVisa = () => {
                     </svg>
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                    No Job Offer Required
+                    Temporary residence permit (valid up to 1 year)
                   </h3>
                   <p className="text-gray-700">
-                  You can enter Portugal legally without needing an employment contract beforehand,
-                  giving you flexibility to explore opportunities.
+                    With the Germany Opportunity Card, you can move to Germany for up to 12 months to explore job opportunities or get your qualifications recognized. You are allowed to stay in Germany for the entire period, and once you secure a job or admission, the card can be upgraded to a long-term residence permit without the hassle of traveling back to your home country.
                   </p>
                 </div>
               </div>
 
-              {/* 6-9 Months Stay Permit Card */}
-              <div className={`bg-blue-100 p-8 rounded-2xl hover-lift stagger-item h-80 flex flex-col ${benefitsVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.2s' }}>
+              {/* Option to work part-time Card */}
+              <div className={`bg-blue-100 p-10 rounded-2xl hover-lift stagger-item flex flex-col ${benefitsVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.2s' }}>
                 <div className="flex-1">
                   <div className="mb-4 scale-on-hover">
                     <svg className="w-10 h-10 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0V4a2 2 0 00-2-2H8a2 2 0 00-2 2v2m8 0H8m8 0v2a2 2 0 01-2 2H10a2 2 0 01-2-2V6m8 0h2a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2h2" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M12 12h.01M12 12h4m-4 0H8m4 0v4" />
                     </svg>
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                    6-9 Months Stay Permit
+                    Option to work part-time while job searching
                   </h3>
                   <p className="text-gray-700">
-                  The visa gives you enough time to actively search for jobs, attend interviews, and
-                  connect with employers in person.
-                  </p>
-                </div>
-              </div>
-
-              {/* Pathway to residency & citizenship Card */}
-              <div className={`bg-blue-100 p-8 rounded-2xl hover-lift stagger-item h-80 flex flex-col ${benefitsVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.3s' }}>
-                <div className="flex-1">
-                  <div className="mb-4 scale-on-hover">
-                    <svg className="w-10 h-10 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
-                    </svg>
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Pathway to residency & citizenship
-                  </h3>
-                  <p className="text-gray-700">
-                  After 5 years of legal residence, you can apply for permanent residency or
-                  even Portuguese/EU citizenship.
-                  </p>
-                </div>
-              </div>
-
-              {/* Family reunification Card */}
-              <div className={`bg-blue-100 p-8 rounded-2xl hover-lift stagger-item h-80 flex flex-col ${benefitsVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.4s' }}>
-                <div className="flex-1">
-                  <div className="mb-4 scale-on-hover">
-                    <svg className="w-10 h-10 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Family reunification
-                  </h3>
-                  <p className="text-gray-700">
-                  Once you secure a residence permit, your spouse, children, and eligible dependents
-                  can also join you in Portugal with the same rights.
+                    The Opportunity Card introduces a major advantage over the earlier Job Seeker Visa it allows applicants to work. Holders can take up part-time employment for up to 20 hours per week while looking for a job or completing qualification recognition.
                   </p>
                 </div>
               </div>
@@ -360,56 +396,49 @@ const JobSeekerVisa = () => {
                       </svg>
                     </div>
                     <h2 className="text-4xl font-bold text-gray-900 ">
-                      Eligibility Criteria
+                      Who can apply?
                     </h2>
                   </div>
-                  <div className="space-y-4">
-                    <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-2 h-2 bg-black rounded-full mt-3">
-                      </div>
+                  
+                  <p className="text-gray-700 text-lg mb-6">
+                    There are two main pathways to obtain the Germany Opportunity Card.
+                  </p>
+
+                  <div className="space-y-6">
+                    {/* Pathway 1 */}
+                    <div>
+                      <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                        1. Opportunity Card for University Graduates
+                      </h3>
                       <p className="text-gray-700 text-lg">
-                      Bachelor's degree
+                        Applicants who hold a university degree that is recognized in Germany may qualify directly for the Opportunity Card, provided all general eligibility criteria are met.
                       </p>
                     </div>
-                    <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-2 h-2 bg-black rounded-full mt-3">
-                      </div>
+
+                    {/* Pathway 2 */}
+                    <div>
+                      <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                        2. Opportunity Card – Points-Based System
+                      </h3>
                       <p className="text-gray-700 text-lg">
-                       Health insurance
-                      </p>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-2 h-2 bg-black rounded-full mt-3">
-                      </div>
-                      <p className="text-gray-700 text-lg">
-                        No requirement for IELTS
-                      </p>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-2 h-2 bg-black rounded-full mt-3">
-                      </div>
-                      <p className="text-gray-700 text-lg">
-                      Evidence of having sufficient funds
-                      </p>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-2 h-2 bg-black rounded-full mt-3">
-                      </div>
-                      <p className="text-gray-700 text-lg">
-                       Authenticated airplane reservations
-                      </p>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-2 h-2 bg-black rounded-full mt-3">
-                      </div>
-                      <p className="text-gray-700 text-lg">
-                      Evidence of having booked accommodation in Portugal
+                        Applicants without a university degree may still be eligible through the points-based system introduced by the German government. To qualify, candidates must score at least 6 points based on factors such as professional experience, language skills, age, and other criteria.
                       </p>
                     </div>
                   </div>
+                </div>
 
-                  {/* Get Expert Advice Button */}
-                  <div className="mt-8 flex justify-center">
+                {/* Right Column - Image and Button */}
+                <div className="flex flex-col items-center justify-center">
+                  <div className="relative">
+                    <img
+                      src="/Job1.webp"
+                      alt="Job Application Accepted"
+                      className="w-90 h-95 object-cover rounded-xl shadow-lg"
+                    />
+                  </div>
+                  
+                  {/* Get Expert Advice Button - Centered below Image */}
+                  <div className="mt-6 flex justify-center">
                     <a
                       href="https://calendly.com/nikita-visarapid/30min?back=1"
                       target="_blank"
@@ -423,17 +452,13 @@ const JobSeekerVisa = () => {
                     </a>
                   </div>
                 </div>
+              </div>
 
-                {/* Right Column - Image */}
-                <div className="flex items-center justify-center">
-                  <div className="relative">
-                    <img
-                      src="/Job1.webp"
-                      alt="Job Application Accepted"
-                      className="w-90 h-95 object-cover rounded-xl shadow-lg ml-12"
-                    />
-                  </div>
-                </div>
+              {/* Note - Full Width at Bottom */}
+              <div className="mt-8 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg md:ml-0 md:mr-12">
+                <p className="text-gray-700 text-base">
+                  <span className="font-semibold">Note:</span> If the qualifications are not yet recognized, the applicant must complete the ZAB recognition process in order to have them officially recognized in Germany.
+                </p>
               </div>
             </div>
           </div>
