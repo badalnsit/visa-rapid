@@ -16,8 +16,9 @@ import StartupVisa from './pages/StartupVisa'
 import JobSeekerVisa from './pages/JobSeekerVisa'
 import Residency from './pages/Residency'
 import Blogs from './pages/Blogs'
-import LuxembourgBlog from './pages/LuxembourgBlog'
-import PassportPowerBlog from './pages/PassportPowerBlog'
+import OpportunityCard from './pages/OpportunityCard'
+
+import ScrollToTop from './components/ScrollToTop'
 
 // Home page component
 const HomePage = () => (
@@ -35,6 +36,7 @@ const HomePage = () => (
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen w-full bg-white overflow-x-hidden">
         <Navbar />
         <main className="w-full overflow-x-hidden">
@@ -81,15 +83,14 @@ const App = () => {
                 <Footer />
               </>
             } />
-            <Route path="/blogs/luxembourg-golden-visa" element={
+            <Route path="/blogs/opportunity-card" element={
               <>
-                <LuxembourgBlog />
+                <OpportunityCard />
                 <Footer />
               </>
             } />
                         <Route path="/blogs/Portugal-passport-power" element={
               <>
-                <PassportPowerBlog />
                 <Footer />
               </>
             } />

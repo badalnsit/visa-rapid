@@ -7,7 +7,7 @@ const Blogs = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         {/* Page Header */}
         <div className="mb-16">
-          <p className="text-5xl sm:text-5xl lg:text-6xl font-semibold text-gray-900 mb-6">
+          <p className="text-5xl sm:text-5xl lg:text-6xl font-sans font-medium tracking-tight text-gray-900 mb-6">
             Read our articles
           </p>
           <p className="text-lg text-gray-600 max-w-2xl">
@@ -20,7 +20,7 @@ const Blogs = () => {
           {/* Left Column - Image */}
           <div className="order-2 lg:order-1">
             <img
-              src="/Blog8.png"
+              src="/Jsv.webp"
               alt="Lisbon's iconic Rua Augusta Arch"
               className="w-full h-64 sm:h-80 lg:h-[500px] object-cover rounded-2xl shadow-lg"
             />
@@ -35,16 +35,15 @@ const Blogs = () => {
             </div>
 
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-900 mb-4 lg:mb-6 leading-tight">
-            Portugal: A Faster, More Predictable Alternative to the H-1B Route
+           The Opportunity Card: The Ticket to Germany
             </h2>
 
             <p className="text-gray-600 text-sm sm:text-md leading-relaxed mb-6">
-            The H-1B is a familiar route for professionals aiming to work in the U.S., but it can be costly, uncertain, 
-            and slow. 
+            The German government introduced the “Opportunity Card” (Chancenkarte) to its arsenal of residence permits. 
             </p>
 
             <Link
-              to="/blogs/luxembourg-golden-visa"
+              to="/blogs/opportunity-card"
               className="inline-flex items-center font-medium transition-colors lg:mt-35"
               style={{color: 'black', textDecoration: 'none'}}
             >
@@ -56,37 +55,8 @@ const Blogs = () => {
           </div>
         </div>
 
-        {/* Additional Articles Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
-          {/* Article 1 */}
-          <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-            <img
-              src="/Blog2.webp"
-              alt="Luxembourg Airport"
-              className="w-full h-48 object-cover rounded-2xl"
-            />
-            <div className="p-8">
-              <div className="mb-3">
-                <span className="inline-block px-3 py-1 bg-blue-100 text-gray-600 text-sm rounded-full">
-                  Visa & Finance
-                </span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4 leading-tight mt-5">
-              Why Portugal Often Beats Canada & UK Startup Routes for Founders
-              </h3>
-              <a
-                href="/blogs/Portugal-passport-power"
-                className="inline-flex items-center text-black font-medium hover:text-gray-700 transition-colors mt-4"
-                style={{color: 'gray'}}
-              >
-                Read more
-                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+
+
 
       </div>
     </div>
