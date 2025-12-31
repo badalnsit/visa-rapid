@@ -246,9 +246,9 @@ const JobSeekerVisa = () => {
             <div className="order-2 lg:order-2">
               <div className="relative">
                 <img
-                  src="/Job.webp"
+                  src="/Jsv.webp"
                   alt="Portugal Job Seeker Visa"
-                  className="w-full h-130 object-cover"
+                  className="w-full h-140 object-cover rounded-xl" 
                 />
               </div>
             </div>
