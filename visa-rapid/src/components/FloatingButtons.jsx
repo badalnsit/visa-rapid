@@ -8,16 +8,11 @@ const FloatingButtons = () => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY
       const scrollThreshold = 100 // Hide buttons only when at top (navbar visible)
-
-      // Show buttons when scrolled past threshold (navbar hidden)
-      // Hide buttons only when at the very top (navbar fully visible)
       if (currentScrollY > scrollThreshold) {
         setIsVisible(true)
       } else {
         setIsVisible(false)
       }
-
-      // Show scroll to top button when user has scrolled down significantly
       setShowScrollTop(currentScrollY > 300)
     }
 
@@ -33,8 +28,7 @@ const FloatingButtons = () => {
   }
 
   const openWhatsApp = () => {
-    // Replace with your WhatsApp number
-    const phoneNumber = '+919910578099' // Update with actual WhatsApp number
+    const phoneNumber = '+919910578099'
     const message = 'Hello, I would like to know more about your visa services.'
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(url, '_blank')
