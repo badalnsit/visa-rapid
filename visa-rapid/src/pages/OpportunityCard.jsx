@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import RelatedArticles from '../components/RelatedArticles'
 
 const OpportunityCard = () => {
   return (
@@ -239,6 +240,8 @@ const OpportunityCard = () => {
             </svg>
           </a>
         </div>
+
+        <RelatedArticles currentPath="/blogs/opportunity-card" />
       </div>
     </div>
   )

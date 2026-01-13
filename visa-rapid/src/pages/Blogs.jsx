@@ -2,6 +2,37 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Blogs = () => {
+  const blogPosts = [
+    {
+      title: "Portugal Startup Visa Approvals & Ecosystem Growth in 2025",
+      description: "The 2025 Startup Ecosystem Report highlights a major milestone: active startups in Portugal have crossed the 5,000 mark. What does this mean for visa approvals?",
+      image: "/Img3.png",
+      link: "/blogs/portugal-startup-ecosystem-2025",
+      category: "Ecosystem Report"
+    },
+    {
+      title: "Portugal Startup Visa vs UK, USA, and Canada: Cost, Funding & Approval Compared",
+      description: "For entrepreneurs looking to move abroad, startup visas have become one of the most realistic pathways. However, not all startup visa programs are created equal.",
+      image: "/Img2.png",
+      link: "/blogs/portugal-startup-visa-comparison",
+      category: "Startup Visa"
+    },
+    {
+      title: "Which Is the Most Affordable and Convenient Option to Move Abroad?",
+      description: "Today, there are several pathways to move abroad. Among the most commonly considered options are Work Visa, Business Visa, Job Seeker Visa, and Study Abroad. But which one is right for you?",
+      image: "/Img1.png",
+      link: "/blogs/affordable-overseas-option",
+      category: "Visa & Finance"
+    },
+    {
+      title: "The Opportunity Card: The Ticket to Germany",
+      description: "The German government introduced the “Opportunity Card” (Chancenkarte) to its arsenal of residence permits. This permit came to replace the Job Seeker Visa.",
+      image: "/Jsv.webp",
+      link: "/blogs/opportunity-card",
+      category: "Visa & Finance"
+    }
+  ];
+
   return (
     <div className="bg-white min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -15,49 +46,49 @@ const Blogs = () => {
           </p>
         </div>
 
-        {/* Featured Article */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-16 bg-gray-100 rounded-2xl p-4 lg:p-0">
-          {/* Left Column - Image */}
-          <div className="order-2 lg:order-1">
-            <img
-              src="/Jsv.webp"
-              alt="Lisbon's iconic Rua Augusta Arch"
-              className="w-full h-64 sm:h-80 lg:h-[500px] object-cover rounded-2xl shadow-lg"
-            />
-          </div>
+        {/* Blog Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {blogPosts.map((post, index) => (
+            <div key={index} className="bg-gray-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
+              {/* Image */}
+              <div className="h-64 sm:h-72 w-full">
+                <img
+                  src={post.image}
+                  alt={post.title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
 
-          {/* Right Column - Content */}
-          <div className="order-1 lg:order-2 p-4 lg:pl-1">
-            <div className="mb-4">
-              <span className="inline-block px-3 py-1 bg-blue-100 text-gray-600 text-sm rounded-full">
-                Visa & Finance
-              </span>
+              {/* Content */}
+              <div className="p-6 flex flex-col flex-grow">
+                <div className="mb-4">
+                  <span className="inline-block px-3 py-1 bg-blue-100 text-gray-600 text-sm rounded-full">
+                    {post.category}
+                  </span>
+                </div>
+
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 leading-tight">
+                  {post.title}
+                </h2>
+
+                <p className="text-gray-600 mb-6 flex-grow leading-relaxed">
+                  {post.description}
+                </p>
+
+                <Link
+                  to={post.link}
+                  className="inline-flex items-center font-medium !text-gray-600 hover:text-gray-700 transition-colors mt-auto"
+                  style={{ textDecoration: 'none' }}
+                >
+                  Read more
+                  <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </Link>
+              </div>
             </div>
-
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-900 mb-4 lg:mb-6 leading-tight">
-           The Opportunity Card: The Ticket to Germany
-            </h2>
-
-            <p className="text-gray-600 text-sm sm:text-md leading-relaxed mb-6">
-            The German government introduced the “Opportunity Card” (Chancenkarte) to its arsenal of residence permits. 
-            </p>
-
-            <Link
-              to="/blogs/opportunity-card"
-              className="inline-flex items-center font-medium transition-colors lg:mt-35"
-              style={{color: 'black', textDecoration: 'none'}}
-            >
-              Read more
-              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-          </div>
+          ))}
         </div>
-
-
-
-
       </div>
     </div>
   )
