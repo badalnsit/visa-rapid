@@ -4,6 +4,20 @@ import { Link } from 'react-router-dom'
 const RelatedArticles = ({ currentPath }) => {
   const allBlogPosts = [
     {
+      title: "Why Europe’s Startup Visa Is Often a Better Option Than New Zealand, UK, Ireland, USA, and Canada",
+      description: "If you’re an early-stage founder with an innovative idea or MVP, choosing the right country can save you years of time.",
+      image: "/Blog5.webp",
+      link: "/blogs/europe-startup-visa-comparison",
+      category: "Startup Visa"
+    },
+    {
+      title: "Germany EU Blue Card vs Germany Opportunity Card",
+      description: "Germany offers several pathways for skilled professionals. Two of the most popular routes are the EU Blue Card and the Germany Opportunity Card.",
+      image: "/Blog4.webp",
+      link: "/blogs/blue-card-vs-opportunity-card",
+      category: "Visa Comparison"
+    },
+    {
       title: "Portugal Startup Visa Approvals & Ecosystem Growth in 2025",
       description: "The 2025 Startup Ecosystem Report highlights a major milestone: active startups in Portugal have crossed the 5,000 mark.",
       image: "/Img3.png",

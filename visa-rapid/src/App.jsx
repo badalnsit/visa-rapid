@@ -20,6 +20,8 @@ import OpportunityCard from './pages/OpportunityCard'
 import AffordableOverseasOption from './pages/AffordableOverseasOption'
 import PortugalStartupVisaComparison from './pages/PortugalStartupVisaComparison'
 import PortugalStartupEcosystem2025 from './pages/PortugalStartupEcosystem2025'
+import BlueCardVsOpportunityCard from './pages/BlueCardVsOpportunityCard'
+import EuropeStartupVisaComparison from './pages/EuropeStartupVisaComparison'
 
 import ScrollToTop from './components/ScrollToTop'
 
@@ -107,6 +109,18 @@ const App = () => {
             <Route path="/blogs/portugal-startup-ecosystem-2025" element={
               <>
                 <PortugalStartupEcosystem2025 />
+                <Footer />
+              </>
+            } />
+            <Route path="/blogs/blue-card-vs-opportunity-card" element={
+              <>
+                <BlueCardVsOpportunityCard />
+                <Footer />
+              </>
+            } />
+            <Route path="/blogs/europe-startup-visa-comparison" element={
+              <>
+                <EuropeStartupVisaComparison />
                 <Footer />
               </>
             } />
