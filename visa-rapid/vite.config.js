@@ -10,6 +10,18 @@ export default defineConfig({
   build: {
     outDir: 'dist'
   },
+  server: {
+    proxy: {
+      '/blogs': {
+        target: 'http://localhost:3000',
+        changeOrigin: true,
+      },
+      '/_next': {
+        target: 'http://localhost:3000',
+        changeOrigin: true,
+      },
+    },
+  },
   preview: {
     port: 4173,
     open: true

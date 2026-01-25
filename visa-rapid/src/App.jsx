@@ -15,13 +15,6 @@ import EntrepreneurVisa from './pages/EntrepreneurVisa'
 import StartupVisa from './pages/StartupVisa'
 import JobSeekerVisa from './pages/JobSeekerVisa'
 import Residency from './pages/Residency'
-import Blogs from './pages/Blogs'
-import OpportunityCard from './pages/OpportunityCard'
-import AffordableOverseasOption from './pages/AffordableOverseasOption'
-import PortugalStartupVisaComparison from './pages/PortugalStartupVisaComparison'
-import PortugalStartupEcosystem2025 from './pages/PortugalStartupEcosystem2025'
-import BlueCardVsOpportunityCard from './pages/BlueCardVsOpportunityCard'
-import EuropeStartupVisaComparison from './pages/EuropeStartupVisaComparison'
 
 import ScrollToTop from './components/ScrollToTop'
 
@@ -79,53 +72,6 @@ const App = () => {
             <Route path="/residency" element={
               <>
                 <Residency />
-                <Footer />
-              </>
-            } />
-            <Route path="/blogs" element={
-              <>
-                <Blogs />
-                <Footer />
-              </>
-            } />
-            <Route path="/blogs/opportunity-card" element={
-              <>
-                <OpportunityCard />
-                <Footer />
-              </>
-            } />
-            <Route path="/blogs/affordable-overseas-option" element={
-              <>
-                <AffordableOverseasOption />
-                <Footer />
-              </>
-            } />
-            <Route path="/blogs/portugal-startup-visa-comparison" element={
-              <>
-                <PortugalStartupVisaComparison />
-                <Footer />
-              </>
-            } />
-            <Route path="/blogs/portugal-startup-ecosystem-2025" element={
-              <>
-                <PortugalStartupEcosystem2025 />
-                <Footer />
-              </>
-            } />
-            <Route path="/blogs/blue-card-vs-opportunity-card" element={
-              <>
-                <BlueCardVsOpportunityCard />
-                <Footer />
-              </>
-            } />
-            <Route path="/blogs/europe-startup-visa-comparison" element={
-              <>
-                <EuropeStartupVisaComparison />
-                <Footer />
-              </>
-            } />
-                        <Route path="/blogs/Portugal-passport-power" element={
-              <>
                 <Footer />
               </>
             } />

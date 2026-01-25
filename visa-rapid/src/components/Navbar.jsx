@@ -39,14 +39,15 @@ const Navbar = () => {
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0V4a2 2 0 00-2-2H8a2 2 0 00-2 2v2m8 0H8m8 0v2a2 2 0 01-2 2H10a2 2 0 01-2-2V6m8 0h2a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2h2" />
                 </svg>
-              <span>Job Seeker Visa</span>
+                <span>Job Seeker Visa</span>
               </a>
-                <a href="/blogs" className="!text-black px-5 py-3 text-base font-medium transition-colors hover:!text-gray-600 flex items-center gap-1">
+              <a href="/blogs" className="!text-black px-5 py-3 text-base font-medium transition-colors hover:!text-gray-600 flex items-center gap-1">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
                 </svg>
                 <span>Blogs</span>
               </a>
+  
             </div>
           </div>
 
@@ -119,12 +120,13 @@ const Navbar = () => {
                 </svg>
                 Job Seeker Visa
               </a>
-              <a href="/blogs" className="!text-black px-4 py-3 text-lg font-medium hover:bg-gray-50 flex items-center gap-3">
+              <a href="/blogs" className="!text-black  px-4 py-3 text-lg font-medium hover:bg-gray-50 flex items-center gap-3">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
                 </svg>
                 Blogs
               </a>
+
               <div className="pt-4 pb-3 border-t border-gray-200 space-y-3">
                 <a href="https://wa.me/+919910578099" target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-600 !text-white px-6 py-4 text-lg font-bold transition-all duration-200 rounded-lg flex items-center gap-3 w-full justify-center">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
