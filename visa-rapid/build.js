@@ -30,6 +30,9 @@ try {
     console.log('Starting Production Build...');
 
     // 1. Build Next.js App (Blogs)
+    console.log('\n--- Installing Blog Dependencies ---');
+    execSync('npm install', { cwd: path.join(process.cwd(), 'blog-web'), stdio: 'inherit' });
+
     console.log('\n--- Building Next.js Blog App ---');
     execSync('npm run build', { cwd: path.join(process.cwd(), 'blog-web'), stdio: 'inherit' });
 

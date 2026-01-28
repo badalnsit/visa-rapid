@@ -2,8 +2,8 @@ import Link from 'next/link'
 import RelatedArticles from '../../../components/RelatedArticles'
 
 export const metadata = {
-    title: 'The Opportunity Card: The Ticket to Germany | Visa Rapid',
-    description: 'The German government introduced the “Opportunity Card” (Chancenkarte) to its arsenal of residence permits. This permit came to replace the Job Seeker Visa.',
+    title: 'Germany Opportunity Card (Chancenkarte): Complete Guide 2025 | Visa Rapid',
+    description: 'The Germany Opportunity Card (Chancenkarte) is a new residence permit for skilled workers. Learn about eligibility, the points-based system, and how to apply in 2025.',
 }
 
 const OpportunityCard = () => {
@@ -26,217 +26,247 @@ const OpportunityCard = () => {
 
                 {/* Article Header */}
                 <header className="mb-8">
-                    <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-gray-900 mb-4 leading-tight">
-                        The Opportunity Card: The Ticket to Germany
+                    <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                        Germany Opportunity Card (Chancenkarte): Your Complete Guide to Working in Germany in 2025
                     </h1>
                     <div className="flex items-center text-gray-500 text-sm">
-                        <span>Published on December 31, 2025</span>
+                        <span>Published on January 26, 2026</span>
                         <span className="mx-2">•</span>
-                        <span>5 min read</span>
+                        <span>10 min read</span>
                     </div>
                 </header>
 
                 {/* Featured Image */}
-                <div className="mb-8">
+                <div className="mb-10">
                     <img
                         src="/Jsv.webp"
-                        alt="The Opportunity Card"
-                        className="w-full h-64 sm:h-80 lg:h-96 object-cover rounded-2xl shadow-lg"
+                        alt="Germany Opportunity Card"
+                        className="w-full h-auto object-cover rounded-xl shadow-sm"
                     />
                 </div>
 
                 {/* Article Content */}
-                <article className="prose prose-lg max-w-none">
-                    <div className="text-gray-700 leading-relaxed space-y-12">
-                        {/* Introduction */}
-                        <div>
-                            <p className="text-xl sm:text-2xl text-gray-600 mb-8 font-medium leading-relaxed">
-                                The German government introduced the “Opportunity Card” (Chancenkarte) to its arsenal of residence permits.
-                                This permit came to replace the Job Seeker Visa, by opening it to further candidates.
-                            </p>
-                            <p className="text-lg text-gray-700 leading-loose">
-                                When the former Job Seeker Visa was only open to university graduates, the Opportunity Card introduced a point-based system, rewarding different qualifications and paths of life to give more people the chance to come to Germany.
-                            </p>
-                        </div>
+                <article className="prose prose-lg max-w-none text-gray-800">
 
-                        {/* What Is the Opportunity Card? */}
-                        <section>
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6 font-sans tracking-tight">What Is the Opportunity Card?</h2>
-                            <p className="mb-6 text-lg leading-loose">
-                                The Opportunity Card is a residence permit in the form of a D-visa for Germany, issued by the German missions abroad responsible for the applicant’s jurisdiction.
-                                It is issued for a maximum of 1 year and for two purposes:
-                            </p>
-                            <ul className="list-disc pl-6 space-y-3 text-lg text-gray-700">
-                                <li>To look for a job in Germany</li>
-                                <li>To look for a program for the recognition of one’s foreign professional qualifications</li>
-                            </ul>
-                        </section>
+                    <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Introduction: What is the Germany Opportunity Card?</h2>
+                    <p className="mb-4">
+                        The Germany Opportunity Card, known locally as the Chancenkarte, represents a revolutionary shift in German immigration policy. Launched as part of Germany's skilled immigration reform, this residence permit opens doors for international professionals seeking employment opportunities in one of Europe's strongest economies.
+                    </p>
+                    <p className="mb-6">
+                        Unlike the restrictive Job Seeker Visa that preceded it, the Opportunity Card Germany introduces a flexible, points-based immigration system designed to attract diverse talent to the German labor market.
+                    </p>
 
-                        {/* Opportunity Card vs Job Seeker Visa */}
-                        <section>
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6 font-sans tracking-tight">Opportunity Card vs Job Seeker Visa</h2>
-                            <p className="mb-6 text-lg leading-loose">
-                                When the Job Seeker Visa was only open to those looking for a job, the Opportunity Card opens the chance to foreign graduates from apprenticeships to come to Germany.
-                            </p>
-                            <p className="mb-4 font-medium text-lg">These applicants can:</p>
-                            <ul className="list-disc pl-6 space-y-3 text-lg text-gray-700 mb-6">
-                                <li>Get their qualifications recognized, or</li>
-                                <li>Look for an institution that can recognize their qualifications</li>
-                            </ul>
-                            <p className="text-lg leading-loose">
-                                Germany usually does not recognize foreign apprenticeships as equivalent to German ones, and applicants must go through a recognition process.
-                                The Opportunity Card allows them to come to Germany first, complete this process, and then look for a job.
-                            </p>
-                        </section>
+                    <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Understanding the Chancenkarte: Germany's New Immigration Pathway</h2>
+                    <p className="mb-4">
+                        The German Opportunity Card is a special residence permit issued as a Category D visa by German embassies and consulates worldwide. This permit grants holders up to one year to pursue two primary objectives in Germany:
+                    </p>
+                    <ul className="list-disc pl-6 mb-6 space-y-2">
+                        <li><strong>Job hunting:</strong> Search for qualified employment matching your skills and qualifications</li>
+                        <li><strong>Qualification recognition:</strong> Complete the process of having foreign professional credentials recognized in Germany</li>
+                    </ul>
+                    <p className="mb-6">
+                        This dual-purpose approach makes the Chancenkarte Germany significantly more versatile than previous immigration options.
+                    </p>
 
-                        {/* Key Features */}
-                        <section>
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6 font-sans tracking-tight">Key Features of the Opportunity Card</h2>
-                            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                                {[
-                                    "Valid for up to 1 year",
-                                    "Stay in Germany for the entire validity period",
-                                    "Convertible to long-term residence permit",
-                                    "No need to return home to change status"
-                                ].map((feature, index) => (
-                                    <li key={index} className="flex items-start bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-                                        <svg className="w-6 h-6 text-green-500 mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        <span className="text-lg font-medium text-gray-800">{feature}</span>
-                                    </li>
-                                ))}
-                            </ul>
-                        </section>
+                    <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Opportunity Card vs Job Seeker Visa: What Changed?</h2>
+                    <p className="mb-4">
+                        The transformation from the Job Seeker Visa to the Opportunity Card marks a fundamental shift in German immigration policy:
+                    </p>
 
-                        {/* Part-Time Work */}
-                        <section>
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6 font-sans tracking-tight">Option to Work Part-Time While Job Searching</h2>
-                            <p className="mb-6 text-lg leading-loose">
-                                This is a new feature of the Opportunity Card. Unlike the former Job Seeker Visa, the Opportunity Card:
-                            </p>
-                            <ul className="list-disc pl-6 space-y-3 text-lg text-gray-700 mb-6">
-                                <li>Allows part-time work up to 20 hours per week</li>
-                                <li>The job does not need to be related to the applicant’s field</li>
-                            </ul>
-                            <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
-                                <p className="text-blue-900 text-lg">
-                                    <strong className="font-bold">Note:</strong> A side job can help prove secured livelihood, even before leaving the country of origin.
-                                </p>
-                            </div>
-                        </section>
+                    <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Previous System: Job Seeker Visa</h3>
+                    <ul className="list-disc pl-6 mb-6 space-y-2">
+                        <li>Limited exclusively to university graduates</li>
+                        <li>Focused solely on job searching</li>
+                        <li>No work permission during the visa period</li>
+                        <li>Narrow eligibility criteria</li>
+                    </ul>
 
-                        {/* Who Can Apply? */}
-                        <section>
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6 font-sans tracking-tight">Who Can Apply? – General Eligibility Criteria</h2>
-                            <p className="mb-6 text-lg leading-loose">There are two mandatory criteria for all Opportunity Card applicants:</p>
+                    <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">New System: Germany Opportunity Card</h3>
+                    <ul className="list-disc pl-6 mb-6 space-y-2">
+                        <li><strong>Expanded eligibility:</strong> University graduates AND vocational qualification holders</li>
+                        <li><strong>Points-based system:</strong> Multiple pathways to qualification</li>
+                        <li><strong>Work authorization:</strong> Part-time employment up to 20 hours per week</li>
+                        <li><strong>Recognition pathway:</strong> Special provisions for apprenticeship graduates seeking German credential recognition</li>
+                    </ul>
+                    <p className="mb-6">
+                        The Opportunity Card Germany particularly benefits professionals with apprenticeships or vocational training. Since Germany typically doesn't automatically recognize foreign apprenticeships as equivalent to German vocational qualifications, applicants can now enter Germany to complete the recognition process before beginning their job search.
+                    </p>
 
-                            <div className="space-y-8">
-                                <div className="bg-white border border-gray-200 rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
-                                    <h3 className="text-2xl font-bold text-gray-900 mb-4">1. Secured Livelihood</h3>
-                                    <p className="mb-6 text-lg leading-loose">Applicants must prove sufficient financial resources to cover their stay:</p>
-                                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
-                                        <div className="bg-gray-50 p-4 rounded-xl">
-                                            <div className="text-3xl font-bold text-gray-900 mb-1">€1,027</div>
-                                            <div className="text-sm text-gray-500 uppercase tracking-wide font-medium">per month (2025)</div>
-                                        </div>
-                                        <div className="bg-gray-50 p-4 rounded-xl">
-                                            <div className="text-3xl font-bold text-gray-900 mb-1">€6,162</div>
-                                            <div className="text-sm text-gray-500 uppercase tracking-wide font-medium">for 6 months</div>
-                                        </div>
-                                        <div className="bg-gray-50 p-4 rounded-xl">
-                                            <div className="text-3xl font-bold text-gray-900 mb-1">€12,324</div>
-                                            <div className="text-sm text-gray-500 uppercase tracking-wide font-medium">for 1 year</div>
-                                        </div>
-                                    </div>
+                    <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Key Features of the Germany Opportunity Card</h2>
 
-                                    <div className="mt-8">
-                                        <h4 className="font-bold text-gray-900 mb-3 text-lg">Ways to Prove Secured Livelihood:</h4>
-                                        <ul className="list-disc pl-5 space-y-2 text-lg text-gray-600">
-                                            <li>Blocked Account (Sperrkonto) in Germany</li>
-                                            <li>Formal Obligation Letter (Verpflichtungserklärung) from a sponsor in Germany</li>
-                                            <li>Current bank account statements</li>
-                                            <li>Job offer for a side job (up to 20 hours/week)</li>
-                                        </ul>
-                                    </div>
-                                </div>
+                    <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Validity and Duration</h3>
+                    <p className="mb-4">The Chancenkarte is issued for a maximum period of 12 months, providing ample time to:</p>
+                    <ul className="list-disc pl-6 mb-6 space-y-2">
+                        <li>Conduct a thorough job search in Germany</li>
+                        <li>Complete qualification recognition procedures</li>
+                        <li>Network with potential employers</li>
+                        <li>Familiarize yourself with the German job market</li>
+                    </ul>
 
-                                <div className="bg-white border border-gray-200 rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
-                                    <h3 className="text-2xl font-bold text-gray-900 mb-4">2. Health Insurance</h3>
-                                    <p className="mb-3 text-lg leading-loose">Before receiving the visa, applicants must prove health insurance coverage in Germany.</p>
-                                    <ul className="list-disc pl-5 space-y-2 text-lg text-gray-600">
-                                        <li>Travel insurance is not sufficient</li>
-                                        <li>Most applicants use incoming health insurance</li>
-                                        <li>Costs can be several hundred euros per month (must be included in budget planning)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </section>
+                    <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Conversion to Long-Term Residence</h3>
+                    <p className="mb-6">
+                        One of the most attractive features: if you secure employment or complete your recognition process during the validity period, you can convert your Opportunity Card directly into a long-term work and residence permit without leaving Germany.
+                    </p>
 
-                        {/* Special Eligibility Criteria */}
-                        <section>
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6 font-sans tracking-tight">Special Eligibility Criteria</h2>
-                            <p className="mb-8 text-lg leading-loose">There are two types of Opportunity Cards:</p>
+                    <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Part-Time Work Authorization</h3>
+                    <p className="mb-4">
+                        A game-changing addition: Opportunity Card holders can work up to 20 hours per week in any field. This employment doesn't need to relate to your professional qualifications, offering:
+                    </p>
+                    <ul className="list-disc pl-6 mb-6 space-y-2">
+                        <li>Financial support during your job search</li>
+                        <li>Valuable German work experience</li>
+                        <li>Proof of secured livelihood for visa extensions</li>
+                        <li>Integration into German professional culture</li>
+                    </ul>
 
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                                {/* Option 1 */}
-                                <div className="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:border-gray-300 transition-colors">
-                                    <div className="flex items-center mb-6">
-                                        <span className="flex items-center justify-center w-10 h-10 bg-black text-white rounded-full font-bold text-lg mr-4 shadow-md">1</span>
-                                        <h3 className="text-2xl font-bold text-gray-900">Recognized Qualifications</h3>
-                                    </div>
-                                    <p className="text-lg text-gray-600 mb-6">This option is for university graduates.</p>
-                                    <ul className="space-y-4 text-lg text-gray-700">
-                                        <li className="flex items-start">
-                                            <svg className="w-6 h-6 text-green-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                                            <span>If qualifications are already recognized in Germany, this is sufficient.</span>
-                                        </li>
-                                        <li className="flex items-start">
-                                            <svg className="w-6 h-6 text-amber-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
-                                            <span>If not recognized, applicants must go through the ZAB recognition process (approx 600 EURO total).</span>
-                                        </li>
-                                    </ul>
-                                </div>
+                    <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Eligibility Requirements for the Germany Opportunity Card</h2>
 
-                                {/* Option 2 */}
-                                <div className="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:border-gray-300 transition-colors">
-                                    <div className="flex items-center mb-6">
-                                        <span className="flex items-center justify-center w-10 h-10 bg-black text-white rounded-full font-bold text-lg mr-4 shadow-md">2</span>
-                                        <h3 className="text-2xl font-bold text-gray-900">Points-Based System</h3>
-                                    </div>
-                                    <p className="text-lg text-gray-600 mb-6">For applicants without a university degree (Min. 6 points required).</p>
+                    <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">Universal Requirements for All Applicants</h3>
 
-                                    <div className="space-y-3 mb-6">
-                                        <p className="text-sm font-bold uppercase tracking-wide text-gray-500">Categories:</p>
-                                        <div className="flex flex-wrap gap-3">
-                                            {["Professional Qualifications", "Work Experience", "Language Skills", "Age", "Connection to Germany"].map((cat) => (
-                                                <span key={cat} className="px-3 py-1.5 bg-white border border-gray-200 rounded-lg text-sm font-medium text-gray-700 shadow-sm">{cat}</span>
-                                            ))}
-                                        </div>
-                                    </div>
-                                    <p className="text-lg italic text-gray-500 border-t border-gray-200 pt-4 mt-4">
-                                        Applicants must score in Professional qualifications AND Work experience.
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
+                    <h4 className="text-lg font-semibold text-gray-900 mt-6 mb-2">1. Proof of Secured Livelihood</h4>
+                    <p className="mb-4">All Opportunity Card Germany applicants must demonstrate sufficient financial resources:</p>
+                    <ul className="list-disc pl-6 mb-4 space-y-2">
+                        <li>€1,027 per month (2025 requirement)</li>
+                        <li>€6,162 for a 6-month permit</li>
+                        <li>€12,324 for a full 12-month permit</li>
+                    </ul>
+                    <p className="mb-4">Acceptable proof includes:</p>
+                    <ul className="list-disc pl-6 mb-6 space-y-2">
+                        <li>Blocked account (Sperrkonto) opened with a German bank</li>
+                        <li>Formal obligation letter (Verpflichtungserklärung) from a sponsor residing in Germany</li>
+                        <li>Current bank account statements showing adequate funds</li>
+                        <li>Confirmed job offer for part-time employment (maximum 20 hours weekly)</li>
+                    </ul>
+
+                    <h4 className="text-lg font-semibold text-gray-900 mt-6 mb-2">2. Health Insurance Coverage</h4>
+                    <p className="mb-4">Before your visa appointment, you must secure health insurance valid in Germany:</p>
+                    <ul className="list-disc pl-6 mb-6 space-y-2">
+                        <li>Standard travel insurance is not sufficient</li>
+                        <li>Most applicants obtain incoming health insurance (Incoming-Krankenversicherung)</li>
+                        <li>Monthly costs typically range from several hundred euros</li>
+                        <li>Coverage must be valid for your entire stay</li>
+                        <li>Factor this into your financial planning</li>
+                    </ul>
+
+                    <h3 className="text-xl font-semibold text-gray-900 mt-10 mb-4">Two Pathways to the Germany Opportunity Card</h3>
+
+                    <h4 className="text-lg font-semibold text-gray-900 mt-6 mb-2">Pathway 1: Recognized Qualifications Route</h4>
+                    <p className="mb-4">This straightforward route suits university graduates whose credentials are recognized in Germany.</p>
+                    <p className="mb-2 font-semibold">Requirements:</p>
+                    <ul className="list-disc pl-6 mb-4 space-y-2">
+                        <li>Hold a university degree</li>
+                        <li>If already recognized in Germany: proceed directly with application</li>
+                        <li>If not yet recognized: complete the ZAB recognition process (Central Office for Foreign Education)</li>
+                    </ul>
+                    <ul className="list-disc pl-6 mb-6 space-y-2">
+                        <li>Government processing fee: approximately €208 (2025)</li>
+                        <li>Total recognition costs: approximately €600</li>
+                    </ul>
+                    <p className="mb-6">Once recognition is confirmed, you can apply for the Chancenkarte Germany if you fulfill all general criteria.</p>
+
+                    <h4 className="text-lg font-semibold text-gray-900 mt-6 mb-2">Pathway 2: Points-Based System Route</h4>
+                    <p className="mb-4">
+                        The innovative points-based system opens the Opportunity Card to professionals without university degrees. To qualify, you must score at least 6 points across five categories:
+                    </p>
+
+                    <p className="mb-4 font-semibold">Scoring Categories:</p>
+                    <ol className="list-decimal pl-6 mb-6 space-y-4">
+                        <li>
+                            <strong>Professional Qualifications:</strong> Points awarded for vocational training certificates, professional certifications, technical diplomas, and apprenticeship completion.
+                        </li>
+                        <li>
+                            <strong>Professional Work Experience:</strong> Evaluated based on years of relevant experience, work in in-demand sectors, professional progression, and specialized skills.
+                        </li>
+                        <li>
+                            <strong>Language Proficiency:</strong> Points for competency in German language (various CEFR levels) and English language proficiency.
+                        </li>
+                        <li>
+                            <strong>Age:</strong> Younger applicants receive favorable consideration, recognizing their potential for long-term contribution to the German economy.
+                        </li>
+                        <li>
+                            <strong>Connection to Germany:</strong> Points awarded for previous residence in Germany, German education or training, family members in Germany, or prior visits.
+                        </li>
+                    </ol>
+                    <p className="mb-4 font-semibold">Critical Requirements:</p>
+                    <ul className="list-disc pl-6 mb-6 space-y-2">
+                        <li>Must score points in BOTH professional qualifications AND work experience categories</li>
+                        <li>Must reach minimum 6 points total</li>
+                        <li>Meet all general eligibility requirements</li>
+                    </ul>
+
+                    <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">How to Apply for the Germany Opportunity Card</h2>
+                    <ul className="space-y-4 mb-8">
+                        <li><strong>Step 1: Assess Your Eligibility.</strong> Determine which pathway suits your profile: Recognized qualifications route for degree holders or Points-based system for vocational professionals.</li>
+                        <li><strong>Step 2: Gather Financial Documentation.</strong> Secure proof of livelihood through your chosen method (blocked account, sponsor letter, or bank statements).</li>
+                        <li><strong>Step 3: Obtain Health Insurance.</strong> Purchase appropriate incoming health insurance coverage for Germany.</li>
+                        <li><strong>Step 4: Complete Recognition (if applicable).</strong> For the recognized qualifications route, finalize your ZAB recognition process.</li>
+                        <li><strong>Step 5: Schedule Visa Appointment.</strong> Contact the German embassy or consulate responsible for your jurisdiction to book your Opportunity Card visa appointment.</li>
+                        <li><strong>Step 6: Prepare Application Documents.</strong> Compile all required documentation according to your specific German mission's checklist.</li>
+                        <li><strong>Step 7: Attend Interview and Submit Application.</strong> Appear for your scheduled appointment with complete documentation.</li>
+                    </ul>
+
+                    <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Maximizing Your Germany Opportunity Card Experience</h2>
+
+                    <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Job Search Strategies</h3>
+                    <ul className="list-disc pl-6 mb-6 space-y-2">
+                        <li>Register with German job portals (StepStone, Indeed Germany, LinkedIn)</li>
+                        <li>Attend job fairs and networking events</li>
+                        <li>Connect with recruitment agencies specializing in your field</li>
+                        <li>Leverage your 20-hour work permission for industry connections</li>
+                    </ul>
+
+                    <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Recognition Process Tips</h3>
+                    <ul className="list-disc pl-6 mb-6 space-y-2">
+                        <li>Start the recognition process early</li>
+                        <li>Gather all required documentation from your home country before departure</li>
+                        <li>Research recognition bodies relevant to your profession</li>
+                        <li>Consider preparatory courses if partial recognition is granted</li>
+                    </ul>
+
+                    <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Financial Planning</h3>
+                    <ul className="list-disc pl-6 mb-6 space-y-2">
+                        <li>Budget for monthly health insurance (€80-150 typically)</li>
+                        <li>Monthly living expenses (€1,027 minimum, but budget €1,200-1,500 for comfort)</li>
+                        <li>Recognition process fees (if applicable)</li>
+                        <li>Job search expenses (travel, professional attire, networking)</li>
+                    </ul>
+
+                    <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Why Choose the Germany Opportunity Card?</h2>
+                    <p className="mb-4">The Chancenkarte offers unique advantages for skilled international professionals:</p>
+                    <ul className="list-disc pl-6 mb-6 space-y-2">
+                        <li>✓ Flexible immigration pathway not restricted to university graduates</li>
+                        <li>✓ Work authorization during your job search period</li>
+                        <li>✓ No need to return home to convert to a work permit</li>
+                        <li>✓ Recognition support for vocational qualifications</li>
+                        <li>✓ Access to Europe's largest economy and robust job market</li>
+                        <li>✓ Pathway to permanent residence in Germany</li>
+                    </ul>
+
+                    <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Conclusion: Your Ticket to Professional Opportunities in Germany</h2>
+                    <p className="mb-4">
+                        The Germany Opportunity Card represents more than just a visa—it's a comprehensive immigration solution designed to match international talent with German employment opportunities. Whether you're a university graduate or a skilled professional with vocational training, the Chancenkarte provides a structured, achievable pathway to building your career in Germany.
+                    </p>
+                    <p className="mb-6">
+                        By understanding the requirements, preparing thoroughly, and leveraging the permit's flexible features, you can successfully navigate the German immigration system and unlock professional opportunities in one of the world's leading economies.
+                    </p>
+                    <p className="mb-8 font-medium">
+                        Ready to start your Germany Opportunity Card journey? Ensure you meet the financial requirements, secure your health insurance, and begin preparing your application today.
+                    </p>
                 </article>
 
                 {/* Call to Action */}
-                <div className="mt-12 bg-gray-50 rounded-2xl p-8">
+                <div className="mt-12 bg-gray-50 rounded-xl p-8 border border-gray-100">
                     <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-                        Interested in the Opportunity Card?
+                        Need Help with Your Opportunity Card Application?
                     </h3>
                     <p className="text-gray-600 mb-6">
-                        Our experts can help you assess your eligibility and guide you through the application process.
+                        Our experts can help you assess your eligibility, gather the right documents, and guide you through the process.
                     </p>
                     <a
                         href="https://calendly.com/nikita-visarapid/30min"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center px-6 py-3 rounded-lg font-medium transition-colors"
-                        style={{ backgroundColor: '#ef4444', color: 'white', textDecoration: 'none' }}
+                        className="inline-flex items-center px-6 py-3 rounded-lg font-medium transition-colors bg-red-600 text-white hover:bg-red-700"
                     >
                         Schedule a Consultation
                         <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
