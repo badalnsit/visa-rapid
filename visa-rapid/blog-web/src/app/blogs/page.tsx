@@ -55,8 +55,8 @@ const Blogs = () => {
         <div className="bg-white min-h-screen">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
                 {/* Page Header */}
-                <div className="mb-16">
-                    <p className="text-5xl sm:text-5xl lg:text-6xl font-sans font-medium tracking-tight text-gray-900 mb-6">
+                <div className="mb-10">
+                    <p className="text-5xl sm:text-5xl lg:text-6xl font-sans font-medium tracking-tight text-gray-900 mb-4">
                         Read our articles
                     </p>
                     <p className="text-lg text-gray-600 max-w-2xl">
@@ -65,11 +65,11 @@ const Blogs = () => {
                 </div>
 
                 {/* Blog Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {blogPosts.map((post, index) => (
                         <div key={index} className="bg-gray-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
                             {/* Image */}
-                            <div className="h-64 sm:h-72 w-full">
+                            <div className="h-48 w-full">
                                 <img
                                     src={post.image}
                                     alt={post.title}
@@ -95,7 +95,7 @@ const Blogs = () => {
 
                                 <Link
                                     href={post.link}
-                                    className="inline-flex items-center font-medium !text-gray-600 hover:text-gray-700 transition-colors mt-auto no-underline"
+                                    className="inline-flex items-center font-medium text-black hover:text-black transition-colors mt-auto no-underline"
                                 >
                                     Read more
                                     <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
