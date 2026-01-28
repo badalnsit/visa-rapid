@@ -39,7 +39,7 @@ try {
     // 2. Build React App (Main)
     console.log('\n--- Building Main React App ---');
     // Vite clears the dist folder, so we run this first or let it run.
-    execSync('vite build', { stdio: 'inherit' });
+    execSync('npx vite build', { stdio: 'inherit' });
 
     // 3. Merge Builds
     console.log('\n--- Merging Builds ---');
