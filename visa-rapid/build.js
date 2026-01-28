@@ -50,9 +50,32 @@ try {
         throw new Error('Blog build directory (out) not found. Next.js build failed?');
     }
 
-    // Copy blog-web/out to dist, EXCLUDING index.html (to preserve Main App's home)
+    // Copy blog-web/out to dist, EXCLUDING index.html/404.html ONLY at the root level.
     // We expect the blogs to be accessible via /blogs (which should be a folder in out)
-    copyDir(blogOutDir, mainDistDir, ['index.html', '404.html']);
+
+    // Custom copy function to handle root-only exclusions
+    function copyWithRootExclusions(src, dest, exclusions) {
+        if (!fs.existsSync(dest)) fs.mkdirSync(dest, { recursive: true });
+        const entries = fs.readdirSync(src, { withFileTypes: true });
+
+        for (const entry of entries) {
+            const srcPath = path.join(src, entry.name);
+            const destPath = path.join(dest, entry.name);
+
+            if (exclusions.includes(entry.name)) {
+                console.log(`Skipping root file: ${entry.name}`);
+                continue;
+            }
+
+            if (entry.isDirectory()) {
+                copyDir(srcPath, destPath); // Use standard copyDir for subdirectories (no exclusions)
+            } else {
+                fs.copyFileSync(srcPath, destPath);
+            }
+        }
+    }
+
+    copyWithRootExclusions(blogOutDir, mainDistDir, ['index.html', '404.html']);
 
     console.log('\n--- Cleaning up Conflicting Next.js Files ---');
     // Function to recursively find and delete .txt files in dist/blogs and dist/_next
