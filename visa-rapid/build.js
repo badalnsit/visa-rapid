@@ -54,6 +54,24 @@ try {
     // We expect the blogs to be accessible via /blogs (which should be a folder in out)
     copyDir(blogOutDir, mainDistDir, ['index.html', '404.html']);
 
+    console.log('\n--- Cleaning up Conflicting Next.js Files ---');
+    // Function to recursively find and delete .txt files in dist/blogs and dist/_next
+    function deleteTxtFiles(dir) {
+        if (!fs.existsSync(dir)) return;
+        const entries = fs.readdirSync(dir, { withFileTypes: true });
+        for (const entry of entries) {
+            const fullPath = path.join(dir, entry.name);
+            if (entry.isDirectory()) {
+                deleteTxtFiles(fullPath);
+            } else if (entry.name.endsWith('.txt')) {
+                fs.unlinkSync(fullPath);
+                console.log(`Deleted: ${fullPath}`);
+            }
+        }
+    }
+    deleteTxtFiles(path.join(mainDistDir, 'blogs'));
+    deleteTxtFiles(path.join(mainDistDir, '_next'));
+
     console.log('\nSUCCESS: Unified build created in "dist". Ready for Vercel deployment.');
     console.log('Note: The Main App handles "/" and the Blog App handles "/blogs" (and other paths).');
 
