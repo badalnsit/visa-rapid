@@ -74,7 +74,7 @@ const OpportunityCard = () => {
                             The transformation from the Job Seeker Visa to the Opportunity Card marks a fundamental shift in German immigration policy:
                         </p>
 
-                        <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Previous System: Job Seeker Visa</h3>
+                        <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">1. Previous System: Job Seeker Visa</h3>
                         <ul className="list-disc pl-6 mb-6 space-y-2">
                             <li>Limited exclusively to university graduates</li>
                             <li>Focused solely on job searching</li>
@@ -82,7 +82,7 @@ const OpportunityCard = () => {
                             <li>Narrow eligibility criteria</li>
                         </ul>
 
-                        <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">New System: Germany Opportunity Card</h3>
+                        <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">2. New System: Germany Opportunity Card</h3>
                         <ul className="list-disc pl-6 mb-6 space-y-2">
                             <li><strong>Expanded eligibility:</strong> University graduates AND vocational qualification holders</li>
                             <li><strong>Points-based system:</strong> Multiple pathways to qualification</li>
@@ -95,7 +95,7 @@ const OpportunityCard = () => {
 
                         <h2 id="key-features" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">Key Features of the Germany Opportunity Card</h2>
 
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Validity and Duration</h3>
+                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">1. Validity and Duration</h3>
                         <p className="mb-4">The Chancenkarte is issued for a maximum period of 12 months, providing ample time to:</p>
                         <ul className="list-disc pl-6 mb-6 space-y-2">
                             <li>Conduct a thorough job search in Germany</li>
@@ -104,12 +104,12 @@ const OpportunityCard = () => {
                             <li>Familiarize yourself with the German job market</li>
                         </ul>
 
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Conversion to Long-Term Residence</h3>
+                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">2. Conversion to Long-Term Residence</h3>
                         <p className="mb-6">
                             One of the most attractive features: if you secure employment or complete your recognition process during the validity period, you can convert your Opportunity Card directly into a long-term work and residence permit without leaving Germany.
                         </p>
 
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Part-Time Work Authorization</h3>
+                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">3. Part-Time Work Authorization</h3>
                         <p className="mb-4">
                             A game-changing addition: Opportunity Card holders can work up to 20 hours per week in any field. This employment doesn't need to relate to your professional qualifications, offering:
                         </p>
@@ -122,9 +122,9 @@ const OpportunityCard = () => {
 
                         <h2 id="eligibility" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">Eligibility Requirements for the Germany Opportunity Card</h2>
 
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4 font-open-sans">Universal Requirements for All Applicants</h3>
+                        <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4 font-open-sans">1. Universal Requirements for All Applicants</h3>
 
-                        <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-2 font-open-sans">1. Proof of Secured Livelihood</h4>
+                        <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-2 font-open-sans">• Proof of Secured Livelihood</h4>
                         <p className="mb-4">All Opportunity Card Germany applicants must demonstrate sufficient financial resources:</p>
                         <ul className="list-disc pl-6 mb-4 space-y-2">
                             <li>€1,027 per month (2025 requirement)</li>
@@ -139,7 +139,7 @@ const OpportunityCard = () => {
                             <li>Confirmed job offer for part-time employment (maximum 20 hours weekly)</li>
                         </ul>
 
-                        <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-2 font-open-sans">2. Health Insurance Coverage</h4>
+                        <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-2 font-open-sans">• Health Insurance Coverage</h4>
                         <p className="mb-4">Before your visa appointment, you must secure health insurance valid in Germany:</p>
                         <ul className="list-disc pl-6 mb-6 space-y-2">
                             <li>Standard travel insurance is not sufficient</li>
@@ -149,9 +149,9 @@ const OpportunityCard = () => {
                             <li>Factor this into your financial planning</li>
                         </ul>
 
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-10 mb-4 font-open-sans">Two Pathways to the Germany Opportunity Card</h3>
+                        <h3 className="text-2xl font-semibold text-gray-900 mt-10 mb-4 font-open-sans">2. Two Pathways to the Germany Opportunity Card</h3>
 
-                        <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-2 font-open-sans">Pathway 1: Recognized Qualifications Route</h4>
+                        <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-2 font-open-sans">A. Pathway 1: Recognized Qualifications Route</h4>
                         <p className="mb-4">This straightforward route suits university graduates whose credentials are recognized in Germany.</p>
                         <p className="mb-2 font-semibold">Requirements:</p>
                         <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -165,7 +165,7 @@ const OpportunityCard = () => {
                         </ul>
                         <p className="mb-6">Once recognition is confirmed, you can apply for the Chancenkarte Germany if you fulfill all general criteria.</p>
 
-                        <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-2 font-open-sans">Pathway 2: Points-Based System Route</h4>
+                        <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-2 font-open-sans">B. Pathway 2: Points-Based System Route</h4>
                         <p className="mb-4">
                             The innovative points-based system opens the Opportunity Card to professionals without university degrees. To qualify, you must score at least 6 points across five categories:
                         </p>
@@ -208,7 +208,7 @@ const OpportunityCard = () => {
 
                         <h2 id="maximizing" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">Maximizing Your Germany Opportunity Card Experience</h2>
 
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Job Search Strategies</h3>
+                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">1. Job Search Strategies</h3>
                         <ul className="list-disc pl-6 mb-6 space-y-2">
                             <li>Register with German job portals (StepStone, Indeed Germany, LinkedIn)</li>
                             <li>Attend job fairs and networking events</li>
@@ -216,7 +216,7 @@ const OpportunityCard = () => {
                             <li>Leverage your 20-hour work permission for industry connections</li>
                         </ul>
 
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Recognition Process Tips</h3>
+                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">2. Recognition Process Tips</h3>
                         <ul className="list-disc pl-6 mb-6 space-y-2">
                             <li>Start the recognition process early</li>
                             <li>Gather all required documentation from your home country before departure</li>
@@ -224,7 +224,7 @@ const OpportunityCard = () => {
                             <li>Consider preparatory courses if partial recognition is granted</li>
                         </ul>
 
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Financial Planning</h3>
+                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">3. Financial Planning</h3>
                         <ul className="list-disc pl-6 mb-6 space-y-2">
                             <li>Budget for monthly health insurance (€80-150 typically)</li>
                             <li>Monthly living expenses (€1,027 minimum, but budget €1,200-1,500 for comfort)</li>

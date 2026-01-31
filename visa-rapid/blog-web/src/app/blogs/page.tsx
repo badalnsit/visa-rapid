@@ -85,11 +85,11 @@ const Blogs = () => {
                                     </span>
                                 </div>
 
-                                <h2 className="text-2xl font-bold text-gray-900 mb-4 leading-tight">
+                                <h2 className="text-2xl font-bold text-gray-900 mb-4 leading-tight font-playfair">
                                     {post.title}
                                 </h2>
 
-                                <p className="text-gray-600 mb-6 flex-grow leading-relaxed">
+                                <p className="text-sm text-gray-600 mb-6 flex-grow leading-relaxed">
                                     {post.description}
                                 </p>
 
