@@ -78,10 +78,11 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-6">Site Map</h3>
             <ul className="space-y-3 text-gray-300">
-              <li><a href="/entrepreneur-visa" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Entrepreneur Visa</a></li>
+              <li><a href="/entrepreneur-visa" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Business Owner Visa</a></li>
               <li><a href="/startup-visa" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Startup Visa</a></li>
               <li><a href="/job-seeker-visa" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Job Seeker Visa</a></li>
-              <li><a href="/residency" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Residency</a></li>
+              <li><a href="/residency" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Passive Income Visa</a></li>
+              <li><a href="/global-talent-visa" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Global Talent Visa</a></li>
               <li><a href="/blogs" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Blogs</a></li>
             </ul>
           </div>

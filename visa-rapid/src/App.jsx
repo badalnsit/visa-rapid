@@ -15,6 +15,8 @@ import EntrepreneurVisa from './pages/EntrepreneurVisa'
 import StartupVisa from './pages/StartupVisa'
 import JobSeekerVisa from './pages/JobSeekerVisa'
 import Residency from './pages/Residency'
+import UKInnovatorVisa from './pages/UKInnovatorVisa'
+import GlobalTalentVisa from './pages/GlobalTalentVisa'
 
 import ScrollToTop from './components/ScrollToTop'
 
@@ -66,6 +68,18 @@ const App = () => {
             <Route path="/job-seeker-visa" element={
               <>
                 <JobSeekerVisa />
+                <Footer />
+              </>
+            } />
+            <Route path="/uk-innovator-visa" element={
+              <>
+                <UKInnovatorVisa />
+                <Footer />
+              </>
+            } />
+            <Route path="/global-talent-visa" element={
+              <>
+                <GlobalTalentVisa />
                 <Footer />
               </>
             } />

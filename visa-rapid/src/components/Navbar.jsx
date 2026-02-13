@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isStartupOpen, setIsStartupOpen] = useState(false)
+  const [isStartupMobileOpen, setIsStartupMobileOpen] = useState(false)
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
@@ -18,34 +20,56 @@ const Navbar = () => {
           </div>
           
           <div className="hidden lg:block flex-1">
-            <div className="flex items-baseline justify-center space-x-1">
-              <a href="/entrepreneur-visa" className="!text-black px-5 py-3 text-base transition-colors hover:!text-gray-600 flex items-center gap-1">
+            <div className="flex items-baseline justify-center space-x-2">
+              <a href="/entrepreneur-visa" className="!text-black px-3 py-3 text-sm transition-colors hover:!text-gray-600 flex items-center gap-1 whitespace-nowrap">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 12v2" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2 13h8m4 0h8" />
                 </svg>
-                <span>Entrepreneur Visa</span>
+                <span>Business Owner Visa</span>
               </a>
-              <a href="/startup-visa" className="!text-black px-5 py-3 text-base font-medium transition-colors hover:!text-gray-600 flex items-center gap-1">
-                <img src="/startup-transport-svgrepo-com (1).svg" alt="Startup Visa" className="w-5 h-5" />
-                <span>Startup Visa</span>
-              </a>
-              <a href="/residency" className="!text-black px-5 py-3 text-base font-medium transition-colors hover:!text-gray-600 flex items-center gap-1">
+              <div
+                className="relative"
+                onMouseEnter={() => setIsStartupOpen(true)}
+                onMouseLeave={() => setIsStartupOpen(false)}
+              >
+                <a className="!text-black px-3 py-3 text-sm font-medium transition-colors hover:!text-gray-600 flex items-center gap-1 cursor-pointer whitespace-nowrap">
+                  <img src="/startup-transport-svgrepo-com (1).svg" alt="Startup Visa" className="w-5 h-5" />
+                  <span>Startup Visa</span>
+                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </a>
+                {isStartupOpen && (
+                  <div className="absolute top-full left-0 bg-white rounded-md shadow-md border border-gray-100 py-1 w-auto whitespace-nowrap z-50">
+                    <a href="/startup-visa" className="!text-black block px-4 py-2 text-sm hover:bg-gray-50 transition-colors">
+                      Portugal Startup Visa
+                    </a>
+                    <a href="/uk-innovator-visa" className="!text-black block px-4 py-2 text-sm hover:bg-gray-50 transition-colors">
+                      UK Innovator Founder Visa
+                    </a>
+                  </div>
+                )}
+              </div>
+              <a href="/residency" className="!text-black px-3 py-3 text-sm font-medium transition-colors hover:!text-gray-600 flex items-center gap-1 whitespace-nowrap">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
-                <span>Residency</span>
+                <span>Passive Income Visa</span>
               </a>
-              <a href="/job-seeker-visa" className="!text-black px-5 py-3 text-base font-medium transition-colors hover:!text-gray-600 flex items-center gap-1">
+              <a href="/job-seeker-visa" className="!text-black px-3 py-3 text-sm font-medium transition-colors hover:!text-gray-600 flex items-center gap-1 whitespace-nowrap">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0V4a2 2 0 00-2-2H8a2 2 0 00-2 2v2m8 0H8m8 0v2a2 2 0 01-2 2H10a2 2 0 01-2-2V6m8 0h2a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2h2" />
                 </svg>
                 <span>Job Seeker Visa</span>
               </a>
-              <a href="/blogs" className="!text-black px-5 py-3 text-base font-medium transition-colors hover:!text-gray-600 flex items-center gap-1">
+              <a href="/global-talent-visa" className="!text-black px-3 py-3 text-sm font-medium transition-colors hover:!text-gray-600 flex items-center gap-1 whitespace-nowrap">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>Blogs</span>
+                <span>Global Talent Visa</span>
               </a>
   
             </div>
@@ -100,19 +124,40 @@ const Navbar = () => {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
               <a href="/entrepreneur-visa" className="!text-black  px-4 py-3 text-lg font-medium hover:bg-gray-50 flex items-center gap-3">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 12v2" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2 13h8m4 0h8" />
                 </svg>
-                Entrepreneur Visa
+                Business Owner Visa
               </a>
-              <a href="/startup-visa" className="!text-black  px-4 py-3 text-lg font-medium hover:bg-gray-50 flex items-center gap-3">
-                <img src="/startup-transport-svgrepo-com (1).svg" alt="Startup Visa" className="w-6 h-6" />
-                Startup Visa
-              </a>
+              <div>
+                <a
+                  onClick={() => setIsStartupMobileOpen(!isStartupMobileOpen)}
+                  className="!text-black w-full px-4 py-3 text-lg font-medium hover:bg-gray-50 flex items-center gap-3 cursor-pointer"
+                >
+                  <img src="/startup-transport-svgrepo-com (1).svg" alt="Startup Visa" className="w-6 h-6" />
+                  Startup Visa
+                  <svg className={`w-4 h-4 ml-auto transition-transform ${isStartupMobileOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </a>
+                {isStartupMobileOpen && (
+                  <div className="pl-13 space-y-0">
+                    <a href="/startup-visa" className="!text-black block px-4 py-2 text-sm hover:bg-gray-50 transition-colors">
+                      Portugal Startup Visa
+                    </a>
+                    <a href="/uk-innovator-visa" className="!text-black block px-4 py-2 text-sm hover:bg-gray-50 transition-colors">
+                      UK Innovator Founder Visa
+                    </a>
+                  </div>
+                )}
+              </div>
               <a href="/residency" className="!text-black  px-4 py-3 text-lg font-medium hover:bg-gray-50 flex items-center gap-3">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
-                Residency
+                Passive Income Visa
               </a>
               <a href="/job-seeker-visa" className="!text-black  px-4 py-3 text-lg font-medium hover:bg-gray-50 flex items-center gap-3">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -120,11 +165,11 @@ const Navbar = () => {
                 </svg>
                 Job Seeker Visa
               </a>
-              <a href="/blogs" className="!text-black  px-4 py-3 text-lg font-medium hover:bg-gray-50 flex items-center gap-3">
+              <a href="/global-talent-visa" className="!text-black  px-4 py-3 text-lg font-medium hover:bg-gray-50 flex items-center gap-3">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                Blogs
+                Global Talent Visa
               </a>
 
               <div className="pt-4 pb-3 border-t border-gray-200 space-y-3">
