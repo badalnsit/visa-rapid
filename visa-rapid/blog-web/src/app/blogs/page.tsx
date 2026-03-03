@@ -8,6 +8,27 @@ export const metadata = {
 const Blogs = () => {
     const blogPosts = [
         {
+            title: "How to Get French Citizenship, Spanish Citizenship, and EU Residency: The Founder's Guide",
+            description: "A practical comparison of French citizenship, Spanish citizenship, and Portugal's D2 Visa for entrepreneurs. Discover the fastest route to an EU passport based on your background.",
+            image: "/blog12.png",
+            link: "/blogs/eu-citizenship-entrepreneur-guide",
+            category: "Citizenship"
+        },
+        {
+            title: "Benefits of Portugal for Entrepreneurs: Why Founders Are Moving to Lisbon",
+            description: "From the NHR tax regime and Schengen access to an affordable cost of living and a clear path to EU citizenship — here’s why Portugal is Europe’s top destination for startup founders.",
+            image: "/blog11.png",
+            link: "/blogs/portugal-benefits-entrepreneurs",
+            category: "Startup Visa"
+        },
+        {
+            title: "Portugal D2 Visa: The Complete Guide for Entrepreneurs & Startup Founders",
+            description: "The Portugal D2 Visa is the primary immigration pathway for non-EU founders and freelancers. Learn the requirements, costs, and why it’s the go-to startup visa in Europe.",
+            image: "/blog10.png",
+            link: "/blogs/portugal-d2-visa",
+            category: "Startup Visa"
+        },
+        {
             title: "Why Europe’s Startup Visa Is Often a Better Option Than New Zealand, UK, Ireland, USA, and Canada",
             description: "If you’re an early-stage founder with an innovative idea or MVP, choosing the right country can save you years of time, huge costs, and unnecessary complexity.",
             image: "/Blog5.webp",
