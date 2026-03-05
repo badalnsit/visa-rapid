@@ -8,6 +8,20 @@ export const metadata = {
 const Blogs = () => {
     const blogPosts = [
         {
+            title: "Retiring in Portugal: Golden Visa, D7 Visa & How to Get Portuguese Citizenship",
+            description: "The complete guide to retiring in Portugal — Golden Visa investment options, D7 Retirement Visa income requirements, NHR tax benefits, and the 5-year path to Portuguese citizenship.",
+            image: "/blog14.png",
+            link: "/blogs/retiring-in-portugal-golden-visa-d7",
+            category: "Retirement & Visa"
+        },
+        {
+            title: "Best Countries for Software Engineers to Move: Visas, Salaries & Where to Actually Go",
+            description: "Compare visas, salaries, taxes, and citizenship timelines across Portugal, USA, Germany, Canada, Spain and more — and find the best country for your software engineering career.",
+            image: "/blog13.png",
+            link: "/blogs/best-countries-software-engineers",
+            category: "Visa & Career"
+        },
+        {
             title: "How to Get French Citizenship, Spanish Citizenship, and EU Residency: The Founder's Guide",
             description: "A practical comparison of French citizenship, Spanish citizenship, and Portugal's D2 Visa for entrepreneurs. Discover the fastest route to an EU passport based on your background.",
             image: "/blog12.png",

@@ -7,6 +7,20 @@ interface RelatedArticlesProps {
 const RelatedArticles = ({ currentPath }: RelatedArticlesProps) => {
     const allBlogPosts = [
         {
+            title: "Retiring in Portugal: Golden Visa, D7 Visa & How to Get Portuguese Citizenship",
+            description: "Golden Visa investment routes, D7 Retirement Visa income requirements, NHR tax benefits, and the 5-year path to Portuguese citizenship — the complete retiree's guide.",
+            image: "/blog14.png",
+            link: "/blogs/retiring-in-portugal-golden-visa-d7",
+            category: "Retirement & Visa"
+        },
+        {
+            title: "Best Countries for Software Engineers to Move: Visas, Salaries & Where to Actually Go",
+            description: "Compare visas, salaries, taxes, and citizenship timelines across Portugal, USA, Germany, Canada, Spain and more — find the best country for your engineering career.",
+            image: "/blog13.png",
+            link: "/blogs/best-countries-software-engineers",
+            category: "Visa & Career"
+        },
+        {
             title: "How to Get French Citizenship, Spanish Citizenship, and EU Residency: The Founder's Guide",
             description: "A practical comparison of French, Spanish, and Portuguese citizenship pathways for entrepreneurs — find the fastest route to an EU passport.",
             image: "/blog12.png",
