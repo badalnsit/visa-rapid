@@ -7,6 +7,20 @@ interface RelatedArticlesProps {
 const RelatedArticles = ({ currentPath }: RelatedArticlesProps) => {
     const allBlogPosts = [
         {
+            title: "Portugal D2 Visa 2026: The Complete Entrepreneur's Guide",
+            description: "Eligibility, business plan requirements, documents, costs, and step-by-step process — the full 2026 guide to the Portugal D2 Entrepreneur Visa.",
+            image: "/blog16.png",
+            link: "/blogs/portugal-d2-visa-entrepreneur-guide-2026",
+            category: "Startup Visa"
+        },
+        {
+            title: "Portugal D7 Visa 2026: The Complete Guide for Passive Income Earners",
+            description: "Income requirements, documents, step-by-step application, costs, and the 5-year path to Portuguese citizenship — the complete D7 Visa guide for 2026.",
+            image: "/blog15.png",
+            link: "/blogs/portugal-d7-visa-guide",
+            category: "Retirement & Visa"
+        },
+        {
             title: "Retiring in Portugal: Golden Visa, D7 Visa & How to Get Portuguese Citizenship",
             description: "Golden Visa investment routes, D7 Retirement Visa income requirements, NHR tax benefits, and the 5-year path to Portuguese citizenship — the complete retiree's guide.",
             image: "/blog14.png",

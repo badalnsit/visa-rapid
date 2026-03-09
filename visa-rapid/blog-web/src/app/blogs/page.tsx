@@ -8,6 +8,20 @@ export const metadata = {
 const Blogs = () => {
     const blogPosts = [
         {
+            title: "Portugal D2 Visa 2026: The Complete Entrepreneur's Guide",
+            description: "The full 2026 guide to the Portugal D2 Visa — eligibility, business plan requirements, documents, step-by-step process, costs, and the 5-year path to Portuguese citizenship.",
+            image: "/blog16.png",
+            link: "/blogs/portugal-d2-visa-entrepreneur-guide-2026",
+            category: "Startup Visa"
+        },
+        {
+            title: "Portugal D7 Visa 2026: The Complete Guide for Passive Income Earners",
+            description: "Everything you need to know about the Portugal D7 Visa in 2026 — income requirements, documents, step-by-step application, costs, and the 5-year path to Portuguese citizenship.",
+            image: "/blog15.png",
+            link: "/blogs/portugal-d7-visa-guide",
+            category: "Retirement & Visa"
+        },
+        {
             title: "Retiring in Portugal: Golden Visa, D7 Visa & How to Get Portuguese Citizenship",
             description: "The complete guide to retiring in Portugal — Golden Visa investment options, D7 Retirement Visa income requirements, NHR tax benefits, and the 5-year path to Portuguese citizenship.",
             image: "/blog14.png",
