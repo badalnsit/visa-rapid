@@ -39,7 +39,7 @@ const PortugalD2VisaEntrepreneurGuide2026 = () => {
                 {/* Featured Image */}
                 <div className="mb-10">
                     <img
-                        src="/blog16.png"
+                        src="/blog17.png"
                         alt="Portugal D2 Visa 2026 Entrepreneur Guide"
                         className="w-full h-64 sm:h-80 lg:h-[400px] object-cover rounded-xl shadow-sm"
                     />

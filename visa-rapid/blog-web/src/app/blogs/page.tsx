@@ -8,9 +8,23 @@ export const metadata = {
 const Blogs = () => {
     const blogPosts = [
         {
+            title: "European Immigration Market Trends 2026: What's Driving the Global Surge in EU Residency Applications",
+            description: "From remote work visas to tax-driven relocation — discover the 9 major trends reshaping who is moving to Europe in 2026 and why applications are hitting record highs.",
+            image: "/blog18.png",
+            link: "/blogs/european-immigration-market-trends-2026",
+            category: "Immigration Trends"
+        },
+        {
+            title: "Moving to Europe from the USA in 2026: The Complete Guide for Americans",
+            description: "The most practical guide for Americans moving to Europe in 2026 — visa options, real cost comparisons, healthcare, FATCA taxes, and the best countries for every American profile.",
+            image: "/blog16.png",
+            link: "/blogs/moving-to-europe-from-usa-2026",
+            category: "Relocation Guide"
+        },
+        {
             title: "Portugal D2 Visa 2026: The Complete Entrepreneur's Guide",
             description: "The full 2026 guide to the Portugal D2 Visa — eligibility, business plan requirements, documents, step-by-step process, costs, and the 5-year path to Portuguese citizenship.",
-            image: "/blog16.png",
+            image: "/blog17.png",
             link: "/blogs/portugal-d2-visa-entrepreneur-guide-2026",
             category: "Startup Visa"
         },

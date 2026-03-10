@@ -7,9 +7,23 @@ interface RelatedArticlesProps {
 const RelatedArticles = ({ currentPath }: RelatedArticlesProps) => {
     const allBlogPosts = [
         {
+            title: "European Immigration Market Trends 2026: What's Driving the Global Surge in EU Residency Applications",
+            description: "From remote work visas to tax-driven relocation — discover the 9 major trends reshaping who is moving to Europe in 2026 and why applications are hitting record highs.",
+            image: "/blog18.png",
+            link: "/blogs/european-immigration-market-trends-2026",
+            category: "Immigration Trends"
+        },
+        {
+            title: "Moving to Europe from the USA in 2026: The Complete Guide for Americans",
+            description: "Visa options, real cost comparisons, healthcare, FATCA taxes, and the best countries for every American profile — the most practical relocation guide for Americans.",
+            image: "/blog16.png",
+            link: "/blogs/moving-to-europe-from-usa-2026",
+            category: "Relocation Guide"
+        },
+        {
             title: "Portugal D2 Visa 2026: The Complete Entrepreneur's Guide",
             description: "Eligibility, business plan requirements, documents, costs, and step-by-step process — the full 2026 guide to the Portugal D2 Entrepreneur Visa.",
-            image: "/blog16.png",
+            image: "/blog17.png",
             link: "/blogs/portugal-d2-visa-entrepreneur-guide-2026",
             category: "Startup Visa"
         },
