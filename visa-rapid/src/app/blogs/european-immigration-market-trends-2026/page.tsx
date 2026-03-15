@@ -23,11 +23,6 @@ const EuropeanImmigrationTrends2026 = () => {
 
                 {/* Header */}
                 <div className="mb-10 max-w-4xl">
-                    <div className="mb-4">
-                        <span className="inline-block px-3 py-1 bg-blue-100 text-gray-600 text-sm rounded-full">
-                            Immigration Trends
-                        </span>
-                    </div>
                     <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight font-playfair">
                         European Immigration Market Trends 2026: What&apos;s Driving the Global Surge in EU Residency Applications
                     </h1>
@@ -121,7 +116,7 @@ const EuropeanImmigrationTrends2026 = () => {
                             <div className="overflow-x-auto mb-6">
                                 <table className="w-full border-collapse text-sm">
                                     <thead>
-                                        <tr className="bg-gray-900 text-white">
+                                        <tr className="bg-gray-600 text-white">
                                             <th className="p-3 text-left">Country</th>
                                             <th className="p-3 text-left">Visa Name</th>
                                             <th className="p-3 text-left">Min. Capital Required</th>
@@ -230,7 +225,7 @@ const EuropeanImmigrationTrends2026 = () => {
                             <div className="overflow-x-auto mb-6">
                                 <table className="w-full border-collapse text-sm">
                                     <thead>
-                                        <tr className="bg-gray-900 text-white">
+                                        <tr className="bg-gray-600 text-white">
                                             <th className="p-3 text-left">Criterion</th>
                                             <th className="p-3 text-left">Old EU Blue Card</th>
                                             <th className="p-3 text-left">New EU Blue Card (2024+)</th>
@@ -310,7 +305,7 @@ const EuropeanImmigrationTrends2026 = () => {
                             <div className="overflow-x-auto mb-6">
                                 <table className="w-full border-collapse text-sm">
                                     <thead>
-                                        <tr className="bg-gray-900 text-white">
+                                        <tr className="bg-gray-600 text-white">
                                             <th className="p-3 text-left">Country</th>
                                             <th className="p-3 text-left">Tax Incentive Program</th>
                                             <th className="p-3 text-left">Key Benefit</th>
@@ -406,7 +401,7 @@ const EuropeanImmigrationTrends2026 = () => {
                             <div className="overflow-x-auto mb-6">
                                 <table className="w-full border-collapse text-sm">
                                     <thead>
-                                        <tr className="bg-gray-900 text-white">
+                                        <tr className="bg-gray-600 text-white">
                                             <th className="p-3 text-left">Country / Visa</th>
                                             <th className="p-3 text-left">2022 Processing Time</th>
                                             <th className="p-3 text-left">2026 Processing Time</th>
@@ -452,7 +447,7 @@ const EuropeanImmigrationTrends2026 = () => {
                             <div className="overflow-x-auto mb-6">
                                 <table className="w-full border-collapse text-sm">
                                     <thead>
-                                        <tr className="bg-gray-900 text-white">
+                                        <tr className="bg-gray-600 text-white">
                                             <th className="p-3 text-left">Visa Category</th>
                                             <th className="p-3 text-left">Best For</th>
                                             <th className="p-3 text-left">Top Country</th>
@@ -516,21 +511,21 @@ const EuropeanImmigrationTrends2026 = () => {
                         </div>
 
                         {/* CTA Block */}
-                        <div className="bg-gray-900 rounded-2xl p-8 text-white text-center">
-                            <h2 className="text-2xl font-bold mb-4">Ready to Act on These Trends?</h2>
-                            <p className="text-gray-300 mb-6 max-w-xl mx-auto">
+                        <div className="bg-gray-600 rounded-2xl p-8 text-white text-center">
+                            <h2 className="text-2xl font-bold mb-4 !text-white">Ready to Act on These Trends?</h2>
+                            <p className="text-gray-200 mb-6 max-w-xl mx-auto">
                                 The window for the most accessible EU residency programs is narrowing as processing times increase and eligibility criteria tighten. Visa Rapid specializes in Portugal&apos;s D2 Entrepreneur Visa — helping founders and professionals prepare applications that get approved.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Link
                                     href="/apply"
-                                    className="inline-block bg-white text-gray-900 font-bold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors no-underline"
+                                    className="inline-block bg-white !text-gray-900 font-bold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors no-underline"
                                 >
                                     Check Your Eligibility
                                 </Link>
                                 <Link
                                     href="/blogs"
-                                    className="inline-block border border-white text-white font-medium px-8 py-3 rounded-full hover:bg-white hover:text-gray-900 transition-colors no-underline"
+                                    className="inline-block border border-white !text-white font-medium px-8 py-3 rounded-full hover:bg-white hover:!text-gray-900 transition-colors no-underline"
                                 >
                                     Read More Articles
                                 </Link>
@@ -540,47 +535,24 @@ const EuropeanImmigrationTrends2026 = () => {
                     </div>
 
                     {/* Sidebar */}
-                    <div className="lg:col-span-1">
-                        <div className="sticky top-8">
-                            <div className="bg-gray-50 rounded-xl p-6 mb-6">
-                                <h3 className="font-bold text-gray-900 mb-4">In This Article</h3>
-                                <nav className="space-y-2">
-                                    {[
-                                        { href: "#trend-1", label: "Remote Work Revolution" },
-                                        { href: "#trend-2", label: "Startup & Entrepreneur Visas" },
-                                        { href: "#trend-3", label: "Indian & African Applicants" },
-                                        { href: "#trend-4", label: "Post-Brexit UK Migration" },
-                                        { href: "#trend-5", label: "EU Blue Card Reform" },
-                                        { href: "#trend-6", label: "Rising US Interest" },
-                                        { href: "#trend-7", label: "Tax-Driven Immigration" },
-                                        { href: "#trend-8", label: "Family Relocations" },
-                                        { href: "#trend-9", label: "Processing Delays" },
-                                        { href: "#summary", label: "Summary Table" },
-                                        { href: "#faq", label: "FAQ" },
-                                    ].map((item, i) => (
-                                        <a
-                                            key={i}
-                                            href={item.href}
-                                            className="block text-sm text-gray-600 hover:text-gray-900 py-1 border-l-2 border-transparent hover:border-gray-400 pl-3 transition-colors no-underline"
-                                        >
-                                            {item.label}
-                                        </a>
-                                    ))}
-                                </nav>
-                            </div>
-
-                            <div className="bg-blue-600 rounded-xl p-6 text-white">
-                                <h3 className="font-bold mb-3">Get Expert Help</h3>
-                                <p className="text-blue-100 text-sm mb-4">Portugal D2 Visa specialists with a proven track record. Book a free consultation today.</p>
-                                <Link
-                                    href="/apply"
-                                    className="block text-center bg-white text-blue-600 font-bold text-sm px-4 py-2 rounded-full hover:bg-blue-50 transition-colors no-underline"
-                                >
-                                    Book Free Call
-                                </Link>
-                            </div>
+                    <aside className="hidden lg:block lg:col-span-1">
+                        <div className="sticky top-24 pl-8 border-l border-gray-200">
+                            <h3 className="text-lg font-bold text-gray-900 mb-4 font-open-sans">Article content</h3>
+                            <nav className="space-y-4">
+                                <a href="#trend-1" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Remote Work Revolution</a>
+                                <a href="#trend-2" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Startup & Entrepreneur Visas</a>
+                                <a href="#trend-3" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Indian & African Applicants</a>
+                                <a href="#trend-4" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Post-Brexit UK Migration</a>
+                                <a href="#trend-5" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">EU Blue Card Reform</a>
+                                <a href="#trend-6" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Rising US Interest</a>
+                                <a href="#trend-7" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Tax-Driven Immigration</a>
+                                <a href="#trend-8" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Family Relocations</a>
+                                <a href="#trend-9" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Processing Delays</a>
+                                <a href="#summary" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Summary Table</a>
+                                <a href="#faq" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">FAQ</a>
+                            </nav>
                         </div>
-                    </div>
+                    </aside>
 
                 </div>
 

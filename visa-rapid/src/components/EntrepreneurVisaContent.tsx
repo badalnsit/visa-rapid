@@ -5,7 +5,6 @@ import { InlineWidget } from 'react-calendly'
 
 export default function EntrepreneurVisaContent() {
   const [heroRef, heroVisible] = useScrollAnimation({ threshold: 0.2 })
-  const [contentRef, contentVisible] = useScrollAnimation({ threshold: 0.2 })
   const [benefitsRef, benefitsVisible] = useScrollAnimation({ threshold: 0.1 })
   const [headerRef, headerVisible] = useScrollAnimation({ threshold: 0.3 })
   const [detailsRef, detailsVisible] = useScrollAnimation({ threshold: 0.1 })
@@ -222,10 +221,10 @@ export default function EntrepreneurVisaContent() {
         <div className="max-w-7xl mx-auto">
           <div
             ref={detailsRef}
-            className={`grid grid-cols-1 lg:grid-cols-10 gap-8 items-start fade-in-up ${contentVisible ? 'visible' : ''}`}
+            className={`grid grid-cols-1 lg:grid-cols-10 gap-8 items-start fade-in-up ${detailsVisible ? 'visible' : ''}`}
           >
             {/* Left Column - Eligibility Requirements (70%) */}
-            <div className={`lg:col-span-7 bg-blue-100 p-8 rounded-3xl fade-in-left ${contentVisible ? 'visible' : ''}`}>
+            <div className={`lg:col-span-7 bg-blue-100 p-8 rounded-3xl fade-in-left ${detailsVisible ? 'visible' : ''}`}>
               <div className="mb-6">
                 <p className="text-gray-900 mb-6 text-center text-2xl font-semibold">
                   To qualify for Portugal&apos;s D2 Visa, applicants must:
@@ -233,7 +232,7 @@ export default function EntrepreneurVisaContent() {
               </div>
 
               <div className="space-y-4">
-                <div className={`flex items-start gap-3 stagger-item ${contentVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.1s' }}>
+                <div className={`flex items-start gap-3 stagger-item ${detailsVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.1s' }}>
                   <div className="w-6 h-6 bg-red-400 rounded flex-shrink-0 flex items-center justify-center mt-0.5 scale-on-hover">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
@@ -242,7 +241,7 @@ export default function EntrepreneurVisaContent() {
                   <p className="text-gray-700 text-md">Be a non-EU national</p>
                 </div>
 
-                <div className={`flex items-start gap-3 stagger-item ${contentVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.2s' }}>
+                <div className={`flex items-start gap-3 stagger-item ${detailsVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.2s' }}>
                   <div className="w-6 h-6 bg-red-400 rounded flex-shrink-0 flex items-center justify-center mt-0.5 scale-on-hover">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
@@ -251,7 +250,7 @@ export default function EntrepreneurVisaContent() {
                   <p className="text-gray-700 text-md">Plan to start a new business or invest in an existing Portuguese business</p>
                 </div>
 
-                <div className={`flex items-start gap-3 stagger-item ${contentVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.3s' }}>
+                <div className={`flex items-start gap-3 stagger-item ${detailsVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.3s' }}>
                   <div className="w-6 h-6 bg-red-400 rounded flex-shrink-0 flex items-center justify-center mt-0.5 scale-on-hover">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -260,7 +259,7 @@ export default function EntrepreneurVisaContent() {
                   <p className="text-gray-700 text-md">Freelancers or independent professionals with a contract or business opportunity in Portugal</p>
                 </div>
 
-                <div className={`flex items-start gap-3 stagger-item ${contentVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.4s' }}>
+                <div className={`flex items-start gap-3 stagger-item ${detailsVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.4s' }}>
                   <div className="w-6 h-6 bg-red-400 rounded flex-shrink-0 flex items-center justify-center mt-0.5 scale-on-hover">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
@@ -269,7 +268,7 @@ export default function EntrepreneurVisaContent() {
                   <p className="text-gray-700 text-md">Demonstrate sufficient funds to support themselves and their business</p>
                 </div>
 
-                <div className={`flex items-start gap-3 stagger-item ${contentVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.5s' }}>
+                <div className={`flex items-start gap-3 stagger-item ${detailsVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.5s' }}>
                   <div className="w-6 h-6 bg-red-400 rounded flex-shrink-0 flex items-center justify-center mt-0.5 scale-on-hover">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -279,7 +278,7 @@ export default function EntrepreneurVisaContent() {
                 </div>
               </div>
 
-              <div className={`mt-6 stagger-item ${contentVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.6s' }}>
+              <div className={`mt-6 stagger-item ${detailsVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.6s' }}>
                 <p className="text-gray-700 text-md leading-relaxed font-medium">
                   For eligible applicants, the D2 Visa also allows for family reunification, granting your family members the same residency rights as you. This includes your partner, children under 18, dependent children over 18 (if they are studying), parents, and minor siblings.
                 </p>
@@ -287,7 +286,7 @@ export default function EntrepreneurVisaContent() {
             </div>
 
             {/* Right Column - Image (30%) */}
-            <div className={`lg:col-span-3 relative fade-in-right ${contentVisible ? 'visible' : ''}`}>
+            <div className={`lg:col-span-3 relative fade-in-right ${detailsVisible ? 'visible' : ''}`}>
               <img
                 src="/Visa1.webp"
                 alt="Portugal historic building"

@@ -269,7 +269,7 @@ const PortugalD7VisaGuide = () => {
                                 { step: "Receive Your Entry Visa", detail: "If approved, you receive a short-term D7 entry visa (usually valid for 4 months, allowing 2 entries). This is not your residence permit — it's an authorization to travel to Portugal and apply for your residence permit." },
                             ].map((item, i) => (
                                 <div key={i} className="flex items-start gap-4 bg-gray-50 p-4 rounded-xl border border-gray-100">
-                                    <span className="flex-shrink-0 w-7 h-7 rounded-full bg-red-600 text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
+                                    <span className="flex-shrink-0 w-7 h-7 rounded-full bg-red-600 !text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
                                     <div>
                                         <p className="font-semibold text-gray-900 mb-1">{item.step}</p>
                                         <p className="text-gray-700 text-sm">{item.detail}</p>
@@ -287,7 +287,7 @@ const PortugalD7VisaGuide = () => {
                                 { step: "Receive Your Residence Permit Card", detail: "Once approved, your residence permit card is issued — valid for 2 years. This is your official document confirming your right to live in Portugal." },
                             ].map((item, i) => (
                                 <div key={i} className="flex items-start gap-4 bg-gray-50 p-4 rounded-xl border border-gray-100">
-                                    <span className="flex-shrink-0 w-7 h-7 rounded-full bg-gray-700 text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
+                                    <span className="flex-shrink-0 w-7 h-7 rounded-full bg-gray-700 !text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
                                     <div>
                                         <p className="font-semibold text-gray-900 mb-1">{item.step}</p>
                                         <p className="text-gray-700 text-sm">{item.detail}</p>
@@ -479,7 +479,7 @@ const PortugalD7VisaGuide = () => {
                         href="https://calendly.com/nikita-visarapid/30min"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center px-6 py-3 rounded-lg font-medium transition-colors bg-red-600 text-white hover:bg-red-700"
+                        className="inline-flex items-center px-6 py-3 rounded-lg font-medium transition-colors bg-red-600 !text-white hover:bg-red-700"
                     >
                         Schedule a Consultation
                         <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

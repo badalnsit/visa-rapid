@@ -84,7 +84,7 @@ export default function RootLayout({
           sameAs: [],
         }} />
         <Navbar />
-        <main className="w-full overflow-x-hidden">
+        <main className="w-full">
           {children}
         </main>
         <Footer />

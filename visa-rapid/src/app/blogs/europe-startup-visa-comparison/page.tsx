@@ -243,7 +243,7 @@ const EuropeStartupVisaComparison = () => {
                         href="https://calendly.com/nikita-visarapid/30min"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center px-6 py-3 rounded-lg font-medium transition-colors bg-red-600 text-white hover:bg-red-700"
+                        className="inline-flex items-center px-6 py-3 rounded-lg font-medium transition-colors bg-red-600 !text-white hover:bg-red-700"
                     >
                         Schedule a Consultation
                         <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
