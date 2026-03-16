@@ -60,6 +60,7 @@ const ForBusiness = () => {
             src="/image4.webp"
             alt="Business meeting"
             className="w-full h-96 lg:h-[550px] object-cover shadow-lg"
+            loading="lazy"
           />
         </div>
       </div>

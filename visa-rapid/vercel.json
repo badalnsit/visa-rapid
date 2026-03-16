@@ -1,3 +1,10 @@
 {
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "redirects": [
+    {
+      "source": "/residency",
+      "destination": "/passive-income-visa",
+      "permanent": true
+    }
+  ]
 }

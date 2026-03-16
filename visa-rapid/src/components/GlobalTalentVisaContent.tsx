@@ -367,6 +367,7 @@ export default function GlobalTalentVisaContent() {
                 src="/Visa2.webp"
                 alt="UK landscape"
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
 

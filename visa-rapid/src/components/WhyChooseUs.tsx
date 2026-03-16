@@ -80,6 +80,7 @@ const WhyChooseUs = () => {
               src="/image7.png"
               alt="Visa Application with Passport"
               className="w-180 h-100 lg:h-130 object-cover shadow-lg"
+              loading="lazy"
             />
           </div>
         </div>

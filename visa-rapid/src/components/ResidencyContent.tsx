@@ -197,6 +197,7 @@ export default function ResidencyContent() {
                   src="/residency2.webp"
                   alt="Portugal Residency Documentation"
                   className="w-full h-171 object-cover rounded-xl shadow-lg"
+                  loading="lazy"
                 />
               </div>
             </div>

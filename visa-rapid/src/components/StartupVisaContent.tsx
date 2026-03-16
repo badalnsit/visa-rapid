@@ -54,9 +54,9 @@ export default function StartupVisaContent() {
             <div className="order-1 lg:order-1">
               <div className="space-y-1">
                 <div>
-                  <p className="text-6xl font-semibold text-gray-900 tracking-wide mb-8">
+                  <h1 className="text-6xl font-semibold text-gray-900 tracking-wide mb-8">
                     What is the Portugal Startup Visa?
-                  </p>
+                  </h1>
                   <p className="text-base text-gray-600 leading-relaxed mb-10">
                     The StartUP Visa is a continuous hosting programme for non-EU entrepreneurs who want to develop an innovative or scalable
                     project in Portugal. It enables incubator hosting, a Portuguese entry visa and a residence permit under the StartUP Visa rules. <br />
@@ -309,6 +309,7 @@ export default function StartupVisaContent() {
                 src="/Visa2.webp"
                 alt="Portugal castle landscape"
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
 

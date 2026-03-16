@@ -291,6 +291,7 @@ export default function EntrepreneurVisaContent() {
                 src="/Visa1.webp"
                 alt="Portugal historic building"
                 className="w-full h-104 rounded-3xl shadow-lg transition-transform duration-500"
+                loading="lazy"
               />
             </div>
           </div>
@@ -386,6 +387,7 @@ export default function EntrepreneurVisaContent() {
                   src="/Visa.webp"
                   alt="Portugal street scene with colorful buildings and tram"
                   className="w-full xl:h-150 h-100 object-cover rounded-2xl shadow-lg transition-transform duration-500"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -405,6 +407,7 @@ export default function EntrepreneurVisaContent() {
                 src="/Visa2.webp"
                 alt="Portugal castle landscape"
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
 

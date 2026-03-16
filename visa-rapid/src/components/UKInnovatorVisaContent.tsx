@@ -278,6 +278,7 @@ export default function UKInnovatorVisaContent() {
                 src="/Visa2.webp"
                 alt="UK business landscape"
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
 

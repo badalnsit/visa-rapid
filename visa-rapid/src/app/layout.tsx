@@ -62,6 +62,10 @@ export default function RootLayout({
       <head>
         <link rel="icon" type="image/png" sizes="any" href="/VR.png" />
         <link rel="apple-touch-icon" href="/VR.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://assets.apollo.io" />
+        <link rel="preconnect" href="https://assets.calendly.com" />
       </head>
       <body
         className={`${openSans.variable} ${playfair.variable} antialiased min-h-screen w-full bg-white overflow-x-hidden`}

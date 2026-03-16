@@ -374,6 +374,7 @@ export default function JobSeekerVisaContent() {
                       src="/Job1.webp"
                       alt="Job Application Accepted"
                       className="w-90 h-95 object-cover rounded-xl shadow-lg"
+                      loading="lazy"
                     />
                   </div>
 
