@@ -7,6 +7,20 @@ interface RelatedArticlesProps {
 const RelatedArticles = ({ currentPath }: RelatedArticlesProps) => {
     const allBlogPosts = [
         {
+            title: "Cheapest Countries to Live in Europe in 2026",
+            description: "Real monthly budgets for Portugal, Bulgaria, Hungary, Romania, Albania, Serbia, Georgia, and North Macedonia — what it actually costs to live in Europe as an expat.",
+            image: "/blog20.jpg",
+            link: "/blogs/cheapest-countries-europe-2026",
+            category: "Cost of Living"
+        },
+        {
+            title: "How an Indian Software Engineer Obtained a Residence Permit in Portugal",
+            description: "A real case study — documents, timeline, costs, and lessons learned from an Indian backend engineer who moved from Bangalore to Lisbon on the Portugal D8 Digital Nomad Visa.",
+            image: "/blog19.jpg",
+            link: "/blogs/indian-software-engineer-portugal",
+            category: "Case Study"
+        },
+        {
             title: "European Immigration Market Trends 2026: What's Driving the Global Surge in EU Residency Applications",
             description: "From remote work visas to tax-driven relocation — discover the 9 major trends reshaping who is moving to Europe in 2026 and why applications are hitting record highs.",
             image: "/blog18.png",
