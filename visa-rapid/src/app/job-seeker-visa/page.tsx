@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
   title: 'Germany Opportunity Card — Job Seeker Visa Guide',
-  description: 'Complete guide to the Germany Opportunity Card (Chancenkarte). Learn about eligibility, the points-based system, benefits, and how to apply for this job seeker residence permit.',
+  description: 'Guide to Germany\'s Opportunity Card (Chancenkarte) — eligibility, points system, benefits, and how to apply for this job seeker visa.',
   alternates: {
     canonical: '/job-seeker-visa',
   },

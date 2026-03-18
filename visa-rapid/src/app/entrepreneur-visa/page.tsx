@@ -5,20 +5,20 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
   title: 'Portugal D2 Entrepreneur Visa — Requirements & Process',
-  description: 'Complete guide to the Portugal D2 Entrepreneur Visa. Learn about eligibility, benefits, application process, and how Visa Rapid can help you secure EU residency.',
+  description: 'Portugal D2 Entrepreneur Visa guide — eligibility, benefits, application process, and how Visa Rapid helps you secure EU residency.',
   alternates: {
     canonical: '/entrepreneur-visa',
   },
   openGraph: {
     title: 'Portugal D2 Entrepreneur Visa — Requirements & Process',
-    description: 'Complete guide to the Portugal D2 Entrepreneur Visa. Learn about eligibility, benefits, application process, and how Visa Rapid can help you secure EU residency.',
+    description: 'Portugal D2 Entrepreneur Visa guide — eligibility, benefits, application process, and how Visa Rapid helps you secure EU residency.',
     url: 'https://www.visarapid.com/entrepreneur-visa',
     images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Portugal D2 Entrepreneur Visa' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Portugal D2 Entrepreneur Visa — Requirements & Process',
-    description: 'Complete guide to the Portugal D2 Entrepreneur Visa. Learn about eligibility, benefits, application process, and how Visa Rapid can help you secure EU residency.',
+    description: 'Portugal D2 Entrepreneur Visa guide — eligibility, benefits, application process, and how Visa Rapid helps you secure EU residency.',
     images: ['/og-image.png'],
   },
 }

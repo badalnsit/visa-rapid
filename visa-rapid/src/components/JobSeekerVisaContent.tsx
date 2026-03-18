@@ -151,9 +151,9 @@ export default function JobSeekerVisaContent() {
             <div className="order-1 lg:order-1">
               <div className="space-y-3">
                 <div>
-                  <p className="text-5xl font-medium text-gray-900 tracking-wide mb-6">
+                  <h1 className="text-5xl font-medium text-gray-900 tracking-wide mb-6">
                     The Opportunity Card: The ticket to Germany
-                  </p>
+                  </h1>
                   <p className="text-xl text-gray-600 leading-relaxed mb-4">
                     The German government introduced the &quot;Opportunity Card&quot;
                     (Chancenkarte) to its arsenal of residence permits. This permit came to

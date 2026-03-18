@@ -5,20 +5,20 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
   title: 'UK Global Talent Visa — For Exceptional Leaders',
-  description: 'Complete guide to the UK Global Talent Visa for leaders in technology, science, arts, and academia. Learn about endorsement requirements, benefits, and our application process.',
+  description: 'UK Global Talent Visa guide — endorsement requirements, benefits, and application process for leaders in tech, science, arts, and academia.',
   alternates: {
     canonical: '/global-talent-visa',
   },
   openGraph: {
     title: 'UK Global Talent Visa — For Exceptional Leaders',
-    description: 'Complete guide to the UK Global Talent Visa for leaders in technology, science, arts, and academia. Learn about endorsement requirements, benefits, and our application process.',
+    description: 'UK Global Talent Visa guide — endorsement requirements, benefits, and application process for leaders in tech, science, arts, and academia.',
     url: 'https://www.visarapid.com/global-talent-visa',
     images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'UK Global Talent Visa' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'UK Global Talent Visa — For Exceptional Leaders',
-    description: 'Complete guide to the UK Global Talent Visa for leaders in technology, science, arts, and academia. Learn about endorsement requirements, benefits, and our application process.',
+    description: 'UK Global Talent Visa guide — endorsement requirements, benefits, and application process for leaders in tech, science, arts, and academia.',
     images: ['/og-image.png'],
   },
 }
