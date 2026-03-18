@@ -39,7 +39,7 @@ const MovingToEuropeFromUSA2026 = () => {
                 {/* Featured Image */}
                 <div className="mb-10">
                     <img
-                        src="/blog16.png"
+                        src="/blog16.jpg"
                         alt="Moving to Europe from the USA in 2026"
                         className="w-full h-64 sm:h-80 lg:h-[400px] object-cover rounded-xl shadow-sm"
                     />

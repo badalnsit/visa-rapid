@@ -39,7 +39,7 @@ const RetiringInPortugal = () => {
                 {/* Featured Image */}
                 <div className="mb-10">
                     <img
-                        src="/blog14.png"
+                        src="/blog14.jpg"
                         alt="Retiring in Portugal — Golden Visa and D7 Visa Guide"
                         className="w-full h-64 sm:h-80 lg:h-[400px] object-cover rounded-xl shadow-sm"
                     />

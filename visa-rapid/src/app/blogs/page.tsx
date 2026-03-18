@@ -8,6 +8,20 @@ export const metadata = {
 const Blogs = () => {
     const blogPosts = [
         {
+            title: "Which Countries Allow Dual Citizenship and Which Ones Ban It in 2026",
+            description: "Full 2026 breakdown of which countries allow dual citizenship, which ban it, and the conditions in between — plus the fastest paths to a second passport in Europe.",
+            image: "/blog22.jpg",
+            link: "/blogs/dual-citizenship-countries-2026",
+            category: "Citizenship"
+        },
+        {
+            title: "Why Dual Citizenship Might Not Be Worth It: The Downsides Nobody Talks About",
+            description: "Before chasing a second passport, understand the real downsides — double taxation, military service obligations, banking headaches, security clearance issues, and more.",
+            image: "/blog21.jpg",
+            link: "/blogs/dual-citizenship-downsides",
+            category: "Citizenship"
+        },
+        {
             title: "Cheapest Countries to Live in Europe in 2026",
             description: "Real monthly budgets for Portugal, Bulgaria, Hungary, Romania, Albania, Serbia, Georgia, and North Macedonia — what it actually costs to live in Europe as an expat.",
             image: "/blog20.jpg",
@@ -24,49 +38,49 @@ const Blogs = () => {
         {
             title: "European Immigration Market Trends 2026: What's Driving the Global Surge in EU Residency Applications",
             description: "From remote work visas to tax-driven relocation — discover the 9 major trends reshaping who is moving to Europe in 2026 and why applications are hitting record highs.",
-            image: "/blog18.png",
+            image: "/Blog18.jpg",
             link: "/blogs/european-immigration-market-trends-2026",
             category: "Immigration Trends"
         },
         {
             title: "Moving to Europe from the USA in 2026: The Complete Guide for Americans",
             description: "The most practical guide for Americans moving to Europe in 2026 — visa options, real cost comparisons, healthcare, FATCA taxes, and the best countries for every American profile.",
-            image: "/blog16.png",
+            image: "/blog16.jpg",
             link: "/blogs/moving-to-europe-from-usa-2026",
             category: "Relocation Guide"
         },
         {
             title: "Portugal D2 Visa 2026: The Complete Entrepreneur's Guide",
             description: "The full 2026 guide to the Portugal D2 Visa — eligibility, business plan requirements, documents, step-by-step process, costs, and the 5-year path to Portuguese citizenship.",
-            image: "/blog17.png",
+            image: "/blog17.jpg",
             link: "/blogs/portugal-d2-visa-entrepreneur-guide-2026",
             category: "Startup Visa"
         },
         {
             title: "Portugal D7 Visa 2026: The Complete Guide for Passive Income Earners",
             description: "Everything you need to know about the Portugal D7 Visa in 2026 — income requirements, documents, step-by-step application, costs, and the 5-year path to Portuguese citizenship.",
-            image: "/blog15.png",
+            image: "/blog15.jpg",
             link: "/blogs/portugal-d7-visa-guide",
             category: "Retirement & Visa"
         },
         {
             title: "Retiring in Portugal: Golden Visa, D7 Visa & How to Get Portuguese Citizenship",
             description: "The complete guide to retiring in Portugal — Golden Visa investment options, D7 Retirement Visa income requirements, NHR tax benefits, and the 5-year path to Portuguese citizenship.",
-            image: "/blog14.png",
+            image: "/blog14.jpg",
             link: "/blogs/retiring-in-portugal-golden-visa-d7",
             category: "Retirement & Visa"
         },
         {
             title: "Best Countries for Software Engineers to Move: Visas, Salaries & Where to Actually Go",
             description: "Compare visas, salaries, taxes, and citizenship timelines across Portugal, USA, Germany, Canada, Spain and more — and find the best country for your software engineering career.",
-            image: "/blog13.png",
+            image: "/blog13.jpg",
             link: "/blogs/best-countries-software-engineers",
             category: "Visa & Career"
         },
         {
             title: "How to Get French Citizenship, Spanish Citizenship, and EU Residency: The Founder's Guide",
             description: "A practical comparison of French citizenship, Spanish citizenship, and Portugal's D2 Visa for entrepreneurs. Discover the fastest route to an EU passport based on your background.",
-            image: "/blog12.png",
+            image: "/blog12.jpg",
             link: "/blogs/eu-citizenship-entrepreneur-guide",
             category: "Citizenship"
         },

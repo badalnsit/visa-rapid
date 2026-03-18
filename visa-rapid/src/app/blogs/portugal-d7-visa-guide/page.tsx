@@ -39,7 +39,7 @@ const PortugalD7VisaGuide = () => {
                 {/* Featured Image */}
                 <div className="mb-10">
                     <img
-                        src="/blog15.png"
+                        src="/blog15.jpg"
                         alt="Portugal D7 Visa 2026 Complete Guide"
                         className="w-full h-64 sm:h-80 lg:h-[400px] object-cover rounded-xl shadow-sm"
                     />

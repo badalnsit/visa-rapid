@@ -39,7 +39,7 @@ const BestCountriesSoftwareEngineers = () => {
                 {/* Featured Image */}
                 <div className="mb-10">
                     <img
-                        src="/blog13.png"
+                        src="/blog13.jpg"
                         alt="Best Countries for Software Engineers to Move"
                         className="w-full h-64 sm:h-80 lg:h-[400px] object-cover rounded-xl shadow-sm"
                     />

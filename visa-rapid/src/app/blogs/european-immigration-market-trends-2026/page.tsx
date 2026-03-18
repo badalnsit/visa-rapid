@@ -39,7 +39,7 @@ const EuropeanImmigrationTrends2026 = () => {
                 {/* Featured Image */}
                 <div className="mb-12 rounded-2xl overflow-hidden h-80 w-full">
                     <img
-                        src="/blog18.png"
+                        src="/Blog18.jpg"
                         alt="European Immigration Market Trends 2026"
                         className="w-full h-full object-cover"
                     />

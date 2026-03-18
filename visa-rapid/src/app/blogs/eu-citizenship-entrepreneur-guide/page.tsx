@@ -39,7 +39,7 @@ const EuCitizenshipEntrepreneurGuide = () => {
                 {/* Featured Image */}
                 <div className="mb-10">
                     <img
-                        src="/blog12.png"
+                        src="/blog12.jpg"
                         alt="European Citizenship Guide for Entrepreneurs"
                         className="w-full h-64 sm:h-80 lg:h-[400px] object-cover rounded-xl shadow-sm"
                     />
