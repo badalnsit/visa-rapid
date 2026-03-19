@@ -33,6 +33,7 @@ const Footer = () => {
             <div className="flex space-x-4 mb-8">
               <a
                 href="https://www.linkedin.com/in/nikita-20062a93/"
+                aria-label="Visit our LinkedIn profile"
                 className="w-10 h-10 rounded transition-colors flex items-center justify-center"
                 style={{
                   backgroundColor: '#374151',
@@ -47,6 +48,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://www.youtube.com/@visa_rapid"
+                aria-label="Visit our YouTube channel"
                 className="w-10 h-10 rounded transition-colors flex items-center justify-center"
                 style={{
                   backgroundColor: '#374151',
@@ -61,6 +63,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://www.instagram.com/visa.rapid/"
+                aria-label="Visit our Instagram page"
                 className="w-10 h-10 rounded transition-colors flex items-center justify-center"
                 style={{
                   backgroundColor: '#374151',

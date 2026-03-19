@@ -23,9 +23,9 @@ const ForBusiness = () => {
             </h2>
 
             {/* Solution */}
-            <h4 className="text-xl lg:text-2xl font-medium text-gray-900 leading-tight">
+            <h3 className="text-xl lg:text-2xl font-medium text-gray-900 leading-tight">
               Visa Rapid has the solution you need today:
-            </h4>
+            </h3>
 
             {/* Description */}
             <ul className="space-y-2 text-gray-700 text-lg leading-relaxed">

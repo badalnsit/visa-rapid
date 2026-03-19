@@ -60,6 +60,8 @@ const ScheduleMeeting = () => {
               alt="Lawyer"
               className="h-[350px] sm:h-[400px] lg:h-[550px] w-auto object-cover object-center lg:object-left lg:ml-15"
               loading="lazy"
+              width={400}
+              height={550}
             />
           </div>
         </div>

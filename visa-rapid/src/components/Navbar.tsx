@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <Link href="/">
-              <img src="/logo.png" alt="Visa-Rapid" className="h-8 sm:h-10 w-auto"/>
+              <img src="/logo.png" alt="Visa-Rapid" className="h-8 sm:h-10 w-auto" width={304} height={56} fetchPriority="high" />
             </Link>
           </div>
 
@@ -96,6 +96,7 @@ const Navbar = () => {
             <button
               onClick={toggleMenu}
               className="focus:outline-none"
+              aria-label="Open navigation menu"
               style={{
                 color: 'rgb(111, 54, 2)',
                 backgroundColor: 'transparent',
