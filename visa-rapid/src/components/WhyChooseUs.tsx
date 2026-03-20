@@ -81,6 +81,8 @@ const WhyChooseUs = () => {
               alt="Visa Application with Passport"
               className="w-180 h-100 lg:h-130 object-cover shadow-lg"
               loading="lazy"
+              width={720}
+              height={520}
             />
           </div>
         </div>

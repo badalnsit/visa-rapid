@@ -116,7 +116,10 @@ const ForIndividuals = () => {
                 src="/image3.webp"
                 alt="Family embracing"
                 className="w-full h-96 lg:h-[500px] object-cover shadow-lg"
-                loading="lazy"
+                loading="eager"
+                fetchPriority="high"
+                width={1330}
+                height={1721}
               />
             </div>
 

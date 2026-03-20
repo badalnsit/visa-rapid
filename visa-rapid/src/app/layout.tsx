@@ -66,6 +66,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://assets.apollo.io" />
         <link rel="preconnect" href="https://assets.calendly.com" />
+        <link rel="preload" as="image" href="/image3.webp" type="image/webp" fetchPriority="high" />
       </head>
       <body
         className={`${openSans.variable} ${playfair.variable} antialiased min-h-screen w-full bg-white overflow-x-hidden`}

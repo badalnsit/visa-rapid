@@ -55,6 +55,9 @@ process simple and achievable.
                     src="/comb.webp"
                     alt="Family immigration consultation"
                     className="w-80 h-60 lg:w-full lg:h-150 xl:w-full xl:h-150 object-cover"
+                    width={843}
+                    height={828}
+                    loading="lazy"
                   />
                 </div>
             </div>

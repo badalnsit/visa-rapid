@@ -1,12 +1,22 @@
 # Visa Rapid — PageSpeed Insights Fix Guide
 
-**Source:** PageSpeed Insights report from Mar 20, 2026 (Mobile — Emulated Moto G Power, Slow 4G throttling, Lighthouse 13.0.1)
+**Source:** PageSpeed Insights report from Mar 20, 2026 (Lighthouse 13.0.1)
 
-**Current Scores:**
+## Current Scores (Before Fixes)
+
+**Mobile** (Emulated Moto G Power, Slow 4G throttling):
 | Category | Score | Rating |
 |----------|-------|--------|
 | Performance | 73 | Needs Improvement (orange) |
 | Accessibility | 88 | Needs Improvement (orange) |
+| Best Practices | 96 | Good (green) |
+| SEO | 100 | Perfect (green) |
+
+**Desktop** (Emulated Desktop, Custom throttling):
+| Category | Score | Rating |
+|----------|-------|--------|
+| Performance | 98 | Good (green) |
+| Accessibility | 90 | Needs Improvement (orange) |
 | Best Practices | 96 | Good (green) |
 | SEO | 100 | Perfect (green) |
 
@@ -19,7 +29,18 @@
 | Cumulative Layout Shift (CLS) | 0 | Good (green) |
 | Speed Index (SI) | 2.9s | Good (green) |
 
-**Target:** Get Performance to 90+ and Accessibility to 95+. The #1 priority is reducing LCP from 7.6s to under 2.5s.
+**Core Web Vitals (Desktop):**
+| Metric | Value | Rating |
+|--------|-------|--------|
+| First Contentful Paint (FCP) | 0.2s | Good (green) |
+| Largest Contentful Paint (LCP) | 1.1s | Good (green) |
+| Total Blocking Time (TBT) | 0ms | Good (green) |
+| Cumulative Layout Shift (CLS) | 0 | Good (green) |
+| Speed Index (SI) | 0.8s | Good (green) |
+
+**Key difference:** Mobile LCP = `image3.webp` (ForIndividuals hero), Desktop LCP = `logo.png` (Navbar). Fixes must address both without breaking the other.
+
+**Target:** Get Performance to 90+ and Accessibility to 95+ on both mobile and desktop.
 
 ---
 
@@ -391,25 +412,52 @@ After implementing all fixes:
 
 ---
 
-## PRIORITY ORDER
+## IMPLEMENTATION STATUS
 
-Implement fixes in this order for maximum impact:
+| Fix | Status | Details |
+|-----|--------|---------|
+| Fix 1a: comb.png → comb.webp | ✅ DONE | Converted to WebP (229 KiB, down from 1,361 KiB). Reference updated in HeroSection.tsx. |
+| Fix 1b: image4.webp resize | ✅ DONE | Resized to 1330x1986 (378 KiB). Added width/height to ForBusiness.tsx. |
+| Fix 1c: image7.png → image7.webp | ✅ DONE | Converted to WebP (18 KiB, down from 671 KiB). Reference updated in WhyChooseUs.tsx. |
+| Fix 1d: image3.webp resize | ✅ DONE | Resized to 1330x1721 (225 KiB). Added eager loading + fetchPriority in ForIndividuals.tsx. |
+| Fix 1e: logo.png → logo.webp | ✅ DONE | Resized to 608x112 (7.2 KiB). Updated in Navbar.tsx with fetchPriority="high". |
+| Fix 2: fetchpriority on LCP image | ✅ DONE | Added to logo in Navbar.tsx (desktop LCP) and image3 in ForIndividuals.tsx (mobile LCP). |
+| Fix 3: width/height on images | ✅ DONE | Added to logo, image3, image4, image7, comb, Lawyer image. |
+| Fix 4: aria-label on hamburger | ✅ DONE | Added `aria-label="Open navigation menu"` to Navbar.tsx. |
+| Fix 5: aria-label on social links | ✅ DONE | Added aria-labels to LinkedIn, YouTube, Instagram links in Footer.tsx. |
+| Fix 6: heading hierarchy | ✅ DONE | Changed h4 to h3 in ForBusiness.tsx. Headings now follow h1→h2→h3 order. |
+| Fix 7: SVG path error | ✅ DONE | Malformed path no longer present in codebase. |
+| Fix 8: Script component | ⬜ TODO | Move Apollo tracker to Next.js Script component in layout.tsx. |
+| Fix 9: Dynamic imports | ⬜ TODO | Lazy-load ScheduleMeeting, StatsSection, StepByStep below the fold. |
+| Fix 10: CSS optimization | ⬜ TODO | Remove unused CSS animations from globals.css. |
+| Fix 11: lazy loading audit | ✅ DONE | All below-fold images have loading="lazy". Hero comb.webp now lazy. |
+| NEW: WhatsApp contrast fix | ✅ DONE | Changed from bg-green-500 to bg-green-700 for WCAG contrast compliance. |
+| Manual 1: Image compression | ✅ DONE | All images resized and compressed via Pillow. |
+| Manual 3: Security headers | ✅ DONE | Added to vercel.json (X-Frame-Options, HSTS, etc.). |
+| Preload LCP image | ✅ DONE | Added `<link rel="preload">` for image3.webp in layout.tsx head. |
+
+## DESKTOP-SPECIFIC NOTES
+
+The desktop report (Performance 98) is already excellent. Key observations:
+- Desktop LCP element is the **logo** (not image3.webp like mobile) — optimizing logo.webp + fetchPriority helps both
+- Desktop image delivery flagged same images as mobile (comb, image4, image7, image3) — all optimized
+- Desktop accessibility issues are identical to mobile (social link labels, heading hierarchy, contrast) — all fixed
+- The `loading="eager"` + `fetchPriority="high"` on image3.webp is safe for desktop — it's below the fold on desktop so eager loading has minimal impact on the already-fast desktop LCP
+- **No mobile-specific changes conflict with desktop performance**
+
+## REMAINING TODO (Lower Priority)
 
 | Priority | Fix | Expected Impact |
 |----------|-----|-----------------|
-| 1 | Fix 1 (Image optimization) + Manual 1 | LCP drops from 7.6s to ~2-3s, saves ~1.8 MB |
-| 2 | Fix 2 (fetchpriority on LCP image) | LCP improves further |
-| 3 | Fix 3 (width/height on images) | CLS stays at 0, accessibility improves |
-| 4 | Fix 4 + Fix 5 (aria-labels) | Accessibility score → 95+ |
-| 5 | Fix 6 (heading hierarchy) | Accessibility score improves |
-| 6 | Fix 7 (SVG path error) | Best Practices → 100 |
-| 7 | Fix 9 (dynamic imports) | Performance +3-5 points |
-| 8 | Fix 8 (Script component) | Cleaner script loading |
-| 9 | Fix 10 + Fix 11 (CSS + lazy loading) | Minor performance gains |
-| 10 | Manual 3 (security headers) | Best Practices stays 96+ |
+| 1 | Fix 9 (dynamic imports) | Performance +3-5 points on mobile |
+| 2 | Fix 8 (Script component) | Cleaner script loading |
+| 3 | Fix 10 (CSS optimization) | Minor performance gains (~30ms) |
+| 4 | Manual 2 (validate structured data) | SEO validation |
 
-**Expected final scores after all fixes:**
-- Performance: 90-95 (up from 73)
-- Accessibility: 95-100 (up from 88)
-- Best Practices: 100 (up from 96)
+**Expected scores after all implemented fixes:**
+- Mobile Performance: 85-95 (up from 73)
+- Mobile Accessibility: 95-100 (up from 88)
+- Desktop Performance: 98+ (maintained)
+- Desktop Accessibility: 95-100 (up from 90)
+- Best Practices: 96-100 (maintained/improved)
 - SEO: 100 (maintained)

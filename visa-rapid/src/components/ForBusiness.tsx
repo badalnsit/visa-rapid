@@ -61,6 +61,8 @@ const ForBusiness = () => {
             alt="Business meeting"
             className="w-full h-96 lg:h-[550px] object-cover shadow-lg"
             loading="lazy"
+            width={1330}
+            height={1986}
           />
         </div>
       </div>
