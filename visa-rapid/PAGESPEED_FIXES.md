@@ -427,9 +427,12 @@ After implementing all fixes:
 | Fix 5: aria-label on social links | ✅ DONE | Added aria-labels to LinkedIn, YouTube, Instagram links in Footer.tsx. |
 | Fix 6: heading hierarchy | ✅ DONE | Changed h4 to h3 in ForBusiness.tsx. Headings now follow h1→h2→h3 order. |
 | Fix 7: SVG path error | ✅ DONE | Malformed path no longer present in codebase. |
-| Fix 8: Script component | ⬜ TODO | Move Apollo tracker to Next.js Script component in layout.tsx. |
-| Fix 9: Dynamic imports | ⬜ TODO | Lazy-load ScheduleMeeting, StatsSection, StepByStep below the fold. |
+| Fix 8: Script component | ✅ DONE | Apollo tracker already uses Next.js Script component with strategy="afterInteractive" in layout.tsx. |
+| Fix 9: Dynamic imports | ✅ DONE | WhyChooseUs, StepByStep, StatsSection, ScheduleMeeting all use `dynamic()` in page.tsx. |
 | Fix 10: CSS optimization | ⬜ TODO | Remove unused CSS animations from globals.css. |
+| NEW: Legacy JS polyfills | ✅ DONE | Added `browserslist` to package.json targeting modern browsers only (Chrome 92+, Safari 15.4+, etc.) to eliminate 13.7 KiB of unnecessary polyfills. |
+| NEW: Responsive images (srcset) | ✅ DONE | Created mobile-optimized variants (image3-mobile.webp 77 KiB, image4-mobile.webp 121 KiB) with srcset/sizes in ForIndividuals.tsx and ForBusiness.tsx. Mobile loads smaller images, desktop unaffected. |
+| NEW: optimizePackageImports | ✅ DONE | Added `experimental.optimizePackageImports` for react-calendly in next.config.ts to tree-shake unused exports. |
 | Fix 11: lazy loading audit | ✅ DONE | All below-fold images have loading="lazy". Hero comb.webp now lazy. |
 | NEW: WhatsApp contrast fix | ✅ DONE | Changed from bg-green-500 to bg-green-700 for WCAG contrast compliance. |
 | Manual 1: Image compression | ✅ DONE | All images resized and compressed via Pillow. |
@@ -449,13 +452,11 @@ The desktop report (Performance 98) is already excellent. Key observations:
 
 | Priority | Fix | Expected Impact |
 |----------|-----|-----------------|
-| 1 | Fix 9 (dynamic imports) | Performance +3-5 points on mobile |
-| 2 | Fix 8 (Script component) | Cleaner script loading |
-| 3 | Fix 10 (CSS optimization) | Minor performance gains (~30ms) |
-| 4 | Manual 2 (validate structured data) | SEO validation |
+| 1 | Fix 10 (CSS optimization) | Minor performance gains (~30ms render blocking) |
+| 2 | Manual 2 (validate structured data) | SEO validation |
 
 **Expected scores after all implemented fixes:**
-- Mobile Performance: 85-95 (up from 73)
+- Mobile Performance: 90-98 (up from 73)
 - Mobile Accessibility: 95-100 (up from 88)
 - Desktop Performance: 98+ (maintained)
 - Desktop Accessibility: 95-100 (up from 90)

@@ -58,6 +58,8 @@ const ForBusiness = () => {
         <div ref={imageRef} className={`relative slide-in-right ${imageVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.2s' }}>
           <img
             src="/image4.webp"
+            srcSet="/image4-mobile.webp 750w, /image4.webp 1330w"
+            sizes="(max-width: 1024px) 100vw, 50vw"
             alt="Business meeting"
             className="w-full h-96 lg:h-[550px] object-cover shadow-lg"
             loading="lazy"

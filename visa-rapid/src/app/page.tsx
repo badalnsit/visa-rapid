@@ -2,8 +2,10 @@ import dynamic from 'next/dynamic';
 import HeroSection from "@/components/HeroSection";
 import ForIndividuals from "@/components/ForIndividuals";
 import ForBusiness from "@/components/ForBusiness";
-import WhyChooseUs from "@/components/WhyChooseUs";
 
+const WhyChooseUs = dynamic(() => import('@/components/WhyChooseUs'), {
+  loading: () => <div className="h-96" />,
+});
 const StepByStep = dynamic(() => import('@/components/StepByStep'), {
   loading: () => <div className="h-96" />,
 });

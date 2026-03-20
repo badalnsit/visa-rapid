@@ -114,6 +114,8 @@ const ForIndividuals = () => {
             <div ref={imageRef} className={`relative slide-in-left ${imageVisible ? 'visible' : ''}`}>
               <img
                 src="/image3.webp"
+                srcSet="/image3-mobile.webp 750w, /image3.webp 1330w"
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 alt="Family embracing"
                 className="w-full h-96 lg:h-[500px] object-cover shadow-lg"
                 loading="eager"
