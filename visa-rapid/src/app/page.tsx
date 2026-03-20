@@ -1,10 +1,18 @@
+import dynamic from 'next/dynamic';
 import HeroSection from "@/components/HeroSection";
 import ForIndividuals from "@/components/ForIndividuals";
 import ForBusiness from "@/components/ForBusiness";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import StepByStep from "@/components/StepByStep";
-import StatsSection from "@/components/StatsSection";
-import ScheduleMeeting from "@/components/ScheduleMeeting";
+
+const StepByStep = dynamic(() => import('@/components/StepByStep'), {
+  loading: () => <div className="h-96" />,
+});
+const StatsSection = dynamic(() => import('@/components/StatsSection'), {
+  loading: () => <div className="h-32" />,
+});
+const ScheduleMeeting = dynamic(() => import('@/components/ScheduleMeeting'), {
+  loading: () => <div className="h-96" />,
+});
 
 export default function HomePage() {
   return (

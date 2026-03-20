@@ -39,7 +39,7 @@ const Navbar = () => {
                 onMouseLeave={() => setIsStartupOpen(false)}
               >
                 <span className="!text-black px-3 py-3 text-sm font-medium transition-colors hover:!text-gray-600 flex items-center gap-1 cursor-pointer whitespace-nowrap">
-                  <img src="/startup-transport-svgrepo-com (1).svg" alt="Startup Visa" className="w-5 h-5" />
+                  <img src="/startup-transport-svgrepo-com (1).svg" alt="Startup Visa" className="w-5 h-5" width={20} height={20} />
                   <span>Startup Visa</span>
                   <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -139,7 +139,7 @@ const Navbar = () => {
                   onClick={() => setIsStartupMobileOpen(!isStartupMobileOpen)}
                   className="!text-black w-full px-4 py-3 text-lg font-medium hover:bg-gray-50 flex items-center gap-3 cursor-pointer"
                 >
-                  <img src="/startup-transport-svgrepo-com (1).svg" alt="Startup Visa" className="w-6 h-6" />
+                  <img src="/startup-transport-svgrepo-com (1).svg" alt="Startup Visa" className="w-6 h-6" width={24} height={24} />
                   Startup Visa
                   <svg className={`w-4 h-4 ml-auto transition-transform ${isStartupMobileOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
