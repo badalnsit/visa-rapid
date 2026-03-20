@@ -77,7 +77,7 @@ const WhyChooseUs = () => {
           {/* Right side - Image */}
           <div ref={imageRef} className={`relative slide-in-right ${imageVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.2s', marginBottom: '60px' }}>
             <img
-              src="/image7.png"
+              src="/image7.webp"
               alt="Visa Application with Passport"
               className="w-180 h-100 lg:h-130 object-cover shadow-lg"
               loading="lazy"
