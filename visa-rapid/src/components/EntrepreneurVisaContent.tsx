@@ -1,7 +1,14 @@
 'use client'
 
+import dynamic from 'next/dynamic'
 import useScrollAnimation from '@/hooks/useScrollAnimation'
-import { InlineWidget } from 'react-calendly'
+
+// Lazy-load Calendly only when the contact section enters the viewport.
+// This removes ~838ms of main-thread blocking on mobile (TBT fix).
+const InlineWidget = dynamic(
+  () => import('react-calendly').then((mod) => mod.InlineWidget),
+  { ssr: false, loading: () => <div style={{ height: '680px' }} /> }
+)
 
 export default function EntrepreneurVisaContent() {
   const [heroRef, heroVisible] = useScrollAnimation({ threshold: 0.2 })
@@ -24,9 +31,15 @@ export default function EntrepreneurVisaContent() {
             <div className="order-2 lg:order-1">
               <div className="relative">
                 <img
-                  src="/Entrepreneur.webp"
+                  src="/Entrepreneur-desktop.webp"
+                  srcSet="/Entrepreneur-mobile.webp 750w, /Entrepreneur-desktop.webp 960w"
+                  sizes="(max-width: 768px) 100vw, 960px"
                   alt="Portugal D2 Visa Documentation"
                   className="w-full h-160 object-cover"
+                  loading="eager"
+                  fetchPriority="high"
+                  width={960}
+                  height={640}
                 />
               </div>
             </div>
@@ -292,6 +305,8 @@ export default function EntrepreneurVisaContent() {
                 alt="Portugal historic building"
                 className="w-full h-104 rounded-3xl shadow-lg transition-transform duration-500"
                 loading="lazy"
+                width={361}
+                height={450}
               />
             </div>
           </div>
@@ -384,10 +399,14 @@ export default function EntrepreneurVisaContent() {
             <div className={`fade-in-right ${processVisible ? 'visible' : ''}`}>
               <div className="relative">
                 <img
-                  src="/Visa.webp"
+                  src="/Visa-desktop.webp"
+                  srcSet="/Visa-mobile.webp 750w, /Visa-desktop.webp 1128w"
+                  sizes="(max-width: 768px) 100vw, 1128px"
                   alt="Portugal street scene with colorful buildings and tram"
                   className="w-full xl:h-150 h-100 object-cover rounded-2xl shadow-lg transition-transform duration-500"
                   loading="lazy"
+                  width={1128}
+                  height={600}
                 />
               </div>
             </div>
@@ -408,6 +427,8 @@ export default function EntrepreneurVisaContent() {
                 alt="Portugal castle landscape"
                 className="w-full h-full object-cover"
                 loading="lazy"
+                width={1000}
+                height={707}
               />
             </div>
 

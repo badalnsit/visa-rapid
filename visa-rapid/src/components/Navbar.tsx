@@ -18,7 +18,16 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <Link href="/">
-              <img src="/logo.webp" alt="Visa-Rapid" className="h-8 sm:h-10 w-auto" width={304} height={56} fetchPriority="high" />
+              <img
+                src="/logo.webp"
+                srcSet="/logo-sm.webp 304w, /logo.webp 608w"
+                sizes="(max-width: 1024px) 304px, 217px"
+                alt="Visa-Rapid"
+                className="h-8 sm:h-10 w-auto"
+                width={304}
+                height={56}
+                fetchPriority="high"
+              />
             </Link>
           </div>
 
