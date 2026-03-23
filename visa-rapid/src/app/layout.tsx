@@ -76,17 +76,86 @@ export default function RootLayout({
         </Script>
         <StructuredData data={{
           '@context': 'https://schema.org',
-          '@type': 'Organization',
+          '@type': ['LegalService', 'ImmigrationAttorney', 'LocalBusiness'],
           name: 'Visa Rapid',
+          alternateName: 'Visa-Rapid',
+          description: 'Visa Rapid is a professional immigration consultancy helping working professionals and entrepreneurs move to Europe permanently through business, startup, job seeker, passive income, and global talent visa pathways.',
           url: 'https://www.visarapid.com',
-          logo: 'https://www.visarapid.com/VR.png',
-          contactPoint: {
-            '@type': 'ContactPoint',
-            telephone: '+91-9910578099',
-            contactType: 'customer service',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://www.visarapid.com/logo.webp',
+            width: 608,
+            height: 112,
+          },
+          image: 'https://www.visarapid.com/logo.webp',
+          telephone: '+91-9910578099',
+          email: 'nikita@visarapid.com',
+          address: {
+            '@type': 'PostalAddress',
+            streetAddress: 'Spaces Matosinhos, Avenida Meneres 640',
+            addressLocality: 'Matosinhos',
+            postalCode: '4450-010',
+            addressCountry: 'PT',
+            addressRegion: 'Porto',
+          },
+          geo: {
+            '@type': 'GeoCoordinates',
+            latitude: 41.1786,
+            longitude: -8.6860,
+          },
+          hasMap: 'https://maps.google.com/?q=Spaces+Matosinhos,+Avenida+Meneres+640,+Matosinhos+4450-010,+Portugal',
+          openingHoursSpecification: [
+            {
+              '@type': 'OpeningHoursSpecification',
+              dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+              opens: '09:00',
+              closes: '18:00',
+            },
+          ],
+          contactPoint: [
+            {
+              '@type': 'ContactPoint',
+              telephone: '+91-9910578099',
+              contactType: 'customer service',
+              email: 'nikita@visarapid.com',
+              availableLanguage: ['English', 'Hindi'],
+              contactOption: 'TollFree',
+            },
+            {
+              '@type': 'ContactPoint',
+              telephone: '+91-9910578099',
+              contactType: 'sales',
+              email: 'nikita@visarapid.com',
+            },
+          ],
+          sameAs: [
+            'https://www.linkedin.com/in/nikita-20062a93/',
+            'https://www.youtube.com/@visa_rapid',
+            'https://www.instagram.com/visa.rapid/',
+          ],
+          areaServed: [
+            { '@type': 'Country', name: 'India' },
+            { '@type': 'Country', name: 'Portugal' },
+            { '@type': 'Country', name: 'United Kingdom' },
+            { '@type': 'Continent', name: 'Europe' },
+          ],
+          serviceType: [
+            'Business Owner Visa',
+            'Startup Visa',
+            'Passive Income Visa',
+            'Job Seeker Visa',
+            'Global Talent Visa',
+            'Immigration Consultancy',
+            'Visa Application Assistance',
+          ],
+          priceRange: '$$',
+          currenciesAccepted: 'EUR, GBP, INR',
+          paymentAccepted: 'Bank Transfer, Credit Card',
+          founder: {
+            '@type': 'Person',
+            name: 'Nikita',
             email: 'nikita@visarapid.com',
           },
-          sameAs: [],
         }} />
         <Navbar />
         <main className="w-full">
