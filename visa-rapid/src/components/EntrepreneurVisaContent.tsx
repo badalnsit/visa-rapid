@@ -439,8 +439,8 @@ export default function EntrepreneurVisaContent() {
                   href="https://calendly.com/nikita-visarapid/30min"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block px-10 py-4 rounded-lg font-semibold text-white text-lg transition-colors"
-                  style={{ backgroundColor: '#ef4444' }}
+                  className="inline-block px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
+                  style={{ backgroundColor: '#ef4444', color: '#ffffff' }}
                   onMouseEnter={(e) => (e.currentTarget as HTMLElement).style.backgroundColor = '#dc2626'}
                   onMouseLeave={(e) => (e.currentTarget as HTMLElement).style.backgroundColor = '#ef4444'}
                 >
@@ -450,7 +450,10 @@ export default function EntrepreneurVisaContent() {
                   href="https://wa.me/+919910578099"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block px-10 py-4 rounded-lg font-semibold text-white text-lg border border-white/40 transition-colors hover:bg-white/10"
+                  className="inline-block px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
+                  style={{ backgroundColor: 'transparent', color: '#ffffff', border: '2px solid rgba(255,255,255,0.7)' }}
+                  onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = 'rgba(255,255,255,0.15)' }}
+                  onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = 'transparent' }}
                 >
                   WhatsApp Us
                 </a>

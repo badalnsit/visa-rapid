@@ -62,10 +62,9 @@ export default function RootLayout({
       <head>
         <link rel="icon" type="image/png" sizes="any" href="/VR.png" />
         <link rel="apple-touch-icon" href="/VR.png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {/* fonts.googleapis + fonts.gstatic removed — Next.js font optimization handles these internally */}
+        {/* assets.calendly.com removed — Calendly widget no longer embedded on any page */}
         <link rel="preconnect" href="https://assets.apollo.io" />
-        <link rel="preconnect" href="https://assets.calendly.com" />
         <link rel="preload" as="image" href="/image3.webp" type="image/webp" fetchPriority="high" imageSrcSet="/image3-mobile.webp 750w, /image3.webp 1330w" imageSizes="(max-width: 1024px) 100vw, 50vw" />
       </head>
       <body
