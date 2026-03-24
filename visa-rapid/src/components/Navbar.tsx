@@ -183,7 +183,6 @@ const Navbar = () => {
                 </svg>
                 Global Talent Visa
               </Link>
-
               <div className="pt-4 pb-3 border-t border-gray-200 space-y-3">
                 <a href="https://wa.me/+919910578099" target="_blank" rel="noopener noreferrer" className="bg-green-700 hover:bg-green-800 !text-white px-6 py-4 text-lg font-bold transition-all duration-200 rounded-lg flex items-center gap-3 w-full justify-center">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

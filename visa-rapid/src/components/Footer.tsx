@@ -23,7 +23,7 @@ const Footer = () => {
           {/* Left Section - Logo and Description */}
           <div>
             <div className="flex items-center mb-6">
-              <h2 className="text-2xl font-bold">VISA-RAPID</h2>
+              <h2 className="text-2xl font-bold">Visarapid</h2>
             </div>
             <p className="text-gray-300 leading-relaxed mb-8">
             We&apos;ve been in your shoes — that&apos;s why we know how to make immigration simple.
@@ -89,6 +89,7 @@ const Footer = () => {
               <li><Link href="/passive-income-visa" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Passive Income Visa</Link></li>
               <li><Link href="/global-talent-visa" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Global Talent Visa</Link></li>
               <li><Link href="/blogs" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Blogs</Link></li>
+              <li><Link href="/about" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>About Us</Link></li>
             </ul>
           </div>
 
@@ -102,13 +103,13 @@ const Footer = () => {
                 <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <span>9910578099</span>
+                <span>+91 9910578099</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <span>nikita@visarapid.com</span>
+                <span>info@visarapid.com</span>
               </div>
             </div>
 

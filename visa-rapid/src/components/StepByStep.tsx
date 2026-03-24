@@ -54,7 +54,7 @@ const StepByStep = () => {
   ]
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <section className="pt-6 sm:pt-8 lg:pt-10 pb-16 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         <div ref={titleRef} className={`mb-12 fade-in-up ${titleVisible ? 'visible' : ''}`}>
           <h2 className="text-4xl lg:text-5xl font-semibold text-gray-900 mb-4">
