@@ -32,7 +32,7 @@ const Footer = () => {
             {/* Social Media Icons */}
             <div className="flex space-x-4 mb-8">
               <a
-                href="https://www.linkedin.com/in/nikita-20062a93/"
+                href="https://www.linkedin.com/company/visarapid/"
                 aria-label="Visit our LinkedIn profile"
                 className="w-10 h-10 rounded transition-colors flex items-center justify-center"
                 style={{

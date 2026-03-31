@@ -183,7 +183,7 @@ Add explicit `width` and `height` attributes to every `<img>` tag found.
 
 ```tsx
 // LinkedIn link — add aria-label:
-<a href="https://www.linkedin.com/in/nikita-20062a93/" aria-label="Visit our LinkedIn profile" className="w-10 h-10 rounded transition-colors flex items-center justify-center" style={{backgroundColor:'#374151', color:'#ffffff'}}>
+<a href="https://www.linkedin.com/company/visarapid/" aria-label="Visit our LinkedIn profile" className="w-10 h-10 rounded transition-colors flex items-center justify-center" style={{backgroundColor:'#374151', color:'#ffffff'}}>
 
 // YouTube link — add aria-label:
 <a href="https://www.youtube.com/@visa_rapid" aria-label="Visit our YouTube channel" className="w-10 h-10 rounded transition-colors flex items-center justify-center" style={{backgroundColor:'#374151', color:'#ffffff'}}>
