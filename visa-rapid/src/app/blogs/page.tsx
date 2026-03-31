@@ -8,6 +8,34 @@ export const metadata = {
 const Blogs = () => {
     const blogPosts = [
         {
+            title: "European Citizenship for Filipinos: Your Best Routes in 2026",
+            description: "Filipinos can get Spanish citizenship in just 2 years — plus Portugal, Germany, and Italy routes explained. The complete guide to European citizenship for Filipinos in 2026.",
+            image: "/blog26.jpg",
+            link: "/blogs/european-citizenship-filipinos-2026",
+            category: "Citizenship"
+        },
+        {
+            title: "Moving to Portugal from the USA: What It Actually Takes in 2026",
+            description: "The honest guide for Americans moving to Portugal — D7, D8, and D2 visas explained, real cost of living numbers, taxes, healthcare, schools, and what daily life feels like.",
+            image: "/blog25.jpg",
+            link: "/blogs/moving-to-portugal-from-usa-2026",
+            category: "Relocation Guide"
+        },
+        {
+            title: "Emigration from Russia: Where Russians Are Moving and What It Takes in 2026",
+            description: "Where are Russians emigrating in 2026, which countries still accept them, and what visa and residency routes actually work — the complete guide for Russian citizens.",
+            image: "/blog24.jpg",
+            link: "/blogs/russia-emigration-2026",
+            category: "Immigration Trends"
+        },
+        {
+            title: "Easiest Countries to Get Citizenship in 2026",
+            description: "The complete guide to the easiest citizenship routes in 2026 — naturalization, investment, and descent. Timelines, costs, and the fastest paths to an EU passport.",
+            image: "/blog23.jpg",
+            link: "/blogs/easiest-countries-citizenship-2026",
+            category: "Citizenship"
+        },
+        {
             title: "Which Countries Allow Dual Citizenship and Which Ones Ban It in 2026",
             description: "Full 2026 breakdown of which countries allow dual citizenship, which ban it, and the conditions in between — plus the fastest paths to a second passport in Europe.",
             image: "/blog22.jpg",
