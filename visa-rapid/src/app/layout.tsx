@@ -128,7 +128,7 @@ export default function RootLayout({
             },
           ],
           sameAs: [
-            'https://www.linkedin.com/in/nikita-20062a93/',
+            'https://www.linkedin.com/company/visarapid/',
             'https://www.youtube.com/@visa_rapid',
             'https://www.instagram.com/visa.rapid/',
           ],
