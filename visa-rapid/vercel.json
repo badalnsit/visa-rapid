@@ -5,6 +5,31 @@
       "source": "/residency",
       "destination": "/passive-income-visa",
       "permanent": true
+    },
+    {
+      "source": "/refund-policy",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/e-visa-vs-visa-on-arrival",
+      "destination": "/blogs",
+      "permanent": true
+    },
+    {
+      "source": "/uae-application-evisa",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/germany-to-usa-travel-tips",
+      "destination": "/blogs",
+      "permanent": true
     }
   ],
   "headers": [

@@ -4,6 +4,9 @@ import RelatedArticles from '../../../components/RelatedArticles'
 export const metadata = {
     title: 'Portugal Startup Visa vs UK, USA, and Canada: Complete Cost, Funding & Approval Comparison 2025 | Visa Rapid',
     description: 'Compare Portugal Startup Visa with UK, USA, and Canada. Detailed analysis of costs, funding requirements, approval trends, and eligibility for 2025.',
+    alternates: {
+        canonical: 'https://www.visarapid.com/blogs/portugal-startup-visa-comparison/',
+    },
 }
 
 const PortugalStartupVisaComparison = () => {

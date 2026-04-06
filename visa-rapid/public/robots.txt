@@ -1,6 +1,11 @@
 User-agent: *
 Allow: /
 Disallow: /admin/
+Disallow: /refund-policy
+Disallow: /privacy-policy
+Disallow: /e-visa-vs-visa-on-arrival
+Disallow: /uae-application-evisa
+Disallow: /germany-to-usa-travel-tips
 
 User-agent: GPTBot
 Allow: /

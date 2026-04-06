@@ -3,6 +3,9 @@ import Link from 'next/link'
 export const metadata = {
     title: 'Blogs | Visa Rapid',
     description: 'Expert articles on lifestyle, tax, visas, investment, healthcare, as well as finances for an affluent expat\'s life in Portugal',
+    alternates: {
+        canonical: 'https://www.visarapid.com/blogs/',
+    },
 }
 
 const Blogs = () => {
