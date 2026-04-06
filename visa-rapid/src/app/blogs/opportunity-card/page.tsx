@@ -4,6 +4,9 @@ import RelatedArticles from '../../../components/RelatedArticles'
 export const metadata = {
     title: 'Germany Opportunity Card (Chancenkarte): Complete Guide 2025 | Visa Rapid',
     description: 'The Germany Opportunity Card (Chancenkarte) is a new residence permit for skilled workers. Learn about eligibility, the points-based system, and how to apply in 2025.',
+    alternates: {
+        canonical: 'https://www.visarapid.com/blogs/opportunity-card/',
+    },
 }
 
 const OpportunityCard = () => {

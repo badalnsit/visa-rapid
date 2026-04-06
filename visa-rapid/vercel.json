@@ -30,6 +30,36 @@
       "source": "/germany-to-usa-travel-tips",
       "destination": "/blogs",
       "permanent": true
+    },
+    {
+      "source": "/germany-to-usa-travel-tips/",
+      "destination": "/blogs",
+      "permanent": true
+    },
+    {
+      "source": "/australia-eta-application",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/australia-eta-application/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/usa-esta",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/usa-esta/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/Portugal-passport-power",
+      "destination": "/blogs",
+      "permanent": true
     }
   ],
   "headers": [

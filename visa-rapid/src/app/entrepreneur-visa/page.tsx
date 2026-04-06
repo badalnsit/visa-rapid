@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Portugal D2 Entrepreneur Visa — Requirements & Process',
   description: 'Portugal D2 Entrepreneur Visa guide — eligibility, benefits, application process, and how Visa Rapid helps you secure EU residency.',
   alternates: {
-    canonical: '/entrepreneur-visa',
+    canonical: 'https://www.visarapid.com/entrepreneur-visa',
   },
   openGraph: {
     title: 'Portugal D2 Entrepreneur Visa — Requirements & Process',

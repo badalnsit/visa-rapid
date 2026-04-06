@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Germany Opportunity Card — Job Seeker Visa Guide',
   description: 'Guide to Germany\'s Opportunity Card (Chancenkarte) — eligibility, points system, benefits, and how to apply for this job seeker visa.',
   alternates: {
-    canonical: '/job-seeker-visa',
+    canonical: 'https://www.visarapid.com/job-seeker-visa',
   },
   openGraph: {
     title: 'Germany Opportunity Card — Job Seeker Visa Guide',
