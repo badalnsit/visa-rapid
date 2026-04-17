@@ -7,6 +7,55 @@ interface RelatedArticlesProps {
 const RelatedArticles = ({ currentPath }: RelatedArticlesProps) => {
     const allBlogPosts = [
         {
+            title: "How U.S. Citizens Can Retire in Portugal and Get Residency in 2026",
+            description: "The complete guide for American retirees moving to Portugal — D7 visa requirements, income thresholds, cost of living, healthcare, taxes, and the 5-year path to a Portuguese passport.",
+            image: "/blog33.jpg",
+            link: "/blogs/us-citizens-retire-portugal-2026",
+            category: "Retirement Abroad"
+        },
+        {
+            title: "Citizenship by Investment: USA vs Portugal — Which One Actually Makes Sense in 2026?",
+            description: "US EB-5 vs Portugal Golden Visa — an honest side-by-side on cost, timeline, passport strength, physical presence, and what you actually get at the end in 2026.",
+            image: "/blog32.jpg",
+            link: "/blogs/citizenship-by-investment-usa-vs-portugal-2026",
+            category: "Investment Residency"
+        },
+        {
+            title: "Europe vs USA: Immigration in 2026 — What Has Changed and What It Means for You",
+            description: "The US is restricting both legal and illegal immigration. Europe is cracking down on irregular migrants while expanding routes for skilled workers. Here is what changed in 2026.",
+            image: "/blog31.jpg",
+            link: "/blogs/europe-vs-usa-immigration-2026",
+            category: "Immigration Trends"
+        },
+        {
+            title: "Strongest Passports in the World in 2026",
+            description: "Singapore leads with 195 destinations. Where India, the US, and every major passport ranks on the Henley Index in 2026 — and how European residency can change your ranking.",
+            image: "/blog30.jpg",
+            link: "/blogs/strongest-passports-world-2026",
+            category: "Passport Index"
+        },
+        {
+            title: "You Are 21 Doing an MBA. Here Is How You Actually Move to Europe.",
+            description: "The complete guide for MBA graduates and young professionals who want to move to Europe — student visas, job seeker visas, EU Blue Card, Opportunity Card, and startup routes explained.",
+            image: "/blog29.jpg",
+            link: "/blogs/mba-graduate-move-to-europe",
+            category: "Career & Education"
+        },
+        {
+            title: "Portugal D7 Visa for British Families with UK Rental Income",
+            description: "UK rental income qualifies for Portugal's D7 Passive Income Visa. How British families with buy-to-let properties can use rental income to move to Portugal after Brexit.",
+            image: "/blog28.jpg",
+            link: "/blogs/portugal-d7-visa-uk-rental-income",
+            category: "Visa Guide"
+        },
+        {
+            title: "How an Indian Cleantech Founder Transformed His Business by Moving to Europe",
+            description: "A real case study of how an Indian climate tech founder used Portugal's D2 Entrepreneur Visa to unlock EU grants, new partnerships, and markets worth millions — while keeping his factories in India.",
+            image: "/blog27.jpg",
+            link: "/blogs/indian-cleantech-founder-europe",
+            category: "Case Study"
+        },
+        {
             title: "European Citizenship for Filipinos: Your Best Routes in 2026",
             description: "Filipinos can get Spanish citizenship in just 2 years — plus Portugal, Germany, and Italy routes explained. The complete guide to European citizenship for Filipinos in 2026.",
             image: "/blog26.jpg",
