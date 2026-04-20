@@ -11,6 +11,20 @@ export const metadata = {
 const Blogs = () => {
     const blogPosts = [
         {
+            title: "Digital Nomad Visa Portugal (D8): The Complete Guide for 2026",
+            description: "Everything you need to know about the Portugal digital nomad visa (D8) in 2026 — income requirements, documents, step-by-step application, costs, taxes, and whether it is worth it.",
+            image: "/blog35.jpg",
+            link: "/blogs/digital-nomad-visa-portugal",
+            category: "Visa Guide"
+        },
+        {
+            title: "Portugal Retirement Visa: The Complete Guide for Retirees in 2026",
+            description: "How to retire in Portugal on the D7 Retirement Visa — income requirements, step-by-step application, healthcare, taxes, best places to retire, and the 5-year path to EU citizenship.",
+            image: "/blog34.jpg",
+            link: "/blogs/portugal-retirement-visa",
+            category: "Retirement Abroad"
+        },
+        {
             title: "How U.S. Citizens Can Retire in Portugal and Get Residency in 2026",
             description: "The complete guide for American retirees moving to Portugal — D7 visa requirements, income thresholds, cost of living, healthcare, taxes, and the 5-year path to a Portuguese passport.",
             image: "/blog33.jpg",
@@ -67,8 +81,8 @@ const Blogs = () => {
             category: "Citizenship"
         },
         {
-            title: "Moving to Portugal from the USA: What It Actually Takes in 2026",
-            description: "The honest guide for Americans moving to Portugal — D7, D8, and D2 visas explained, real cost of living numbers, taxes, healthcare, schools, and what daily life feels like.",
+            title: "Move to Portugal from USA in 2026: The Complete Guide for Americans",
+            description: "D7, D8, and D2 visas explained, full move cost breakdown, cost of living table, taxes, healthcare, schools, and what daily life actually feels like for Americans in Portugal.",
             image: "/blog25.jpg",
             link: "/blogs/moving-to-portugal-from-usa-2026",
             category: "Relocation Guide"

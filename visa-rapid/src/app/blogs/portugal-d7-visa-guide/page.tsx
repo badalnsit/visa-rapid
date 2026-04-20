@@ -3,13 +3,17 @@ import RelatedArticles from '../../../components/RelatedArticles'
 
 export const metadata = {
     title: 'Portugal D7 Visa 2026: The Complete Guide for Passive Income Earners | Visa Rapid',
-    description: 'Everything you need to know about the Portugal D7 Visa in 2026 — income requirements, documents, step-by-step application process, costs, and the path to Portuguese citizenship.',
+    description: 'Everything you need to know about the Portugal D7 Visa in 2026 — income requirements, documents, step-by-step application, costs, and the 5-year path to Portuguese citizenship.',
+    alternates: {
+        canonical: 'https://www.visarapid.com/blogs/portugal-d7-visa-guide',
+    },
 }
 
 const PortugalD7VisaGuide = () => {
     return (
         <div className="bg-white min-h-screen">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+
                 {/* Back to Blogs */}
                 <div className="mb-8">
                     <Link
@@ -26,13 +30,16 @@ const PortugalD7VisaGuide = () => {
 
                 {/* Article Header */}
                 <header className="mb-8">
+                    <div className="mb-4">
+                        <span className="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wide">Retirement &amp; Visa</span>
+                    </div>
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight font-open-sans">
                         Portugal D7 Visa 2026: The Complete Guide for Passive Income Earners
                     </h1>
                     <div className="flex items-center text-gray-500 text-sm">
                         <span>Published on March 7, 2026</span>
-                        <span className="mx-2">•</span>
-                        <span>15 min read</span>
+                        <span className="mx-2">&bull;</span>
+                        <span>18 min read</span>
                     </div>
                 </header>
 
@@ -42,6 +49,9 @@ const PortugalD7VisaGuide = () => {
                         src="/blog15.jpg"
                         alt="Portugal D7 Visa 2026 Complete Guide"
                         className="w-full h-64 sm:h-80 lg:h-[400px] object-cover rounded-xl shadow-sm"
+                        width={1200}
+                        height={400}
+                        loading="lazy"
                     />
                 </div>
 
@@ -49,446 +59,419 @@ const PortugalD7VisaGuide = () => {
                     {/* Article Content */}
                     <article className="lg:col-span-3 prose prose-lg max-w-none text-gray-800">
 
-                        <h2 id="what-is" className="text-3xl font-bold text-gray-900 mt-8 mb-4 font-open-sans">What Is the Portugal D7 Visa?</h2>
-                        <p className="mb-4">
-                            The Portugal D7 Visa — officially known as the <strong>Passive Income Visa</strong> — is one of the most popular residency routes for non-EU nationals who want to live in Portugal without needing to work for a Portuguese employer.
+                        <p className="mb-4 text-lg">
+                            The Portugal D7 Visa has become one of the most sought-after residency routes in Europe. If you are searching for a D7 Visa for Portugal, you are likely a retiree, a remote-income professional, or an investor living off dividends — and you want a legitimate European base with a clear path to EU citizenship. That is exactly what the Portugal D7 Visa is built to deliver.
                         </p>
                         <p className="mb-4">
-                            Introduced to attract financially independent individuals, the D7 is designed for people who can sustain themselves through passive income sources such as pensions, rental income, investment returns, remote work earnings, or dividends.
+                            Also known as the Portugal Passive Income Visa, the Portugal D7 Visa is Portugal's lowest-cost residency pathway. No €500,000 investment. No complicated business plan. Just proof that you have stable passive income and a plan to actually live in Portugal. In 2026, the Portugal D7 Visa remains the smartest option for most Americans, Brits, Canadians, South Africans, and Indians who want to move to Portugal legally and affordably.
                         </p>
+                        <p className="mb-8">
+                            This guide covers everything about the Portugal D7 Visa: eligibility, income thresholds, step-by-step application process, costs, timelines, benefits, pitfalls, and how the Portugal Passive Income Visa compares with other options.
+                        </p>
+
+                        {/* What Is */}
+                        <h2 id="what-is" className="text-3xl font-bold text-gray-900 mt-6 mb-4 font-open-sans">What Is the Portugal D7 Visa?</h2>
                         <p className="mb-4">
-                            Sometimes called the <strong>Portugal Retirement Visa</strong> or the <strong>Portugal Passive Income Visa</strong>, the D7 has become a top choice for retirees, remote workers, digital nomads, and investors from countries like India, the United States, the United Kingdom, South Africa, and Brazil who want to enjoy Portugal's exceptional quality of life without the bureaucratic complexity of other European residency programs.
+                            The Portugal D7 Visa is a long-stay residency visa designed for non-EU nationals who can demonstrate stable passive income. It is formally called the Portugal Passive Income Visa because the income you use to qualify must come from sources that do not require active work — pensions, rental income, dividends, interest, royalties, or investment returns.
                         </p>
-                        <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-6">
-                            <p className="font-semibold text-blue-900 mb-1">What the D7 Visa gives you</p>
-                            <ul className="list-disc pl-5 space-y-1 text-blue-800">
-                                <li>A residence permit to live in Portugal long-term</li>
-                                <li>Access to Schengen Area travel across 27 countries</li>
-                                <li>Eligibility for the NHR 2.0 (IFICI+) tax regime</li>
-                                <li>A clear 5-year pathway to Portuguese citizenship</li>
-                            </ul>
-                        </div>
-                        <p className="mb-6">
-                            This guide covers everything you need to know about the D7 Visa in 2026 — from eligibility and income thresholds to documents, costs, and the full application process.
+                        <p className="mb-8">
+                            The D7 Visa for Portugal gives you an initial two-year residence permit, renewable for three more years. After five years of legal residency, you can apply for Portuguese permanent residency or full Portuguese citizenship. Portugal allows dual citizenship, so you keep your original passport.
                         </p>
 
-                        <h2 id="eligibility" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">Who Can Apply for the Portugal D7 Visa?</h2>
-                        <p className="mb-4">
-                            The D7 Visa is available to <strong>non-EU, non-EEA, and non-Swiss nationals</strong> who meet the income and eligibility requirements. EU citizens do not need a D7 Visa as they have the right to live in Portugal freely.
-                        </p>
-                        <p className="mb-4">You are eligible to apply if you:</p>
-                        <ul className="list-disc pl-6 mb-6 space-y-2">
-                            <li>Are a non-EU citizen (Indian, American, British, South African, Brazilian, Nigerian, Australian, Canadian, etc.)</li>
-                            <li>Have a regular, stable, and demonstrable passive income</li>
-                            <li>Can prove this income is sufficient to cover your living costs in Portugal</li>
-                            <li>Have no serious criminal record</li>
-                            <li>Hold a valid passport and qualify for a Portuguese entry visa</li>
-                        </ul>
-
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Accepted Income Sources</h3>
-                        <p className="mb-4">The D7 Visa accepts a wide range of income types, including:</p>
-                        <ul className="list-disc pl-6 mb-6 space-y-2">
-                            <li><strong>Pension income</strong> — state pensions, private pensions, or retirement funds from any country</li>
-                            <li><strong>Rental income</strong> — from properties you own domestically or abroad</li>
-                            <li><strong>Investment dividends</strong> — returns from stocks, bonds, mutual funds, or ETFs</li>
-                            <li><strong>Royalties</strong> — from intellectual property, books, patents, or creative works</li>
-                            <li><strong>Remote work income</strong> — salaries or freelance earnings from foreign employers</li>
-                            <li><strong>Business income</strong> — passive income from businesses you own but don't actively manage in Portugal</li>
-                            <li><strong>Financial interest income</strong> — returns on savings, term deposits, or fixed-income instruments</li>
-                        </ul>
-
-                        <h2 id="income-requirements" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">D7 Visa Income Requirements 2026</h2>
-                        <p className="mb-6">
-                            The Portuguese government sets a minimum income threshold based on Portugal's national minimum wage. For 2026, the requirements are:
-                        </p>
-                        <div className="overflow-x-auto mb-6">
-                            <table className="min-w-full bg-white border border-gray-200 rounded-xl shadow-sm">
-                                <thead>
-                                    <tr className="bg-gray-50 border-b border-gray-200">
-                                        <th className="py-4 px-6 text-left text-sm font-bold text-gray-700 uppercase tracking-wider font-open-sans">Applicant Type</th>
-                                        <th className="py-4 px-6 text-left text-sm font-bold text-gray-700 uppercase tracking-wider font-open-sans">Monthly Income Required</th>
-                                        <th className="py-4 px-6 text-left text-sm font-bold text-gray-700 uppercase tracking-wider font-open-sans">Annual Income Required</th>
-                                    </tr>
-                                </thead>
-                                <tbody className="divide-y divide-gray-200">
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-medium text-gray-900">Primary applicant</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">~€820/month (100% of minimum wage)</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">~€9,840/year</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-medium text-gray-900">Spouse / partner</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">+~€410/month (50% additional)</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">+~€4,920/year</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-medium text-gray-900">Each dependent child</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">+~€246/month (30% additional)</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">+~€2,952/year</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div className="bg-gray-50 border-l-4 border-yellow-400 p-6 rounded-r-lg mb-6">
-                            <p className="font-semibold text-gray-900 mb-2">Important Notes on Income</p>
-                            <ul className="list-disc pl-5 space-y-1 text-gray-700">
-                                <li>These are minimums. In practice, AIMA (Portugal's immigration authority) looks more favourably on applicants whose income is <strong>150–200% of the minimum</strong>.</li>
-                                <li>Income must be <strong>regular and recurring</strong> — a one-time payment does not qualify.</li>
-                                <li>You must be able to prove at least <strong>12 months of income history</strong>.</li>
-                                <li>Funds in a Portuguese bank account can supplement income by demonstrating financial stability.</li>
-                            </ul>
-                        </div>
-                        <div className="bg-green-50 p-5 rounded-xl border border-green-100 mb-6">
-                            <p className="font-semibold text-gray-900 mb-1">Pro Tip</p>
-                            <p className="text-gray-700 text-sm">Having <strong>€15,000–€20,000 in a Portuguese bank account</strong> in addition to meeting the monthly income threshold significantly strengthens your application.</p>
-                        </div>
-
-                        <h2 id="benefits" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">Benefits of the Portugal D7 Visa</h2>
-                        <p className="mb-6">The D7 Visa offers an exceptional range of benefits that make it one of Europe's most attractive residency programs:</p>
-
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">1. Live in Portugal Long-Term</h3>
-                        <p className="mb-6">
-                            Your initial D7 Visa grants a temporary residence permit valid for <strong>2 years</strong> (renewable for 3 years, then indefinitely). You can live, work, and build your life in Portugal.
-                        </p>
-
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">2. Travel Freely Across the Schengen Area</h3>
-                        <p className="mb-6">
-                            As a Portuguese resident, you can travel visa-free to all 27 Schengen countries — including France, Germany, Italy, Spain, and the Netherlands — for up to 90 days in any 180-day period while using Portugal as your base.
-                        </p>
-
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">3. Access to the NHR 2.0 (IFICI+) Tax Regime</h3>
-                        <p className="mb-6">
-                            Qualifying applicants can access Portugal's <strong>NHR 2.0 tax program (IFICI+)</strong>, which offers significant tax benefits for new residents — including reduced flat rates on certain foreign income streams and exemptions on many types of foreign-sourced income. This is particularly valuable for retirees and investors.
-                        </p>
-
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">4. Free Public Healthcare</h3>
-                        <p className="mb-6">
-                            As a Portuguese resident, you and your family gain access to Portugal's <strong>Serviço Nacional de Saúde (SNS)</strong> — the national health service — at minimal or no cost.
-                        </p>
-
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">5. Free Quality Education</h3>
-                        <p className="mb-6">
-                            Your children can attend public schools and universities in Portugal, which consistently rank well in international assessments. University tuition is dramatically cheaper than in the US or UK.
-                        </p>
-
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">6. Pathway to Permanent Residency and Citizenship</h3>
-                        <p className="mb-4">After 5 years of legal residency, you become eligible to apply for:</p>
-                        <ul className="list-disc pl-6 mb-6 space-y-2">
-                            <li><strong>Portuguese Permanent Residency</strong> — valid for 5 years, renewable</li>
-                            <li><strong>Portuguese Citizenship</strong> — one of the world's most powerful passports, with visa-free access to 190+ countries</li>
-                        </ul>
-
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">7. Bring Your Family</h3>
-                        <p className="mb-6">
-                            Your spouse, dependent children, and in some cases dependent parents can also apply for residency under the family reunification provisions.
-                        </p>
-
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">8. Work Rights</h3>
-                        <p className="mb-6">
-                            While the D7 is a passive income visa, residents are also permitted to work in Portugal if they choose — for a Portuguese employer or remotely for a foreign company.
-                        </p>
-
-                        <h2 id="documents" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">Documents Required for the Portugal D7 Visa</h2>
-                        <p className="mb-4">
-                            Getting your document package right is critical. A single missing or incorrect document is one of the most common reasons for rejection or delays.
-                        </p>
-
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Core Documents (All Applicants)</h3>
-                        <ul className="list-disc pl-6 mb-6 space-y-2">
-                            <li><strong>Valid passport</strong> — must be valid for at least 6 months beyond your intended stay, with at least 2 blank pages</li>
-                            <li><strong>Portugal D7 Visa application form</strong> — completed and signed</li>
-                            <li><strong>Passport-size photographs</strong> — recent, meeting Portuguese consulate specifications (usually 2)</li>
-                            <li><strong>Criminal background check</strong> — from your country of residence, legalized/apostilled, translated to Portuguese if required</li>
-                            <li><strong>Proof of accommodation in Portugal</strong> — signed lease agreement, property purchase deed, or a letter of invitation from a host</li>
-                            <li><strong>Health insurance</strong> — valid in Portugal, covering at least €30,000 in medical expenses (mandatory before the visa is issued)</li>
-                            <li><strong>Proof of income/financial means</strong> — see income documentation below</li>
-                            <li><strong>Portuguese bank account statement</strong> — showing sufficient funds</li>
-                        </ul>
-
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Income Documentation by Source</h3>
-                        <div className="overflow-x-auto mb-6">
-                            <table className="min-w-full bg-white border border-gray-200 rounded-xl shadow-sm">
-                                <thead>
-                                    <tr className="bg-gray-50 border-b border-gray-200">
-                                        <th className="py-4 px-6 text-left text-sm font-bold text-gray-700 uppercase tracking-wider font-open-sans">Income Type</th>
-                                        <th className="py-4 px-6 text-left text-sm font-bold text-gray-700 uppercase tracking-wider font-open-sans">Documents Required</th>
-                                    </tr>
-                                </thead>
-                                <tbody className="divide-y divide-gray-200">
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-medium text-gray-900">Pension</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">Official pension statement, pension authority letter confirming monthly amount</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-medium text-gray-900">Rental income</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">Lease agreements, rental income declarations, bank statements showing deposits</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-medium text-gray-900">Dividends / investments</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">Brokerage statements, shareholder certificates, dividend payment records</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-medium text-gray-900">Remote work salary</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">Employment contract, salary slips (3–6 months), employer letter confirming remote work</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-medium text-gray-900">Freelance income</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">Client contracts, invoices, tax returns showing consistent earnings</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-medium text-gray-900">Bank savings</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">Bank statements for last 6–12 months (all accounts)</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div className="bg-gray-50 border-l-4 border-blue-400 p-5 rounded-r-lg mb-6">
-                            <p className="font-semibold text-gray-900 mb-1">For Family Applicants</p>
-                            <ul className="list-disc pl-5 space-y-1 text-gray-700 text-sm">
-                                <li>Marriage certificate (if applying with spouse)</li>
-                                <li>Birth certificates of children</li>
-                                <li>Proof of dependency for dependent parents</li>
-                            </ul>
-                            <p className="text-gray-600 text-sm mt-2"><strong>Important:</strong> All documents not in Portuguese or English must be officially translated and, where required, apostilled.</p>
-                        </div>
-
-                        <h2 id="application-process" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">Step-by-Step Application Process</h2>
-                        <p className="mb-6">
-                            The D7 Visa application involves two main stages: applying at the consulate from your home country, and then applying for a residence permit once in Portugal.
-                        </p>
-
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Stage 1: Apply at the Portuguese Consulate</h3>
-                        <div className="space-y-3 mb-8">
+                        {/* Who Should Apply */}
+                        <h2 id="who" className="text-3xl font-bold text-gray-900 mt-6 mb-4 font-open-sans">Who Should Apply for the D7 Visa for Portugal?</h2>
+                        <p className="mb-4">The Portugal D7 Visa suits four main profiles:</p>
+                        <div className="space-y-3 mb-6">
                             {[
-                                { step: "Open a Portuguese Bank Account", detail: "Open a Portuguese bank account before applying. While technically not always mandatory at the consulate stage, it demonstrates commitment and financial integration into Portugal. Millennium BCP, Novo Banco, and Montepio are popular choices for expats." },
-                                { step: "Secure Accommodation", detail: "Sign a long-term rental agreement or purchase property in Portugal. You need a verifiable Portuguese address for your application. A minimum 12-month lease is recommended." },
-                                { step: "Obtain Health Insurance", detail: "Get comprehensive health insurance valid in Portugal. This is mandatory for the visa stage. Many international health insurance providers offer Portugal-compliant plans." },
-                                { step: "Gather All Documents", detail: "Compile your complete document package based on the list above. Get criminal background checks apostilled. Have documents translated where required." },
-                                { step: "Book a Consulate Appointment", detail: "Contact the Portuguese consulate in your country (or the consulate responsible for your region) and book a D7 Visa appointment. Wait times vary — in some countries, appointments can take 4–12 weeks to secure." },
-                                { step: "Attend Your Consulate Appointment", detail: "Submit your application and all documents. Pay the consulate visa fee. The consular officer may ask questions about your income, accommodation plans, and ties to Portugal." },
-                                { step: "Receive Your Entry Visa", detail: "If approved, you receive a short-term D7 entry visa (usually valid for 4 months, allowing 2 entries). This is not your residence permit — it's an authorization to travel to Portugal and apply for your residence permit." },
+                                { label: "Retirees", detail: "US Social Security, UK state pensions, and private pensions all qualify as income for the Portugal Passive Income Visa." },
+                                { label: "Landlords", detail: "Rental income from properties outside Portugal works perfectly as D7 Visa for Portugal income proof." },
+                                { label: "Investors", detail: "Dividends, bond coupons, royalties, and interest income qualify." },
+                                { label: "Remote-income professionals with diversified income", detail: "Some remote workers combine passive income streams to qualify for the Portugal D7 Visa instead of the D8 Digital Nomad Visa." },
                             ].map((item, i) => (
-                                <div key={i} className="flex items-start gap-4 bg-gray-50 p-4 rounded-xl border border-gray-100">
-                                    <span className="flex-shrink-0 w-7 h-7 rounded-full bg-red-600 !text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
+                                <div key={i} className="flex gap-4 bg-gray-50 border border-gray-200 rounded-xl p-4">
+                                    <div className="flex-shrink-0 w-6 h-6 bg-blue-700 text-white rounded-full flex items-center justify-center text-xs font-bold mt-0.5">{i + 1}</div>
                                     <div>
-                                        <p className="font-semibold text-gray-900 mb-1">{item.step}</p>
-                                        <p className="text-gray-700 text-sm">{item.detail}</p>
+                                        <p className="font-semibold text-gray-900 mb-0.5 text-sm">{item.label}</p>
+                                        <p className="text-gray-600 text-sm">{item.detail}</p>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                        <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-8 text-sm text-amber-800">
+                            If your income is mostly salary from a foreign employer, the D8 Digital Nomad Visa is a better fit. The Portugal D7 Visa is specifically for passive income earners.
+                        </div>
+
+                        {/* Income Requirements */}
+                        <h2 id="income-requirements" className="text-3xl font-bold text-gray-900 mt-6 mb-4 font-open-sans">Portugal D7 Visa Income Requirements in 2026</h2>
+                        <p className="mb-4">The income threshold for the Portugal D7 Visa is tied to the Portuguese minimum wage. In 2026:</p>
+                        <div className="overflow-x-auto mb-6">
+                            <table className="w-full text-sm border-collapse">
+                                <thead>
+                                    <tr className="bg-gray-900 text-white">
+                                        <th className="px-4 py-3 text-left font-semibold">Applicant</th>
+                                        <th className="px-4 py-3 text-left font-semibold">Minimum Monthly Passive Income</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {[
+                                        { who: "Main applicant", income: "€920" },
+                                        { who: "+ Spouse", income: "+€460 (50%)" },
+                                        { who: "+ Each dependent child", income: "+€276 (30%)" },
+                                        { who: "Family of four (2 adults + 2 kids)", income: "~€1,932" },
+                                    ].map((row, i) => (
+                                        <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                                            <td className="px-4 py-3 font-medium text-gray-900 border border-gray-200">{row.who}</td>
+                                            <td className="px-4 py-3 text-blue-700 font-semibold border border-gray-200">{row.income}</td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                        <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-4 text-sm text-blue-800">
+                            You must also have savings of at least <strong>€11,040</strong> (12 months of income) in a Portuguese bank account at the time of application. Many applicants choose to hold 15–24 months of savings to strengthen the file.
+                        </div>
+                        <p className="mb-3 text-sm font-semibold text-gray-800">Qualifying income sources for the Portugal D7 Visa include:</p>
+                        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-8">
+                            {[
+                                "Pensions (state and private)",
+                                "US Social Security",
+                                "Rental income (from outside Portugal)",
+                                "Dividends from stocks or mutual funds",
+                                "Interest from savings or bonds",
+                                "Royalties (books, music, patents, IP)",
+                                "Annuities and structured investment income",
+                            ].map((item, i) => (
+                                <div key={i} className="flex gap-2 items-center text-sm bg-gray-50 border border-gray-200 rounded-lg px-3 py-2">
+                                    <svg className="w-4 h-4 text-green-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                                    <span className="text-gray-700">{item}</span>
+                                </div>
+                            ))}
+                        </div>
+
+                        {/* Documents */}
+                        <h2 id="documents" className="text-3xl font-bold text-gray-900 mt-6 mb-4 font-open-sans">Documents Required for the Portugal D7 Visa</h2>
+                        <p className="mb-4">The paperwork is the part that trips up most D7 Visa for Portugal applicants. Prepare these well before you apply:</p>
+                        <div className="space-y-2 mb-8">
+                            {[
+                                "Valid passport (6+ months validity, at least two blank pages)",
+                                "Two passport photos",
+                                "Portugal D7 Visa application form (completed)",
+                                "Criminal background check from your home country, apostilled and translated",
+                                "Proof of passive income (bank statements, pension letters, dividend statements — typically 6–12 months)",
+                                "Portuguese bank account with €11,040+ savings",
+                                "Proof of accommodation in Portugal (12-month lease or property deed)",
+                                "Health insurance valid in Portugal",
+                                "Portuguese tax number (NIF)",
+                                "Motivation letter explaining why you want the Portugal Passive Income Visa",
+                            ].map((doc, i) => (
+                                <div key={i} className="flex gap-3 items-start text-sm bg-gray-50 border border-gray-200 rounded-lg px-4 py-2">
+                                    <svg className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                                    <span className="text-gray-700">{doc}</span>
+                                </div>
+                            ))}
+                        </div>
+
+                        {/* Step by Step */}
+                        <h2 id="how-to-apply" className="text-3xl font-bold text-gray-900 mt-6 mb-4 font-open-sans">Step-by-Step: How to Apply for the Portugal D7 Visa</h2>
+                        <div className="space-y-4 mb-8">
+                            {[
+                                {
+                                    title: "Step 1 — Get Your NIF and Portuguese Bank Account",
+                                    detail: "Before you can apply for the D7 Visa for Portugal, you need a NIF (Portuguese tax number). Non-residents can get one through a fiscal representative for €150–€350. Once you have the NIF, open a Portuguese bank account and transfer your €11,040+ savings buffer."
+                                },
+                                {
+                                    title: "Step 2 — Secure Accommodation in Portugal",
+                                    detail: "The Portugal D7 Visa requires proof of accommodation for at least 12 months. A standard rental contract is accepted, as is a property deed if you own. Many applicants sign leases remotely before applying."
+                                },
+                                {
+                                    title: "Step 3 — Gather Your Income Evidence",
+                                    detail: "Collect 6–12 months of statements showing your passive income clearly landing in your bank account. If your income is from multiple sources (e.g., pension + dividends + rental), document each stream separately. This is the heart of any D7 Visa for Portugal application."
+                                },
+                                {
+                                    title: "Step 4 — Get Your Criminal Background Check",
+                                    detail: "You need a clean criminal record from every country you have lived in during the past five years. The document must be apostilled (via the Hague Convention process) and translated into Portuguese."
+                                },
+                                {
+                                    title: "Step 5 — Submit Your Portugal D7 Visa Application",
+                                    detail: "Submit the application at the Portuguese consulate covering your country of residence. Processing typically takes 60–120 days. Once approved, you receive a 4-month entry visa."
+                                },
+                                {
+                                    title: "Step 6 — Travel to Portugal and Attend Your AIMA Appointment",
+                                    detail: "Fly to Portugal within the 4-month window. Attend your AIMA (Agência para a Integração, Migrações e Asilo) appointment to convert the entry visa into a two-year residence permit."
+                                },
+                                {
+                                    title: "Step 7 — Renew and Eventually Apply for Citizenship",
+                                    detail: "Renew at year two for three more years. At year five, apply for permanent residency or Portuguese citizenship. Citizenship requires A2 Portuguese language proficiency."
+                                },
+                            ].map((item, i) => (
+                                <div key={i} className="flex gap-4 items-start bg-gray-50 border border-gray-200 rounded-xl p-5">
+                                    <div className="flex-shrink-0 w-8 h-8 bg-blue-700 text-white rounded-full flex items-center justify-center text-sm font-bold mt-0.5">{i + 1}</div>
+                                    <div>
+                                        <p className="font-semibold text-gray-900 mb-1 text-sm">{item.title}</p>
+                                        <p className="text-gray-600 text-sm">{item.detail}</p>
                                     </div>
                                 </div>
                             ))}
                         </div>
 
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Stage 2: Apply for Your Residence Permit in Portugal</h3>
+                        {/* Costs */}
+                        <h2 id="costs" className="text-3xl font-bold text-gray-900 mt-6 mb-4 font-open-sans">How Much Does the Portugal D7 Visa Cost?</h2>
+                        <p className="mb-4 text-sm text-gray-700">The Portugal D7 Visa itself is one of the cheapest European residency visas. The real costs are the process around it.</p>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                            <div className="bg-blue-50 border border-blue-100 rounded-xl p-5">
+                                <p className="font-bold text-blue-900 mb-3 text-sm">Direct Visa Costs</p>
+                                <div className="space-y-2">
+                                    {[
+                                        { label: "Consulate application fee", value: "~€90" },
+                                        { label: "AIMA residence permit fee", value: "~€170" },
+                                        { label: "Renewal fees (every 2–3 years)", value: "~€170" },
+                                    ].map((item, i) => (
+                                        <div key={i} className="flex justify-between text-sm">
+                                            <span className="text-gray-700">{item.label}</span>
+                                            <span className="font-semibold text-blue-800">{item.value}</span>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                            <div className="bg-gray-50 border border-gray-200 rounded-xl p-5">
+                                <p className="font-bold text-gray-900 mb-3 text-sm">Surrounding Costs (typical budget)</p>
+                                <div className="space-y-2">
+                                    {[
+                                        { label: "NIF + fiscal representation", value: "€150–€350" },
+                                        { label: "Translations and apostilles", value: "€150–€500" },
+                                        { label: "Health insurance (first year)", value: "€500–€1,500" },
+                                        { label: "Lease deposit and setup", value: "€2,000–€5,000" },
+                                        { label: "Flights and moving", value: "€500–€3,000" },
+                                        { label: "Immigration consultant (optional)", value: "€1,500–€4,000" },
+                                    ].map((item, i) => (
+                                        <div key={i} className="flex justify-between text-sm">
+                                            <span className="text-gray-700">{item.label}</span>
+                                            <span className="font-semibold text-gray-800">{item.value}</span>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                        <div className="bg-green-50 border border-green-200 rounded-xl p-4 mb-8 text-sm text-green-800">
+                            <strong>Total first-year budget:</strong> €5,000–€15,000 depending on family size and whether you use professional support.
+                        </div>
+
+                        {/* Benefits */}
+                        <h2 id="benefits" className="text-3xl font-bold text-gray-900 mt-6 mb-4 font-open-sans">Benefits of the Portugal D7 Visa</h2>
+                        <p className="mb-4">The Portugal Passive Income Visa comes with a remarkable list of benefits:</p>
                         <div className="space-y-3 mb-8">
                             {[
-                                { step: "Travel to Portugal", detail: "Enter Portugal using your D7 entry visa before it expires. You must be in Portugal to apply for your residence permit." },
-                                { step: "Book Your AIMA Appointment", detail: "Schedule an appointment with AIMA (Agência para a Integração, Migrações e Asilo) — Portugal's immigration authority. AIMA appointments can take 1–3 months to secure, so book as early as possible after arriving." },
-                                { step: "Attend Your AIMA Appointment", detail: "Submit your documents, provide biometric data (fingerprints and photo), and pay the residence permit fee. AIMA will review your application and income documentation." },
-                                { step: "Receive Your Residence Permit Card", detail: "Once approved, your residence permit card is issued — valid for 2 years. This is your official document confirming your right to live in Portugal." },
+                                { title: "Full Portuguese residency", detail: "Live, study, work, and access public services." },
+                                { title: "Schengen free movement", detail: "Travel visa-free across 29 European countries." },
+                                { title: "Family reunification", detail: "Spouse, children, and dependent parents can join." },
+                                { title: "Path to EU citizenship in 5 years", detail: "Portuguese passport, freedom of movement across all 27 EU states." },
+                                { title: "Access to Portugal's public healthcare (SNS)", detail: "Universal coverage at near-zero cost." },
+                                { title: "Access to IFICI (NHR 2.0) tax regime", detail: "Qualified professionals can get a flat 20% tax on Portuguese income and near-zero tax on most foreign income for 10 years." },
+                                { title: "Dual citizenship allowed", detail: "You keep your original passport." },
                             ].map((item, i) => (
-                                <div key={i} className="flex items-start gap-4 bg-gray-50 p-4 rounded-xl border border-gray-100">
-                                    <span className="flex-shrink-0 w-7 h-7 rounded-full bg-gray-700 !text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
+                                <div key={i} className="flex gap-3 items-start bg-gray-50 border border-gray-200 rounded-xl px-4 py-3">
+                                    <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
                                     <div>
-                                        <p className="font-semibold text-gray-900 mb-1">{item.step}</p>
-                                        <p className="text-gray-700 text-sm">{item.detail}</p>
+                                        <span className="font-semibold text-gray-900 text-sm">{item.title}</span>
+                                        <span className="text-gray-600 text-sm"> — {item.detail}</span>
                                     </div>
                                 </div>
                             ))}
                         </div>
 
-                        <h2 id="processing-time" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">Portugal D7 Visa Processing Time</h2>
-                        <div className="overflow-x-auto mb-6">
-                            <table className="min-w-full bg-white border border-gray-200 rounded-xl shadow-sm">
-                                <thead>
-                                    <tr className="bg-gray-50 border-b border-gray-200">
-                                        <th className="py-4 px-6 text-left text-sm font-bold text-gray-700 uppercase tracking-wider font-open-sans">Stage</th>
-                                        <th className="py-4 px-6 text-left text-sm font-bold text-gray-700 uppercase tracking-wider font-open-sans">Typical Timeline</th>
-                                    </tr>
-                                </thead>
-                                <tbody className="divide-y divide-gray-200">
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-medium text-gray-900">Consulate appointment wait</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">2–12 weeks (varies by country)</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-medium text-gray-900">Consulate visa decision</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">2–8 weeks after appointment</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-medium text-gray-900">AIMA appointment wait (in Portugal)</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">1–3 months</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-medium text-gray-900">AIMA residence permit decision</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">4–8 weeks after AIMA appointment</td>
-                                    </tr>
-                                    <tr className="bg-gray-50">
-                                        <td className="py-4 px-6 text-sm font-bold text-gray-900">Total estimated timeline</td>
-                                        <td className="py-4 px-6 text-sm font-bold text-gray-700">4–8 months from start to residence permit</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <h2 id="costs" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">D7 Visa Costs and Fees</h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
-                                <h4 className="text-lg font-bold text-gray-900 mb-3 font-open-sans">Government Fees</h4>
-                                <ul className="list-disc pl-5 space-y-1 text-gray-700 text-sm">
-                                    <li>Consulate visa fee: ~€90</li>
-                                    <li>AIMA residence permit (first issue): ~€320</li>
-                                    <li>AIMA renewal fee: ~€160–€200</li>
-                                </ul>
-                            </div>
-                            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
-                                <h4 className="text-lg font-bold text-gray-900 mb-3 font-open-sans">Additional Costs</h4>
-                                <ul className="list-disc pl-5 space-y-1 text-gray-700 text-sm">
-                                    <li>Health insurance: €400–€1,500/year</li>
-                                    <li>Document translation and apostille: €100–€500</li>
-                                    <li>NIF (tax number) registration: ~€10–€50</li>
-                                    <li>Portuguese bank account setup: typically free</li>
-                                    <li>Legal/immigration advisory: €500–€2,000</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <h2 id="after-approval" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">After Approval: Your First Steps in Portugal</h2>
-                        <ul className="list-disc pl-6 mb-6 space-y-3">
-                            <li><strong>Register with the local council (Junta de Freguesia):</strong> Register your address with your local parish council. This is required for many administrative processes.</li>
-                            <li><strong>Apply for NHR 2.0 (IFICI+) tax status:</strong> Submit your NHR application to the Portuguese Tax and Customs Authority (AT) within the required timeframe. Missing this window means losing the benefit for your first year.</li>
-                            <li><strong>Register with a health centre (Centro de Saúde):</strong> Register with your local public health centre to access the SNS healthcare system.</li>
-                            <li><strong>Open or activate your Portuguese bank account:</strong> Ensure your Portuguese account is active and set up for regular income deposits.</li>
-                            <li><strong>Start your 5-year residency clock:</strong> Your path to permanent residency and citizenship begins from your first residence permit date. Keep records of your time in Portugal.</li>
-                        </ul>
-
-                        <h2 id="d7-vs-others" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">D7 Visa vs Other Portugal Residency Options</h2>
+                        {/* Comparison Table */}
+                        <h2 id="comparison" className="text-3xl font-bold text-gray-900 mt-6 mb-4 font-open-sans">Portugal D7 Visa vs Other Portuguese Visas</h2>
                         <div className="overflow-x-auto mb-8">
-                            <table className="min-w-full bg-white border border-gray-200 rounded-xl shadow-sm">
+                            <table className="w-full text-sm border-collapse">
                                 <thead>
-                                    <tr className="bg-gray-50 border-b border-gray-200">
-                                        <th className="py-4 px-6 text-left text-sm font-bold text-gray-700 uppercase tracking-wider font-open-sans">Visa</th>
-                                        <th className="py-4 px-6 text-left text-sm font-bold text-gray-700 uppercase tracking-wider font-open-sans">Best For</th>
-                                        <th className="py-4 px-6 text-left text-sm font-bold text-gray-700 uppercase tracking-wider font-open-sans">Investment Required</th>
-                                        <th className="py-4 px-6 text-left text-sm font-bold text-gray-700 uppercase tracking-wider font-open-sans">Must Relocate?</th>
+                                    <tr className="bg-gray-900 text-white">
+                                        <th className="px-4 py-3 text-left font-semibold">Feature</th>
+                                        <th className="px-4 py-3 text-left font-semibold">D7 Visa</th>
+                                        <th className="px-4 py-3 text-left font-semibold">D8 Visa</th>
+                                        <th className="px-4 py-3 text-left font-semibold">D2 Visa</th>
+                                        <th className="px-4 py-3 text-left font-semibold">Golden Visa</th>
                                     </tr>
                                 </thead>
-                                <tbody className="divide-y divide-gray-200">
-                                    <tr className="bg-green-50">
-                                        <td className="py-4 px-6 text-sm font-semibold text-gray-900">D7 Visa</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">Retirees, passive income earners, remote workers</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">❌ No investment needed</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">✅ Yes (183+ days/year)</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-semibold text-gray-900">Golden Visa</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">Investors seeking residency without relocation</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">✅ €250K–€500K+</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">❌ Only 7 days/year</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-semibold text-gray-900">D2 Visa</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">Entrepreneurs and startup founders</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">❌ No investment needed</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">✅ Yes</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-4 px-6 text-sm font-semibold text-gray-900">Digital Nomad Visa (D8)</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">Remote workers with foreign employer/clients</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">❌ No investment needed</td>
-                                        <td className="py-4 px-6 text-sm text-gray-700">✅ Yes</td>
-                                    </tr>
+                                <tbody>
+                                    {[
+                                        { feature: "Income type", d7: "Passive", d8: "Remote/active salary", d2: "Business income", gv: "Investment" },
+                                        { feature: "Minimum income", d7: "€920/month", d8: "€3,480/month", d2: "Business plan", gv: "None" },
+                                        { feature: "Minimum investment", d7: "Savings buffer", d8: "Savings buffer", d2: "€10k–€50k+", gv: "€250k–€500k" },
+                                        { feature: "Physical presence", d7: "16 months in 2 years", d8: "16 months in 2 years", d2: "16 months in 2 years", gv: "7 days/year" },
+                                        { feature: "Citizenship timeline", d7: "5 years", d8: "5 years", d2: "5 years", gv: "5 years" },
+                                    ].map((row, i) => (
+                                        <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                                            <td className="px-4 py-3 font-semibold text-gray-900 border border-gray-200">{row.feature}</td>
+                                            <td className="px-4 py-3 text-green-700 font-medium border border-gray-200 bg-green-50">{row.d7}</td>
+                                            <td className="px-4 py-3 text-gray-700 border border-gray-200">{row.d8}</td>
+                                            <td className="px-4 py-3 text-gray-700 border border-gray-200">{row.d2}</td>
+                                            <td className="px-4 py-3 text-gray-700 border border-gray-200">{row.gv}</td>
+                                        </tr>
+                                    ))}
                                 </tbody>
                             </table>
                         </div>
+                        <div className="bg-green-50 border border-green-200 rounded-xl p-4 mb-8 text-sm text-green-800">
+                            For most retirees and passive-income earners, the Portugal D7 Visa is the cleanest, cheapest, and fastest route.
+                        </div>
 
-                        <h2 id="rejection-reasons" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">Common Reasons for D7 Visa Rejection</h2>
-                        <ul className="list-disc pl-6 mb-6 space-y-3">
-                            <li><strong>Insufficient or irregular income:</strong> Income below the threshold, inconsistent payment history, or income that cannot be proven as recurring.</li>
-                            <li><strong>Incomplete documentation:</strong> Missing documents, expired criminal background checks, or documents not properly apostilled or translated.</li>
-                            <li><strong>No Portuguese bank account or accommodation:</strong> Failing to demonstrate ties to Portugal before applying.</li>
-                            <li><strong>Invalid or insufficient health insurance:</strong> Insurance that doesn't meet the €30,000 minimum coverage requirement or isn't valid in Portugal.</li>
-                            <li><strong>Criminal record issues:</strong> Any serious criminal conviction that raises concerns for the consular officer.</li>
-                            <li><strong>Income from non-qualifying sources:</strong> Submitting a one-time payment, irregular freelance income without contracts, or income that cannot be verified.</li>
-                        </ul>
+                        {/* Physical Presence */}
+                        <h2 id="presence" className="text-3xl font-bold text-gray-900 mt-6 mb-4 font-open-sans">Physical Presence Requirements for the D7 Visa for Portugal</h2>
+                        <p className="mb-4">The Portugal D7 Visa is a "live here" visa. You must spend:</p>
+                        <div className="space-y-3 mb-4">
+                            <div className="flex gap-3 items-start bg-blue-50 border border-blue-100 rounded-xl px-4 py-3 text-sm">
+                                <svg className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L7.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z" clipRule="evenodd" /></svg>
+                                <span className="text-blue-800"><strong>At least 16 months</strong> physically in Portugal during the first 2-year residence permit, or</span>
+                            </div>
+                            <div className="flex gap-3 items-start bg-blue-50 border border-blue-100 rounded-xl px-4 py-3 text-sm">
+                                <svg className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L7.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z" clipRule="evenodd" /></svg>
+                                <span className="text-blue-800"><strong>At least 8 months</strong> in each subsequent 2-year cycle (with no absence longer than 6 consecutive months)</span>
+                            </div>
+                        </div>
+                        <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-8 text-sm text-amber-800">
+                            This is the single biggest difference between the Portugal D7 Visa and the Portugal Golden Visa. If you do not plan to actually live in Portugal, the D7 Visa for Portugal is not the right choice.
+                        </div>
 
-                        <h2 id="faq" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">Frequently Asked Questions</h2>
+                        {/* Tax Considerations */}
+                        <h2 id="taxes" className="text-3xl font-bold text-gray-900 mt-6 mb-4 font-open-sans">Tax Considerations for the Portugal Passive Income Visa</h2>
+                        <p className="mb-4">Once you spend 183+ days in Portugal in a calendar year, you become a Portuguese tax resident. This means:</p>
+                        <div className="space-y-3 mb-6">
+                            {[
+                                { point: "Worldwide income becomes taxable in Portugal", detail: "(subject to double tax treaties)." },
+                                { point: "IFICI / NHR 2.0 regime may apply", detail: "If you qualify (bachelor's degree + 3 years experience, or a PhD). It gives you a flat 20% on Portuguese income and 0% on most foreign dividends/royalties/capital gains for 10 years." },
+                                { point: "US citizens still file US taxes on worldwide income", detail: "The US-Portugal tax treaty and Foreign Tax Credit prevent double taxation." },
+                            ].map((item, i) => (
+                                <div key={i} className="flex gap-3 items-start text-sm bg-gray-50 border border-gray-200 rounded-xl px-4 py-3">
+                                    <svg className="w-4 h-4 text-blue-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" /></svg>
+                                    <div>
+                                        <span className="font-semibold text-gray-900">{item.point}</span>
+                                        <span className="text-gray-600"> — {item.detail}</span>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                        <div className="bg-amber-50 border border-amber-300 rounded-xl p-4 mb-8 text-sm text-amber-800">
+                            Budget for a cross-border tax advisor — <strong>€1,000–€3,000/year</strong> is standard and saves you far more than it costs.
+                        </div>
 
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Can I work in Portugal on a D7 Visa?</h3>
-                        <p className="mb-6">
-                            Yes. While the D7 Visa is designed for passive income earners, holders are permitted to work in Portugal — for a local employer or remotely for a foreign company. If you plan to run an active business or work as an independent contractor with Portuguese clients, the D2 Visa is more appropriate.
-                        </p>
+                        {/* Common Mistakes */}
+                        <h2 id="mistakes" className="text-3xl font-bold text-gray-900 mt-6 mb-4 font-open-sans">Common Mistakes to Avoid on Your Portugal D7 Visa Application</h2>
+                        <div className="space-y-3 mb-8">
+                            {[
+                                { mistake: "Mixing active and passive income", detail: "Salary does not qualify as D7 income. If you have mixed income, present the passive streams cleanly." },
+                                { mistake: "Insufficient savings buffer", detail: "The €11,040 minimum is a floor, not a target. Aim for 15–24 months." },
+                                { mistake: "Short-term accommodation", detail: "Airbnb bookings don't qualify. You need a real 12-month lease or property deed." },
+                                { mistake: "Stale bank statements", detail: "Consulates want statements within 30–60 days of application." },
+                                { mistake: "Skipping the motivation letter", detail: "It is not optional, and a strong one can tilt borderline files." },
+                                { mistake: "Ignoring physical presence rules after approval", detail: "Failing the 16-month rule in your first 2 years can invalidate your renewal." },
+                            ].map((item, i) => (
+                                <div key={i} className="flex gap-3 items-start bg-red-50 border border-red-100 rounded-xl px-4 py-3 text-sm">
+                                    <svg className="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" /></svg>
+                                    <div>
+                                        <span className="font-semibold text-red-800">{item.mistake}:</span>
+                                        <span className="text-red-700"> {item.detail}</span>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
 
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">How long can I stay outside Portugal on a D7 Visa?</h3>
-                        <p className="mb-6">
-                            To maintain your D7 residency, you must spend at least <strong>183 days per year</strong> in Portugal (or demonstrate that Portugal is your primary country of residence). Extended absences without justification can lead to permit revocation.
-                        </p>
+                        {/* Timeline */}
+                        <h2 id="timeline" className="text-3xl font-bold text-gray-900 mt-6 mb-4 font-open-sans">How Long Does the Portugal D7 Visa Take?</h2>
+                        <div className="space-y-3 mb-8">
+                            {[
+                                { stage: "Prep", duration: "1–2 months", detail: "NIF, bank account, lease, documents" },
+                                { stage: "Consulate processing", duration: "2–4 months", detail: "After application submission" },
+                                { stage: "Entry visa valid for", duration: "4 months", detail: "To travel to Portugal" },
+                                { stage: "AIMA appointment", duration: "2–4 months after arrival", detail: "To get residence permit" },
+                                { stage: "Total", duration: "6–12 months", detail: "From start to residence permit in hand" },
+                            ].map((item, i) => (
+                                <div key={i} className={`flex gap-4 items-start border-l-4 pl-4 py-1 ${i === 4 ? 'border-blue-700' : 'border-blue-300'}`}>
+                                    <div className="flex-1">
+                                        <span className="font-bold text-blue-700 text-sm">{item.stage}: </span>
+                                        <span className="font-semibold text-gray-900 text-sm">{item.duration}</span>
+                                        <span className="text-gray-600 text-sm"> — {item.detail}</span>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
 
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Can I include my family in my D7 Visa application?</h3>
-                        <p className="mb-6">
-                            Yes. Your spouse, dependent children under 18 (or up to 26 if studying), and financially dependent parents can all apply under the family reunification provisions. Each family member adds to the minimum income requirement.
-                        </p>
+                        {/* Final Word */}
+                        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-10">
+                            <h3 className="text-xl font-bold text-gray-900 mb-3">Final Word on the Portugal D7 Visa</h3>
+                            <p className="text-gray-700 text-sm leading-relaxed">
+                                The Portugal D7 Visa remains the single best European residency option in 2026 for anyone with stable passive income and a real desire to live in Portugal. Compared to every other Portuguese visa — and indeed most European visas — the D7 Visa for Portugal is cheaper, simpler, and faster. The Portugal Passive Income Visa turns retirement income, rental income, and dividends into an EU residency and a 5-year runway to a Portuguese passport.
+                            </p>
+                        </div>
 
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Does the D7 Visa lead to citizenship?</h3>
-                        <p className="mb-6">
-                            Yes. After <strong>5 years of legal residency</strong> under the D7 Visa, you are eligible to apply for Portuguese citizenship — provided you pass an A2 Portuguese language test and have no serious criminal record. Portugal allows dual citizenship, so you do not need to give up your original passport.
-                        </p>
-
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">What is the difference between the D7 Visa and the Digital Nomad Visa?</h3>
-                        <p className="mb-6">
-                            The <strong>D7 Visa</strong> is broader and covers all types of passive income — pensions, rentals, dividends, and remote work earnings. The <strong>Digital Nomad Visa (D8)</strong> is specifically designed for remote workers employed by or providing services to companies <em>outside</em> Portugal, with a higher minimum income threshold (~€3,040/month). Both lead to residency and eventually citizenship.
-                        </p>
-
-                        <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3 font-open-sans">Is the NHR tax regime still available to D7 Visa holders in 2026?</h3>
-                        <p className="mb-6">
-                            Yes, but the programme has evolved. The original NHR regime was replaced by <strong>NHR 2.0 (IFICI+)</strong>, which targets specific categories including technology professionals, scientific researchers, and certain high-value activities. Retirees and investors should consult a Portuguese tax advisor upon arrival to confirm eligibility and apply within the required timeframe.
-                        </p>
+                        {/* CTA */}
+                        <div className="bg-blue-700 rounded-2xl p-8 text-white text-center mt-10">
+                            <h2 className="text-2xl font-bold mb-3 font-open-sans">Want a Straight Answer on Whether You Qualify?</h2>
+                            <p className="text-blue-100 mb-6 max-w-xl mx-auto text-sm">
+                                How to structure your income file, your realistic timeline, and what your budget looks like — VisaRapid can walk you through it in 30 minutes.
+                            </p>
+                            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                                <a
+                                    href="https://calendly.com/nikita-visarapid/30min"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center justify-center gap-2 bg-white !text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors text-sm"
+                                >
+                                    <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                                    Book a Free 30-Min Consultation
+                                </a>
+                                <a
+                                    href="https://wa.me/919910578099"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center justify-center gap-2 border border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors text-sm"
+                                >
+                                    <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.532 5.852L.057 23.571a.5.5 0 00.606.61l5.885-1.543A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a10 10 0 01-5.195-1.449l-.372-.22-3.862 1.013 1.033-3.772-.242-.387A10 10 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+                                    Chat on WhatsApp
+                                </a>
+                            </div>
+                            <p className="mt-4 text-blue-200 text-xs">
+                                📧 info@visarapid.com &nbsp;|&nbsp; 🔗 Connect with Nikita on LinkedIn
+                            </p>
+                        </div>
 
                     </article>
 
-                    {/* Sidebar */}
+                    {/* Sidebar TOC */}
                     <aside className="hidden lg:block lg:col-span-1">
-                        <div className="sticky top-24 pl-8 border-l border-gray-200">
-                            <h3 className="text-lg font-bold text-gray-900 mb-4 font-open-sans">Article content</h3>
-                            <nav className="space-y-4">
-                                <a href="#what-is" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">What Is the D7 Visa?</a>
-                                <a href="#eligibility" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Who Can Apply?</a>
-                                <a href="#income-requirements" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Income Requirements 2026</a>
-                                <a href="#benefits" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Benefits</a>
-                                <a href="#documents" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Documents Required</a>
-                                <a href="#application-process" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Application Process</a>
-                                <a href="#processing-time" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Processing Time</a>
-                                <a href="#costs" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Costs & Fees</a>
-                                <a href="#after-approval" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">After Approval</a>
-                                <a href="#d7-vs-others" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">D7 vs Other Visas</a>
-                                <a href="#rejection-reasons" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">Rejection Reasons</a>
-                                <a href="#faq" className="block text-gray-600 hover:text-red-500 transition-colors text-base cursor-pointer">FAQ</a>
+                        <div className="sticky top-24 bg-gray-50 rounded-xl p-5 border border-gray-200">
+                            <p className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-4">In This Article</p>
+                            <nav className="space-y-2">
+                                {[
+                                    { href: "#what-is", label: "What Is the D7 Visa?" },
+                                    { href: "#who", label: "Who Should Apply?" },
+                                    { href: "#income-requirements", label: "Income Requirements 2026" },
+                                    { href: "#documents", label: "Documents Required" },
+                                    { href: "#how-to-apply", label: "Step-by-Step Application" },
+                                    { href: "#costs", label: "Costs & Fees" },
+                                    { href: "#benefits", label: "Benefits" },
+                                    { href: "#comparison", label: "D7 vs Other Visas" },
+                                    { href: "#presence", label: "Physical Presence Rules" },
+                                    { href: "#taxes", label: "Tax Considerations" },
+                                    { href: "#mistakes", label: "Common Mistakes" },
+                                    { href: "#timeline", label: "Timeline" },
+                                ].map((item) => (
+                                    <a
+                                        key={item.href}
+                                        href={item.href}
+                                        className="block text-sm text-gray-600 hover:text-blue-700 transition-colors py-1 border-b border-gray-100 last:border-0"
+                                    >
+                                        {item.label}
+                                    </a>
+                                ))}
                             </nav>
                         </div>
                     </aside>
                 </div>
 
-                {/* Call to Action */}
-                <div className="mt-12 bg-gray-50 rounded-xl p-8 border border-gray-100">
-                    <h3 className="text-2xl font-semibold text-gray-900 mb-4 font-open-sans">
-                        Ready to Apply? Work With VisaRapid
-                    </h3>
-                    <p className="text-gray-600 mb-6">
-                        Applying for the Portugal D7 Visa requires careful planning, proper documentation, and a clear understanding of the immigration process. Even small errors in documentation or financial proof can lead to delays or rejection. Our team can help you with eligibility assessment, document preparation, Portuguese bank account setup, consulate application support, and AIMA residence appointment preparation.
-                    </p>
-                    <a
-                        href="https://calendly.com/nikita-visarapid/30min"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center px-6 py-3 rounded-lg font-medium transition-colors bg-red-600 !text-white hover:bg-red-700"
-                    >
-                        Schedule a Consultation
-                        <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                        </svg>
-                    </a>
+                {/* Related Articles */}
+                <div className="mt-16">
+                    <RelatedArticles currentPath="/blogs/portugal-d7-visa-guide" />
                 </div>
-
-                <RelatedArticles currentPath="/blogs/portugal-d7-visa-guide" />
             </div>
         </div>
     )
