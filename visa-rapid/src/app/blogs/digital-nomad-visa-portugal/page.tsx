@@ -2,7 +2,7 @@ import Link from 'next/link'
 import RelatedArticles from '../../../components/RelatedArticles'
 
 export const metadata = {
-    title: 'Digital Nomad Visa Portugal (D8): The Complete Guide for 2026 | Visa Rapid',
+    title: 'Digital Nomad Visa Portugal | Visa Rapid',
     description: 'Everything you need to know about the Portugal digital nomad visa (D8) in 2026 — income requirements, documents, step-by-step application, costs, taxes, and whether it is worth it.',
     alternates: {
         canonical: 'https://www.visarapid.com/blogs/digital-nomad-visa-portugal',

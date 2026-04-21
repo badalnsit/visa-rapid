@@ -2,7 +2,7 @@ import Link from 'next/link'
 import RelatedArticles from '../../../components/RelatedArticles'
 
 export const metadata = {
-    title: 'Portugal Retirement Visa 2026: The Complete Guide for Retirees | Visa Rapid',
+    title: 'Portugal Retirement Visa | Visa Rapid',
     description: 'How to retire in Portugal on the D7 Retirement Visa — income requirements, step-by-step application, healthcare, taxes, best places to retire, and the 5-year path to EU citizenship.',
     alternates: {
         canonical: 'https://www.visarapid.com/blogs/portugal-retirement-visa',

@@ -60,6 +60,206 @@
       "source": "/blogs/Portugal-passport-power",
       "destination": "/blogs",
       "permanent": true
+    },
+    {
+      "source": "/blogs/moving-to-portugal-from-usa-2026",
+      "destination": "/blogs/move-to-portugal-from-usa",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/moving-to-portugal-from-usa-2026/",
+      "destination": "/blogs/move-to-portugal-from-usa",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/us-citizens-retire-portugal-2026",
+      "destination": "/blogs/retire-in-portugal",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/us-citizens-retire-portugal-2026/",
+      "destination": "/blogs/retire-in-portugal",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/citizenship-by-investment-usa-vs-portugal-2026",
+      "destination": "/blogs/citizenship-by-investment",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/citizenship-by-investment-usa-vs-portugal-2026/",
+      "destination": "/blogs/citizenship-by-investment",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/europe-vs-usa-immigration-2026",
+      "destination": "/blogs/europe-vs-usa",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/europe-vs-usa-immigration-2026/",
+      "destination": "/blogs/europe-vs-usa",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/strongest-passports-world-2026",
+      "destination": "/blogs/strongest-passports-in-the-world",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/strongest-passports-world-2026/",
+      "destination": "/blogs/strongest-passports-in-the-world",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/portugal-d7-visa-uk-rental-income",
+      "destination": "/blogs/portugal-d7-visa-for-uk-expats",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/portugal-d7-visa-uk-rental-income/",
+      "destination": "/blogs/portugal-d7-visa-for-uk-expats",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/european-citizenship-filipinos-2026",
+      "destination": "/blogs/european-citizenship-for-filipinos",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/european-citizenship-filipinos-2026/",
+      "destination": "/blogs/european-citizenship-for-filipinos",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/easiest-countries-citizenship-2026",
+      "destination": "/blogs/easiest-countries-to-get-citizenship",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/easiest-countries-citizenship-2026/",
+      "destination": "/blogs/easiest-countries-to-get-citizenship",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/dual-citizenship-countries-2026",
+      "destination": "/blogs/dual-citizenship-countries",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/dual-citizenship-countries-2026/",
+      "destination": "/blogs/dual-citizenship-countries",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/dual-citizenship-downsides",
+      "destination": "/blogs/why-is-dual-citizenship-bad",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/dual-citizenship-downsides/",
+      "destination": "/blogs/why-is-dual-citizenship-bad",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/cheapest-countries-europe-2026",
+      "destination": "/blogs/cheapest-countries-to-live-in-europe",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/cheapest-countries-europe-2026/",
+      "destination": "/blogs/cheapest-countries-to-live-in-europe",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/european-immigration-market-trends-2026",
+      "destination": "/blogs/european-immigration",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/european-immigration-market-trends-2026/",
+      "destination": "/blogs/european-immigration",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/moving-to-europe-from-usa-2026",
+      "destination": "/blogs/move-to-europe-from-america",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/moving-to-europe-from-usa-2026/",
+      "destination": "/blogs/move-to-europe-from-america",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/portugal-d7-visa-guide",
+      "destination": "/blogs/portugal-d7-visa",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/portugal-d7-visa-guide/",
+      "destination": "/blogs/portugal-d7-visa",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/retiring-in-portugal-golden-visa-d7",
+      "destination": "/blogs/retiring-in-portugal",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/retiring-in-portugal-golden-visa-d7/",
+      "destination": "/blogs/retiring-in-portugal",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/europe-startup-visa-comparison",
+      "destination": "/blogs/europe-startup-visa",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/europe-startup-visa-comparison/",
+      "destination": "/blogs/europe-startup-visa",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/portugal-startup-ecosystem-2025",
+      "destination": "/blogs/portugal-startup-visa",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/portugal-startup-ecosystem-2025/",
+      "destination": "/blogs/portugal-startup-visa",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/portugal-startup-visa-comparison",
+      "destination": "/blogs/best-founder-visa",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/portugal-startup-visa-comparison/",
+      "destination": "/blogs/best-founder-visa",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/opportunity-card",
+      "destination": "/blogs/germany-opportunity-card",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/opportunity-card/",
+      "destination": "/blogs/germany-opportunity-card",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/affordable-overseas-option",
+      "destination": "/blogs/how-to-move-abroad",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/affordable-overseas-option/",
+      "destination": "/blogs/how-to-move-abroad",
+      "permanent": true
     }
   ],
   "headers": [

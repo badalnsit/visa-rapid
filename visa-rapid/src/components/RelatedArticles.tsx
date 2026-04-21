@@ -24,28 +24,28 @@ const RelatedArticles = ({ currentPath }: RelatedArticlesProps) => {
             title: "How U.S. Citizens Can Retire in Portugal and Get Residency in 2026",
             description: "The complete guide for American retirees moving to Portugal — D7 visa requirements, income thresholds, cost of living, healthcare, taxes, and the 5-year path to a Portuguese passport.",
             image: "/blog33.jpg",
-            link: "/blogs/us-citizens-retire-portugal-2026",
+            link: "/blogs/retire-in-portugal",
             category: "Retirement Abroad"
         },
         {
             title: "Citizenship by Investment: USA vs Portugal — Which One Actually Makes Sense in 2026?",
             description: "US EB-5 vs Portugal Golden Visa — an honest side-by-side on cost, timeline, passport strength, physical presence, and what you actually get at the end in 2026.",
             image: "/blog32.jpg",
-            link: "/blogs/citizenship-by-investment-usa-vs-portugal-2026",
+            link: "/blogs/citizenship-by-investment",
             category: "Investment Residency"
         },
         {
             title: "Europe vs USA: Immigration in 2026 — What Has Changed and What It Means for You",
             description: "The US is restricting both legal and illegal immigration. Europe is cracking down on irregular migrants while expanding routes for skilled workers. Here is what changed in 2026.",
             image: "/blog31.jpg",
-            link: "/blogs/europe-vs-usa-immigration-2026",
+            link: "/blogs/europe-vs-usa",
             category: "Immigration Trends"
         },
         {
             title: "Strongest Passports in the World in 2026",
             description: "Singapore leads with 195 destinations. Where India, the US, and every major passport ranks on the Henley Index in 2026 — and how European residency can change your ranking.",
             image: "/blog30.jpg",
-            link: "/blogs/strongest-passports-world-2026",
+            link: "/blogs/strongest-passports-in-the-world",
             category: "Passport Index"
         },
         {
@@ -59,7 +59,7 @@ const RelatedArticles = ({ currentPath }: RelatedArticlesProps) => {
             title: "Portugal D7 Visa for British Families with UK Rental Income",
             description: "UK rental income qualifies for Portugal's D7 Passive Income Visa. How British families with buy-to-let properties can use rental income to move to Portugal after Brexit.",
             image: "/blog28.jpg",
-            link: "/blogs/portugal-d7-visa-uk-rental-income",
+            link: "/blogs/portugal-d7-visa-for-uk-expats",
             category: "Visa Guide"
         },
         {
@@ -73,14 +73,14 @@ const RelatedArticles = ({ currentPath }: RelatedArticlesProps) => {
             title: "European Citizenship for Filipinos: Your Best Routes in 2026",
             description: "Filipinos can get Spanish citizenship in just 2 years — plus Portugal, Germany, and Italy routes explained. The complete guide to European citizenship for Filipinos in 2026.",
             image: "/blog26.jpg",
-            link: "/blogs/european-citizenship-filipinos-2026",
+            link: "/blogs/european-citizenship-for-filipinos",
             category: "Citizenship"
         },
         {
             title: "Move to Portugal from USA in 2026: The Complete Guide for Americans",
             description: "D7, D8, and D2 visas explained, full move cost breakdown, cost of living table, taxes, healthcare, schools, and what daily life actually feels like for Americans in Portugal.",
             image: "/blog25.jpg",
-            link: "/blogs/moving-to-portugal-from-usa-2026",
+            link: "/blogs/move-to-portugal-from-usa",
             category: "Relocation Guide"
         },
         {
@@ -94,28 +94,28 @@ const RelatedArticles = ({ currentPath }: RelatedArticlesProps) => {
             title: "Easiest Countries to Get Citizenship in 2026",
             description: "Naturalization, investment, and descent — the fastest and easiest routes to a second passport in 2026, including the best paths to an EU citizenship.",
             image: "/blog23.jpg",
-            link: "/blogs/easiest-countries-citizenship-2026",
+            link: "/blogs/easiest-countries-to-get-citizenship",
             category: "Citizenship"
         },
         {
             title: "Which Countries Allow Dual Citizenship and Which Ones Ban It in 2026",
             description: "Full 2026 breakdown of which countries allow dual citizenship, which ban it, and the conditions in between — plus the fastest paths to a second passport in Europe.",
             image: "/blog22.jpg",
-            link: "/blogs/dual-citizenship-countries-2026",
+            link: "/blogs/dual-citizenship-countries",
             category: "Citizenship"
         },
         {
             title: "Why Dual Citizenship Might Not Be Worth It: The Downsides Nobody Talks About",
             description: "Before chasing a second passport, understand the real downsides — double taxation, military service, banking headaches, security clearance issues, and more.",
             image: "/blog21.jpg",
-            link: "/blogs/dual-citizenship-downsides",
+            link: "/blogs/why-is-dual-citizenship-bad",
             category: "Citizenship"
         },
         {
             title: "Cheapest Countries to Live in Europe in 2026",
             description: "Real monthly budgets for Portugal, Bulgaria, Hungary, Romania, Albania, Serbia, Georgia, and North Macedonia — what it actually costs to live in Europe as an expat.",
             image: "/blog20.jpg",
-            link: "/blogs/cheapest-countries-europe-2026",
+            link: "/blogs/cheapest-countries-to-live-in-europe",
             category: "Cost of Living"
         },
         {
@@ -129,14 +129,14 @@ const RelatedArticles = ({ currentPath }: RelatedArticlesProps) => {
             title: "European Immigration Market Trends 2026: What's Driving the Global Surge in EU Residency Applications",
             description: "From remote work visas to tax-driven relocation — discover the 9 major trends reshaping who is moving to Europe in 2026 and why applications are hitting record highs.",
             image: "/Blog18.jpg",
-            link: "/blogs/european-immigration-market-trends-2026",
+            link: "/blogs/european-immigration",
             category: "Immigration Trends"
         },
         {
             title: "Moving to Europe from the USA in 2026: The Complete Guide for Americans",
             description: "Visa options, real cost comparisons, healthcare, FATCA taxes, and the best countries for every American profile — the most practical relocation guide for Americans.",
             image: "/blog16.jpg",
-            link: "/blogs/moving-to-europe-from-usa-2026",
+            link: "/blogs/move-to-europe-from-america",
             category: "Relocation Guide"
         },
         {
@@ -150,14 +150,14 @@ const RelatedArticles = ({ currentPath }: RelatedArticlesProps) => {
             title: "Portugal D7 Visa 2026: The Complete Guide for Passive Income Earners",
             description: "Income requirements, documents, step-by-step application, costs, and the 5-year path to Portuguese citizenship — the complete D7 Visa guide for 2026.",
             image: "/blog15.jpg",
-            link: "/blogs/portugal-d7-visa-guide",
+            link: "/blogs/portugal-d7-visa",
             category: "Retirement & Visa"
         },
         {
             title: "Retiring in Portugal: Golden Visa, D7 Visa & How to Get Portuguese Citizenship",
             description: "Golden Visa investment routes, D7 Retirement Visa income requirements, NHR tax benefits, and the 5-year path to Portuguese citizenship — the complete retiree's guide.",
             image: "/blog14.jpg",
-            link: "/blogs/retiring-in-portugal-golden-visa-d7",
+            link: "/blogs/retiring-in-portugal",
             category: "Retirement & Visa"
         },
         {
@@ -192,7 +192,7 @@ const RelatedArticles = ({ currentPath }: RelatedArticlesProps) => {
             title: "Why Europe’s Startup Visa Is Often a Better Option Than New Zealand, UK, Ireland, USA, and Canada",
             description: "If you’re an early-stage founder with an innovative idea or MVP, choosing the right country can save you years of time.",
             image: "/Blog5.webp",
-            link: "/blogs/europe-startup-visa-comparison",
+            link: "/blogs/europe-startup-visa",
             category: "Startup Visa"
         },
         {
@@ -206,28 +206,28 @@ const RelatedArticles = ({ currentPath }: RelatedArticlesProps) => {
             title: "Portugal Startup Visa Approvals & Ecosystem Growth in 2025",
             description: "The 2025 Startup Ecosystem Report highlights a major milestone: active startups in Portugal have crossed the 5,000 mark.",
             image: "/Img3.png",
-            link: "/blogs/portugal-startup-ecosystem-2025",
+            link: "/blogs/portugal-startup-visa",
             category: "Ecosystem Report"
         },
         {
             title: "Portugal Startup Visa vs UK, USA, and Canada",
             description: "For entrepreneurs looking to move abroad, startup visas have become one of the most realistic pathways.",
             image: "/Img2.png",
-            link: "/blogs/portugal-startup-visa-comparison",
+            link: "/blogs/best-founder-visa",
             category: "Startup Visa"
         },
         {
             title: "Most Affordable and Convenient Option to Move Abroad?",
             description: "Today, there are several pathways to move abroad. Work Visa, Business Visa, Job Seeker Visa, and Study Abroad.",
             image: "/Img1.png",
-            link: "/blogs/affordable-overseas-option",
+            link: "/blogs/how-to-move-abroad",
             category: "Visa & Finance"
         },
         {
             title: "The Opportunity Card: The Ticket to Germany",
             description: "The German government introduced the “Opportunity Card” (Chancenkarte) to its arsenal of residence permits.",
             image: "/Jsv.webp",
-            link: "/blogs/opportunity-card",
+            link: "/blogs/germany-opportunity-card",
             category: "Visa & Finance"
         }
     ];
