@@ -27,7 +27,7 @@ const PortugalStartupEcosystem2025 = () => {
                 {/* Article Header */}
                 <header className="mb-8">
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight font-open-sans">
-                        Portugal Startup Visa Approvals & Ecosystem Growth in 2025: Why Founders Are Choosing Portugal
+                        Portugal Startup Visa
                     </h1>
                     <div className="flex items-center text-gray-500 text-sm">
                         <span>Published on January 13, 2026</span>

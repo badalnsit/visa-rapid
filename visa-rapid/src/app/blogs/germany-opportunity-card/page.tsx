@@ -30,7 +30,7 @@ const OpportunityCard = () => {
                 {/* Article Header */}
                 <header className="mb-8">
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight font-open-sans">
-                        Germany Opportunity Card (Chancenkarte): Your Complete Guide to Working in Germany in 2025
+                        Germany Opportunity Card
                     </h1>
                     <div className="flex items-center text-gray-500 text-sm">
                         <span>Published on January 26, 2026</span>

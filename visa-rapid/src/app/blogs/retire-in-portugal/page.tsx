@@ -31,7 +31,7 @@ const USCitizensRetirePortugal2026 = () => {
                         <span className="inline-block bg-orange-100 text-orange-700 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wide">Retirement Abroad</span>
                     </div>
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight font-open-sans">
-                        How U.S. Citizens Can Retire in Portugal and Get Residency in 2026
+                        Retire in Portugal
                     </h1>
                     <div className="flex items-center text-gray-500 text-sm">
                         <span>Published on April 17, 2026</span>

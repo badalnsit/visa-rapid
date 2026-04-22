@@ -24,7 +24,7 @@ const EuropeanImmigrationTrends2026 = () => {
                 {/* Header */}
                 <div className="mb-10 max-w-4xl">
                     <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight font-playfair">
-                        European Immigration Market Trends 2026: What&apos;s Driving the Global Surge in EU Residency Applications
+                        European Immigration
                     </h1>
                     <p className="text-xl text-gray-600 leading-relaxed">
                         From remote work visas to tax-optimized relocation, discover the 9 major forces reshaping who is moving to Europe and why.

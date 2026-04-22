@@ -27,7 +27,7 @@ const EuropeStartupVisaComparison = () => {
                 {/* Article Header */}
                 <header className="mb-8">
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight font-open-sans">
-                        Why Europe’s Startup Visa Is Often a Better Option Than New Zealand, UK, Ireland, USA, and Canada
+                        Europe Startup Visa
                     </h1>
                     <div className="flex items-center text-gray-500 text-sm">
                         <span>Published on January 16, 2026</span>

@@ -34,7 +34,7 @@ const PortugalD7VisaGuide = () => {
                         <span className="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wide">Retirement &amp; Visa</span>
                     </div>
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight font-open-sans">
-                        Portugal D7 Visa 2026: The Complete Guide for Passive Income Earners
+                        Portugal D7 Visa
                     </h1>
                     <div className="flex items-center text-gray-500 text-sm">
                         <span>Published on March 7, 2026</span>

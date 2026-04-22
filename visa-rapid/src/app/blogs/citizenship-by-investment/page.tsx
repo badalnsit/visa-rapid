@@ -31,7 +31,7 @@ const CitizenshipByInvestmentUSAvsPortugal = () => {
                         <span className="inline-block bg-yellow-100 text-yellow-700 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wide">Investment Residency</span>
                     </div>
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight font-open-sans">
-                        Citizenship by Investment: USA vs Portugal — Which One Actually Makes Sense in 2026?
+                        Citizenship by Investment
                     </h1>
                     <div className="flex items-center text-gray-500 text-sm">
                         <span>Published on April 17, 2026</span>

@@ -34,7 +34,7 @@ const DigitalNomadVisaPortugal = () => {
                         <span className="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wide">Visa Guide</span>
                     </div>
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight font-open-sans">
-                        Digital Nomad Visa Portugal: The Complete D8 Guide for 2026
+                        Digital Nomad Visa Portugal
                     </h1>
                     <div className="flex items-center text-gray-500 text-sm">
                         <span>Published on April 20, 2026</span>

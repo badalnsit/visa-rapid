@@ -27,7 +27,7 @@ const CheapestCountriesEurope = () => {
                 {/* Article Header */}
                 <header className="mb-8">
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight font-open-sans">
-                        Cheapest Countries to Live in Europe in 2026
+                        Cheapest Countries to Live in Europe
                     </h1>
                     <div className="flex items-center text-gray-500 text-sm">
                         <span>Published on March 16, 2026</span>

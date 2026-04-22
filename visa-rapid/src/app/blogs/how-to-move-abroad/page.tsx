@@ -27,7 +27,7 @@ const AffordableOverseasOption = () => {
                 {/* Article Header */}
                 <header className="mb-8">
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight font-open-sans">
-                        Which Is the Most Affordable and Convenient Option to Move Abroad in 2025?
+                        How to Move Abroad
                     </h1>
                     <div className="flex items-center text-gray-500 text-sm">
                         <span>Published on January 12, 2026</span>

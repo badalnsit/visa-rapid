@@ -27,7 +27,7 @@ const RetiringInPortugal = () => {
                 {/* Article Header */}
                 <header className="mb-8">
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight font-open-sans">
-                        Retiring in Portugal: Golden Visa, D7 Visa &amp; How to Get Portuguese Citizenship
+                        Retiring in Portugal
                     </h1>
                     <div className="flex items-center text-gray-500 text-sm">
                         <span>Published on March 5, 2026</span>

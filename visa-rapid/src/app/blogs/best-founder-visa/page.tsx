@@ -30,7 +30,7 @@ const PortugalStartupVisaComparison = () => {
                 {/* Article Header */}
                 <header className="mb-8">
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight font-open-sans">
-                        Portugal Startup Visa vs UK, USA, and Canada: Complete Cost, Funding & Approval Comparison 2025
+                        Best Founder Visa
                     </h1>
                     <div className="flex items-center text-gray-500 text-sm">
                         <span>Published on January 13, 2026</span>
