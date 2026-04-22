@@ -11,6 +11,13 @@ export const metadata = {
 const Blogs = () => {
     const blogPosts = [
         {
+            title: "Best Countries for Americans to Retire",
+            description: "The best countries for Americans to retire in 2026, covering costs, visa options, healthcare, and what life actually looks like on the ground.",
+            image: "/blog36.jpg",
+            link: "/blogs/best-countries-for-americans-to-retire",
+            category: "Retirement Abroad"
+        },
+        {
             title: "Digital Nomad Visa Portugal (D8)",
             description: "Everything you need to know about the Portugal digital nomad visa (D8) in 2026 — income requirements, documents, step-by-step application, costs, taxes, and whether it is worth it.",
             image: "/blog35.jpg",
