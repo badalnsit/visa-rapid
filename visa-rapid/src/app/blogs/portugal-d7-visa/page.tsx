@@ -5,7 +5,7 @@ export const metadata = {
     title: 'Portugal D7 Visa | Visa Rapid',
     description: 'Everything you need to know about the Portugal D7 Visa in 2026 — income requirements, documents, step-by-step application, costs, and the 5-year path to Portuguese citizenship.',
     alternates: {
-        canonical: 'https://www.visarapid.com/blogs/portugal-d7-visa',
+        canonical: 'https://www.visarapid.com/blogs/retirement-d7-visa-portugal',
     },
 }
 
@@ -470,7 +470,7 @@ const PortugalD7VisaGuide = () => {
 
                 {/* Related Articles */}
                 <div className="mt-16">
-                    <RelatedArticles currentPath="/blogs/portugal-d7-visa" />
+                    <RelatedArticles currentPath="/blogs/retirement-d7-visa-portugal" />
                 </div>
             </div>
         </div>

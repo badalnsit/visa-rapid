@@ -157,7 +157,7 @@ const RelatedArticles = ({ currentPath }: RelatedArticlesProps) => {
             title: "Portugal D7 Visa",
             description: "Income requirements, documents, step-by-step application, costs, and the 5-year path to Portuguese citizenship — the complete D7 Visa guide for 2026.",
             image: "/blog15.jpg",
-            link: "/blogs/portugal-d7-visa",
+            link: "/blogs/retirement-d7-visa-portugal",
             category: "Retirement & Visa"
         },
         {

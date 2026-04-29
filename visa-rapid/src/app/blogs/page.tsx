@@ -161,7 +161,7 @@ const Blogs = () => {
             title: "Portugal D7 Visa",
             description: "Everything you need to know about the Portugal D7 Visa in 2026 — income requirements, documents, step-by-step application, costs, and the 5-year path to Portuguese citizenship.",
             image: "/blog15.jpg",
-            link: "/blogs/portugal-d7-visa",
+            link: "/blogs/retirement-d7-visa-portugal",
             category: "Retirement & Visa"
         },
         {
