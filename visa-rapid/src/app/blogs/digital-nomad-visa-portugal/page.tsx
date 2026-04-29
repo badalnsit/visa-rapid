@@ -5,7 +5,7 @@ export const metadata = {
     title: 'Digital Nomad Visa Portugal | Visa Rapid',
     description: 'Everything you need to know about the Portugal digital nomad visa (D8) in 2026 — income requirements, documents, step-by-step application, costs, taxes, and whether it is worth it.',
     alternates: {
-        canonical: 'https://www.visarapid.com/blogs/digital-nomad-visa-portugal',
+        canonical: 'https://www.visarapid.com/blogs/digital-nomad-d8-visa-portugal',
     },
 }
 
@@ -398,7 +398,7 @@ const DigitalNomadVisaPortugal = () => {
 
                 {/* Related Articles */}
                 <div className="mt-16">
-                    <RelatedArticles currentPath="/blogs/digital-nomad-visa-portugal" />
+                    <RelatedArticles currentPath="/blogs/digital-nomad-d8-visa-portugal" />
                 </div>
             </div>
         </div>

@@ -17,7 +17,7 @@ const RelatedArticles = ({ currentPath }: RelatedArticlesProps) => {
             title: "Digital Nomad Visa Portugal (D8)",
             description: "Everything you need to know about the Portugal digital nomad visa (D8) in 2026 — income requirements, documents, step-by-step application, costs, taxes, and whether it is worth it.",
             image: "/blog35.jpg",
-            link: "/blogs/digital-nomad-visa-portugal",
+            link: "/blogs/digital-nomad-d8-visa-portugal",
             category: "Visa Guide"
         },
         {
