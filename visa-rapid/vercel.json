@@ -7,6 +7,11 @@
       "permanent": true
     },
     {
+      "source": "/passive-income-visa",
+      "destination": "/portugal-d7-passive-income-visa",
+      "permanent": true
+    },
+    {
       "source": "/refund-policy",
       "destination": "/",
       "permanent": true
