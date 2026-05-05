@@ -437,7 +437,7 @@ const PortugalD7VisaGuide = () => {
                                 },
                                 {
                                     q: "Can I bring my spouse on the Portugal retirement visa? ",
-                                    a: "PorYes. Spouses and dependent children can be included in the same D7 visa for retirees in Portugal application. The income requirement increases by 50% per spouse and 30% per dependent child. The retirement visa Portugal issues through the D7 is fully compatible with family reunification."
+                                    a: "Yes. Spouses and dependent children can be included in the same D7 visa for retirees in Portugal application. The income requirement increases by 50% per spouse and 30% per dependent child. The retirement visa Portugal issues through the D7 is fully compatible with family reunification."
                                 },
                                 {
                                     q: "Do I need to give up my current citizenship? ",

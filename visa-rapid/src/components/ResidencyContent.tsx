@@ -110,19 +110,9 @@ export default function ResidencyContent() {
                     property & investments in Portugal
                   </h1>
                   <p className="text-4xl font-semibold text-gray-900 tracking-wide mb-6 mt-6">
-                    What is the D7 Visa?
+                    What Is the Portugal D7 Visa?
                   </p>
-                  <p className="text-base text-gray-600 leading-relaxed mb-6">
-                    The Portugal D7 visa is also commonly known as the Portugal Passive Income visa, or in many cases, the Retirement Visa.
-                    This visa acts as a route to permanent residency in Portugal and is aimed at non-EU and non-EEA citizens who do
-                    not need to rely on an active, salaried income.
-                    <br />
-                    Portugal has so much to offer; a vibrant culture, exquisite cuisine, and diverse landscapes provide an enriching
-                    experience for investors, business people looking for improved financial security or retirees and individuals seeking a fulfilling overseas lifestyle.
-                    <br />
-                    Under the D7 Visa, holders also have the option of &apos;family reunification&apos; where family members will be granted a residence visa that is valid for one year.
-                    After one year, they can apply for permanent residency.
-                  </p>
+                  <p className="text-base text-gray-600 leading-relaxed mb-6">The Portugal D7 Visa is one of Europe's most popular and accessible residency routes, and for good reason. Also commonly known as the Portugal Passive Income Visa and, in many cases, the Retirement Visa, the D7 Visa for Portugal is a long-stay residency permit designed for non-EU and non-EEA citizens who do not need to rely on an active, salaried income to support themselves. Whether you are a retiree living off a pension, an investor drawing dividends, or a landlord with rental income, the Portugal D7 Visa gives you the legal right to live in one of Europe's most desirable countries, with a clear five-year path to permanent residency and a Portuguese passport.</p>
                 </div>
               </div>
               <a
