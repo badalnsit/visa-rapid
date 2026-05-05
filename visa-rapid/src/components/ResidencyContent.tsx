@@ -142,19 +142,17 @@ export default function ResidencyContent() {
             <div className={`lg:col-span-3 bg-green-100 p-8 rounded-2xl fade-in-up ${eligibilityVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.1s' }}>
               <div className="mb-1">
                 <h2 className="text-5xl font-medium font-serif text-gray-900 mb-8">
-                  Discover the advantages of living in Portugal
+                  Who Is the Portugal Passive Income Visa For?
                 </h2>
+                <p className="text-lg text-gray-600 max-w-2xl">The Portugal Passive Income Visa is designed for non-EU, non-EEA nationals whose income does not depend on active employment in Portugal. Typical qualifying profiles include:</p>
                 <div className="space-y-3">
                   {[
-                    "Visa-free travel to anywhere in the Schengen area.",
-                    "Access to the Portuguese National Health Service.",
-                    "Access to Portuguese National Education Services, professional training, schools, and vocational training.",
-                    "Full protection via Portuguese law and legal system.",
-                    "Exemptions or otherwise reduced tax rates should the applicant sign up for the NHR (Non-Habitual Residency) programme.",
-                    "Being able to work in Portugal.",
-                    "Being able to pass on Portuguese citizenship to any newborn children after a year of permanent residency.",
-                    "The ability to obtain citizenship in Portugal and acquire a Portuguese passport after 5 years of permanent residency.",
-                    "A fast application process in comparison to other routes."
+                    "Retirees, US Social Security, UK State Pension, private pensions, and annuities all qualify for the Portugal D7 Visa.",
+                    "Landlords, rental income from property held outside Portugal is fully accepted as qualifying income for the D7 Visa for Portugal.",
+                    "Investors, dividends from stocks, ETFs, and mutual funds, as well as bond interest, count toward the Portugal Passive Income Visa threshold.",
+                    "Royalty and IP holders, authors, musicians, patent holders, and content creators with passive royalty income.",
+                    "Those combining multiple passive streams, the Portugal D7 Visa accepts blended income from several sources, provided each stream is clearly documented.",
+                    "If your primary income comes from active remote employment, a salary paid by a foreign employer, the D8 Digital Nomad Visa is the more appropriate route. The D7 Visa for Portugal is specifically for those whose money arrives without clocking in."
                   ].map((advantage, index) => (
                     <div key={index} className="flex items-start gap-3">
                       <div className="flex-shrink-0 w-1.5 h-1.5 bg-black rounded-full mt-3"></div>
@@ -264,6 +262,41 @@ export default function ResidencyContent() {
                 </div>
               ))}
             </div>
+            {/* FAQ */}
+      <h2 id="faq" className="text-3xl font-bold text-gray-900 mt-6 mb-4 font-open-sans">Frequently Asked Questions: Portugal D7 Visa</h2>
+      <div className="space-y-5 mb-10">
+        {[
+          {
+            q: "What is the Portugal D7 Visa and who is it for?",
+            a: "The Portugal D7 Visa is a long-stay residency visa for non-EU nationals who earn passive income, meaning income that arrives without active employment. Also known as the Portugal Passive Income Visa, it is designed for retirees, landlords, investors, and anyone living off pensions, dividends, rental income, or royalties. The D7 Visa for Portugal is not available to people whose primary income is an active salary, those individuals should look at the D8 Digital Nomad Visa instead. If your money comes in without clocking in, the Portugal D7 Visa is built for you."
+          },
+          {
+            q: "How much income do I need for the Portugal Passive Income Visa?",
+            a: "The minimum income threshold for the Portugal Passive Income Visa in 2026 is €920 per month for a single applicant. This is tied to the Portuguese national minimum wage. For a couple, the D7 Visa for Portugal requires approximately €1,380 per month, and each dependent child adds a further €276 per month. In addition to monthly income, the Portugal D7 Visa requires a savings buffer of €11,040 held in a Portuguese bank account. US Social Security alone is enough for most Americans to meet the income requirement for the Portugal Passive Income Visa."
+          },
+          {
+            q: "Does the D7 Visa for Portugal lead to citizenship?",
+            a: "Yes. The D7 Visa for Portugal is a direct five-year path to Portuguese citizenship and an EU passport. After five years of legal residency on the Portugal D7 Visa, you can apply for permanent residency or full Portuguese citizenship. Portugal allows dual citizenship, so you keep your original passport alongside your new one. For most applicants, the long-term value of the Portugal Passive Income Visa lies precisely here, an EU passport granting freedom of movement across all 27 member states."
+          },
+          {
+            q: "What documents do I need for the Portugal D7 Visa?",
+            a: "A complete Portugal D7 Visa application requires a valid passport, proof of passive income (pension letters, bank statements, dividend records covering 6 to 12 months), a Portuguese bank account showing the €11,040 savings buffer, a signed 12-month lease or property deed in Portugal, health insurance valid in Portugal, a criminal background check (apostilled and translated), a NIF (Portuguese tax number), and a motivation letter. Incomplete files are the most common reason D7 Visa for Portugal applications are delayed. The Portugal Passive Income Visa process rewards thorough preparation above all else."
+          },
+          {
+            q: "Can I work in Portugal on the Portugal Passive Income Visa?",
+            a: "Yes. Despite the name, the Portugal Passive Income Visa does not prohibit work in Portugal. The Portugal D7 Visa permits holders to take up employment in Portugal if they choose. However, the visa is primarily designed for passive income earners. If active remote work is your main income source, the D7 Visa for Portugal may not be the right fit and the D8 Digital Nomad Visa would be more appropriate. The Portugal Passive Income Visa gives you optionality: you can work if you want, but you are not required to."
+          },
+          {
+            q: "How long does the Portugal D7 Visa process take?",
+            a: "From first document to residence permit in hand, the Portugal D7 Visa process typically takes 6 to 10 months. Consulate processing alone takes 60 to 120 days after you submit your application. Once approved, your D7 Visa for Portugal entry stamp gives you a 4-month window to travel to Portugal and attend your AIMA appointment. After the AIMA appointment, the Portugal Passive Income Visa residence card is typically issued within 2 to 3 weeks. Starting early and submitting a complete file are the two biggest factors in a smooth, on-time Portugal D7 Visa approval."
+          },
+        ].map((item, i) => (
+          <div key={i} className="border border-gray-200 rounded-xl p-5">
+            <p className="font-semibold text-gray-900 mb-2">{item.q}</p>
+            <p className="text-gray-700 text-sm leading-relaxed">{item.a}</p>
+          </div>
+        ))}
+      </div>
           </div>
         </div>
       </section>
