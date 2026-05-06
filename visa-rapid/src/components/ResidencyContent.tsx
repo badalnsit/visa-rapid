@@ -288,7 +288,6 @@ export default function ResidencyContent() {
               <div key={i} className={`flex gap-4 border-2 rounded-xl p-5 ${item.color}`}>
                 <div className={`flex-shrink-0 w-7 h-7 ${item.numColor} text-white rounded-full flex items-center justify-center text-sm font-bold`}>{item.num}</div>
                 <div>
-                  <p className="font-semibold text-gray-900 mb-1 text-sm">{item.title}</p>
                   <p className="text-gray-700 text-sm">{item.detail}</p>
                 </div>
               </div>
