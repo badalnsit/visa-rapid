@@ -56,11 +56,13 @@ const BestCountriesAmericansRetire = () => {
                         <p className="mb-4">Finding the best country to retire for Americans is not just about cheap living, it is about the full package. Before diving into the list, here is what we are measuring: cost of living (can your Social Security or pension actually stretch?), retirement visa (is there a clear, accessible path to legal residency?), healthcare (quality, accessibility, and cost for expats), safety (day-to-day security and political stability), ease of settling in (English-speaking locals, expat communities, infrastructure), and tax treatment (how is US income taxed?).</p>
                         <h2 id="portugal" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">1. Portugal, The Best Overall Country for Americans to Retire</h2>
                         <p className="mb-4">When people ask what is the best country to retire for Americans in Europe, Portugal is almost always the answer. It consistently tops the list of best countries for Americans to retire, and it is easy to see why. Low cost of living, universal healthcare, a safe and stable society, one of Europe's best climates, and a direct path to EU citizenship after 5 years.</p>
-                        <p className="mb-4">Retirement Visa. The D7 Passive Income Visa is purpose-built for retirees. You need to demonstrate roughly €1,000–€1,500/month in passive income, Social Security, pension, or rental income all qualify.</p>
-                        <p className="mb-4">Cost of Living. A couple can live comfortably in Portugal for €2,000–€3,000/month depending on location. Lisbon and Cascais are pricier; the Algarve and the Silver Coast offer exceptional value.</p>
-                        <p className="mb-4">Healthcare. Portugal has universal public healthcare available to legal residents. Most expats supplement with private health insurance (around €80–€150/month) for faster access and English-speaking doctors.</p>
-                        <p className="mb-4">Best for. Retirees who want European quality of life, a safe and walkable lifestyle, and a route to an EU passport. Among all the best countries for Americans to retire, Portugal delivers the fastest path to EU citizenship at just 5 years.</p>
-                        
+                        <ul className="list-none mb-6 space-y-3 text-gray-700">
+                            <li><strong>Retirement Visa:</strong> The D7 Passive Income Visa is purpose-built for retirees. You need to demonstrate roughly €1,000–€1,500/month in passive income, Social Security, pension, or rental income all qualify.</li>
+                            <li><strong>Cost of Living:</strong> A couple can live comfortably in Portugal for €2,000–€3,000/month depending on location. Lisbon and Cascais are pricier; the Algarve and the Silver Coast offer exceptional value</li>
+                            <li><strong>Healthcare:</strong> Portugal has universal public healthcare available to legal residents. Most expats supplement with private health insurance (around €80–€150/month) for faster access and English-speaking doctors</li>
+                            <li><strong>Best for:</strong> Retirees who want European quality of life, a safe and walkable lifestyle, and a route to an EU passport. Among all the best countries for Americans to retire, Portugal delivers the fastest path to EU citizenship at just 5 years.</li>
+                        </ul>
+
                         <h2 id="spain" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">2. Spain, Europe's Most Accessible Retirement Destination</h2>
                         <p className="mb-4">Spain is one of the best countries to retire as an American in Europe, a low-barrier retirement visa, exceptional healthcare, and a lifestyle that is hard to match. From Barcelona's architecture to Andalusia's whitewashed villages, Spain offers variety that few countries can.</p>
                         <ul className="list-none mb-6 space-y-3 text-gray-700">
@@ -220,22 +222,32 @@ const BestCountriesAmericansRetire = () => {
                         <p className="mb-4">If you want to stay close to home, Mexico is the obvious choice, short flights, familiar culture, and an enormous American expat community.</p>
                         <p className="mb-4">The best countries for Americans to retire ultimately depend on your income, lifestyle priorities, and where you feel at home. Whether you are searching for the best countries to retire as an American or just the single best country to retire for Americans, all five destinations on this list are proven, popular, and welcoming in 2026.</p>
 
-                        <div className="bg-gray-50 border border-gray-200 rounded-xl p-8 text-center mt-12 mb-8">
-                            <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Make the Move?</h2>
-                            <p className="text-gray-700 mb-6 max-w-2xl mx-auto">You have found your answer on the best countries for Americans to retire, now it is time to make it happen. The VisaRapid team specialises in retirement and passive income visas across Europe and Latin America. Whether you have settled on the best country to retire for Americans in Europe or are still weighing your options, we will match you with the right visa, handle the paperwork, and guide you from application to arrival.</p>
-                            <p className="text-gray-900 font-semibold mb-6">Get in touch with the VisaRapid team:</p>
-                            <div className="flex flex-col sm:flex-row justify-center gap-4">
-                                <a href="https://calendly.com" target="_blank" rel="noopener noreferrer" className="inline-flex justify-center items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors">
-                                    📅 Book a free 30-minute consultation on Calendly
+                        {/* CTA */}
+                        <div className="bg-blue-700 rounded-2xl p-8 text-white text-center mt-10">
+                            <h2 className="text-2xl font-bold mb-3 font-open-sans">Ready to Make the Move?</h2>
+                            <p className="text-blue-100 mb-6 max-w-xl mx-auto text-sm">You have found your answer on the best countries for Americans to retire, now it is time to make it happen. The VisaRapid team specialises in retirement and passive income visas across Europe and Latin America. Whether you have settled on the best country to retire for Americans in Europe or are still weighing your options, we will match you with the right visa, handle the paperwork, and guide you from application to arrival.</p>
+                            <p className="text-blue-100 mb-6 max-w-xl mx-auto">Get in touch with the VisaRapid team:</p>
+                            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                                <a
+                                    href="https://calendly.com/nikita-visarapid/30min"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center justify-center gap-2 bg-white !text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors text-sm"
+                                >
+                                    <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                                    Book a free 30-minute consultation on Calendly
                                 </a>
-                                <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="inline-flex justify-center items-center px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition-colors">
-                                    💬 Chat with us on WhatsApp
+                                <a
+                                    href="https://wa.me/919910578099"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center justify-center gap-2 border border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors text-sm"
+                                >
+                                    <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.532 5.852L.057 23.571a.5.5 0 00.606.61l5.885-1.543A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a10 10 0 01-5.195-1.449l-.372-.22-3.862 1.013 1.033-3.772-.242-.387A10 10 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+                                    Chat with us on WhatsApp
                                 </a>
-                            </div>
-                            <div className="mt-6 space-y-2 text-sm text-gray-600">
-                                <p>📧 Email us at <a href="mailto:info@visarapid.com" className="text-blue-600 hover:underline">info@visarapid.com</a></p>
-                                <p>🔗 Connect with <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Nikita on LinkedIn</a></p>
-                            </div>
+                            </div><br />
+                            <p>📧 Email us at <a href="mailto:info@visarapid.com" className="text-blue-600 hover:underline">info@visarapid.com</a> &nbsp; | &nbsp; 🔗 Connect with <a href="https://www.linkedin.com/in/nikita-20062a93/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Nikita on LinkedIn</a></p>
                         </div>
 
                     </article>
