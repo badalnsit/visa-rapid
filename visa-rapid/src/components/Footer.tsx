@@ -86,7 +86,7 @@ const Footer = () => {
               <li><Link href="/entrepreneur-visa" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Business Owner Visa</Link></li>
               <li><Link href="/startup-visa" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Startup Visa</Link></li>
               <li><Link href="/job-seeker-visa" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Job Seeker Visa</Link></li>
-              <li><Link href="/passive-income-visa" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Passive Income Visa</Link></li>
+              <li><Link href="/portugal-d7-passive-income-visa" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Passive Income Visa</Link></li>
               <li><Link href="/global-talent-visa" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Global Talent Visa</Link></li>
               <li><Link href="/blogs" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>Blogs</Link></li>
               <li><Link href="/about" className="hover:text-white transition-colors" style={{color: '#d1d5db'}}>About Us</Link></li>

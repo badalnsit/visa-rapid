@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title: 'Portugal D7 Passive Income Visa — Residency Guide',
   description: 'Complete guide to the Portugal D7 Passive Income Visa. Learn about advantages of living in Portugal, eligibility, and the step-by-step application process.',
   alternates: {
-    canonical: '/passive-income-visa',
+    canonical: '/portugal-d7-passive-income-visa',
   },
   openGraph: {
     title: 'Portugal D7 Passive Income Visa — Residency Guide',
     description: 'Complete guide to the Portugal D7 Passive Income Visa. Learn about advantages of living in Portugal, eligibility, and the step-by-step application process.',
-    url: 'https://www.visarapid.com/passive-income-visa',
+    url: 'https://www.visarapid.com/portugal-d7-passive-income-visa',
     images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Portugal D7 Passive Income Visa' }],
   },
   twitter: {
@@ -36,7 +36,7 @@ export default function PassiveIncomeVisaPage() {
           name: 'Visa Rapid',
           url: 'https://www.visarapid.com',
         },
-        url: 'https://www.visarapid.com/passive-income-visa',
+        url: 'https://www.visarapid.com/portugal-d7-passive-income-visa',
       }} />
       <StructuredData data={{
         '@context': 'https://schema.org',
@@ -68,7 +68,7 @@ export default function PassiveIncomeVisaPage() {
           },
         ],
       }} />
-      <Breadcrumbs items={[{ name: 'Passive Income Visa', href: '/passive-income-visa' }]} />
+      <Breadcrumbs items={[{ name: 'Passive Income Visa', href: '/portugal-d7-passive-income-visa' }]} />
       <ResidencyContent />
     </>
   )
