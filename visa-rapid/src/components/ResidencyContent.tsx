@@ -136,9 +136,9 @@ export default function ResidencyContent() {
         <div className="max-w-6xl mx-auto">
           <div
             ref={eligibilityRef}
-            className={`fade-in-up ${eligibilityVisible ? 'visible' : ''}`}
+            className={`${eligibilityVisible ? 'visible' : ''}`}
           >
-            <div className={`bg-gray-300 p-8 rounded-2xl fade-in-up ${eligibilityVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.1s' }}>
+            <div className={`bg-gray-300 p-8 rounded-2xl fade-in-up' ${eligibilityVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.1s' }}>
               <div className="grid grid-cols-1 md:grid-cols-1 gap-6 items-start">
                 <div>
                   <div className="flex items-center gap-3 mb-6 justify-center">
@@ -167,7 +167,7 @@ export default function ResidencyContent() {
             className={`grid grid-cols-1 lg:grid-cols-5 gap-8 fade-in-up ${eligibilityVisible ? 'visible' : ''}`}
           >
             {/* Advantages Content Container - 60% (3/5) */}
-            <div className={`lg:col-span-3 bg-green-100 p-8 rounded-2xl fade-in-up ${eligibilityVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.1s' }}>
+            <div className={`lg:col-span-3 bg-green-100 p-8 rounded-2xl ${eligibilityVisible ? 'visible' : ''}`} style={{ transitionDelay: '0.1s' }}>
               <div className="mb-1">
                 <h2 className="text-5xl font-medium font-serif text-gray-900 mb-8">
                   Who Is the Portugal Passive Income Visa For?
