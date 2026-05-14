@@ -22,10 +22,10 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.visarapid.com'),
   title: {
-    default: "Visa Rapid — Move to Europe Permanently",
-    template: "%s | Visa Rapid",
+    default: "Visa Rapid - Move to Europe Permanently with Experts",
+    template: "",
   },
-  description: "Visa Rapid helps working professionals move to Europe permanently through business, startup, and job seeker visa pathways. Book a free consultation today.",
+  description: "Visa Rapid helps professionals move to Europe permanently through startup, business and job seeker visas. Book free consultation and start your journey.",
   alternates: {
     canonical: '/',
   },
@@ -36,23 +36,29 @@ export const metadata: Metadata = {
       index: true,
       follow: true,
     },
+    'max-snippet': -1,
+    'max-image-preview': 'large',
+    'max-video-preview': -1,
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.visarapid.com',
     siteName: 'Visa Rapid',
-    title: 'Visa Rapid — Move to Europe Permanently',
-    description: 'Visa Rapid helps working professionals move to Europe permanently through business, startup, and job seeker visa pathways.',
+    title: 'Visa Rapid - Move to Europe Permanently with Experts',
+    description: 'Visa Rapid helps professionals move to Europe permanently through startup, business and job seeker visas. Book free consultation and start your journey.',
     images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Visa Rapid' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Visa Rapid — Move to Europe Permanently',
-    description: 'Visa Rapid helps working professionals move to Europe permanently through business, startup, and job seeker visa pathways.',
+    site: '@Visarapid_07 ',
+    title: 'Visa Rapid - Move to Europe Permanently with Experts',
+    description: 'Visa Rapid helps professionals move to Europe permanently through startup, business and job seeker visas. Book free consultation and start your journey.',
     images: ['/og-image.png'],
   },
 };
+
+
 
 export default function RootLayout({
   children,

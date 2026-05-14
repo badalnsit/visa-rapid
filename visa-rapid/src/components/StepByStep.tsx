@@ -89,6 +89,7 @@ const StepByStep = () => {
             </div>
           ))}
         </div>
+          <p className="mb-4 pt-5">Whether you want to <strong><a href="https://www.visarapid.com/blogs/retirement-d7-visa-portugal/" target="_blank"> move to Portugal from USA</a></strong>, apply for a <strong><a href="https://www.visarapid.com/blogs/move-to-portugal-from-usa/" target="_blank"> retirement visa Portugal</a></strong>, or secure a <strong><a href="https://www.visarapid.com/blogs/digital-nomad-d8-visa-portugal/" target="_blank"> digital nomad visa Portugal</a></strong>, Visa Rapid provides expert legal guidance and end-to-end support. Start your immigration journey today with a trusted team focused on smooth, affordable, and permanent relocation solutions.</p>
       </div>
     </section>
   )
