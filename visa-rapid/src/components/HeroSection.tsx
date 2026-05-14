@@ -18,11 +18,11 @@ const HeroSection = () => {
                 VISA-RAPID:
               </p>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-6xl font-light text-gray-900 leading-tight font-serif">
-                Are you a working professional and want to{' '}
+                Move to Europe Permanently With{' '}
                 <span className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-gray-900 italic inline-block font-serif mt-2" style={{backgroundColor: '#fde68a'}}>
-                  Move to Europe
+                  Expert Visa
                 </span>{' '}
-                permanently?
+                Support
               </h1>
             </div>
 

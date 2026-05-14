@@ -109,9 +109,7 @@ export default function ResidencyContent() {
                     Maximise your wealth, visa, tax status,
                     property & investments in Portugal
                   </h1>
-                  <p className="text-4xl font-semibold text-gray-900 tracking-wide mb-6 mt-6">
-                    What Is the Portugal D7 Visa?
-                  </p>
+                  <h2 className="text-4xl font-semibold text-gray-900">What Is the Portugal D7 Visa?</h2>
                   <p className="text-base text-gray-600 leading-relaxed mb-6">The Portugal D7 Visa is one of Europe's most popular and accessible residency routes, and for good reason. Also commonly known as the Portugal Passive Income Visa and, in many cases, the Retirement Visa, the D7 Visa for Portugal is a long-stay residency permit designed for non-EU and non-EEA citizens who do not need to rely on an active, salaried income to support themselves. Whether you are a retiree living off a pension, an investor drawing dividends, or a landlord with rental income, the Portugal D7 Visa gives you the legal right to live in one of Europe's most desirable countries, with a clear five-year path to permanent residency and a Portuguese passport.</p>
                 </div>
               </div>
@@ -363,6 +361,7 @@ export default function ResidencyContent() {
           <h2 id="taxes" className="text-3xl font-bold text-gray-900 mt-6 mb-4 font-open-sans">Is the Portugal Passive Income Visa Right for You?</h2>
           <p className="mb-4">The Portugal D7 Visa is the right choice if your income is passive, pension, rental income, dividends, interest, or royalties. If you want to actually live in Portugal, the D7 Visa for Portugal requires physical presence of at least 16 months in the first 2-year permit period. If you want a clear, affordable path to EU residency and citizenship, access to Portugal's public healthcare, education, and Schengen travel, and the ability to bring family members with you, the Portugal D7 Visa delivers on all of these.</p>
           <p className="mb-4">The Portugal Passive Income Visa is not a visa you hold at arm's length. It is a residency route for people who want to genuinely make Portugal their home, and it rewards that commitment with full residency rights, tax advantages, and eventually a Portuguese passport.</p>
+          <p className="mb-4">If you're planning to <strong><a href="https://www.visarapid.com/blogs/move-to-portugal-from-usa/" target="_blank"> move to Portugal from USA</a></strong>, the Portugal D7 Visa remains one of the most attractive residency options in Europe. Often called the <strong><a href="https://www.visarapid.com/blogs/retirement-d7-visa-portugal/" target="_blank"> retirement visa Portugal </a></strong> offers to passive income earners, it provides a clear path to residency and citizenship. For remote workers with active foreign income, the <strong><a href="https://www.visarapid.com/blogs/digital-nomad-d8-visa-portugal/" target="_blank"> digital nomad visa Portugal </a></strong> route may be more suitable depending on your employment structure.</p>
           {/* FAQ */}
           <h2 id="faq" className="text-3xl font-bold text-gray-900 mt-6 mb-4 font-open-sans">Frequently Asked Questions: Portugal D7 Visa</h2>
           <div className="space-y-5 mb-10">

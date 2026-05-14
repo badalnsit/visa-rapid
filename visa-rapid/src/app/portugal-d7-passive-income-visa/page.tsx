@@ -3,23 +3,27 @@ import ResidencyContent from '@/components/ResidencyContent'
 import StructuredData from '@/components/StructuredData'
 import Breadcrumbs from '@/components/Breadcrumbs'
 
-export const metadata: Metadata = {
-  title: 'Portugal D7 Passive Income Visa — Residency Guide',
-  description: 'Complete guide to the Portugal D7 Passive Income Visa. Learn about advantages of living in Portugal, eligibility, and the step-by-step application process.',
+export const metadata = {
+  title: 'Portugal D7 Visa for Passive Income & EU Residency - Visa Rapid',
+  description: 'Apply for the Portugal D7 visa with ease. Secure residency, tax benefits, and a pathway to EU citizenship in Portugal. Contact us at +91 9910578099 now!',
   alternates: {
     canonical: '/portugal-d7-passive-income-visa',
   },
   openGraph: {
-    title: 'Portugal D7 Passive Income Visa — Residency Guide',
-    description: 'Complete guide to the Portugal D7 Passive Income Visa. Learn about advantages of living in Portugal, eligibility, and the step-by-step application process.',
-    url: 'https://www.visarapid.com/portugal-d7-passive-income-visa',
-    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Portugal D7 Passive Income Visa' }],
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Visa Rapid',
+    title: 'Portugal D7 Visa for Passive Income & EU Residency - Visa Rapid',
+    description: 'Apply for the Portugal D7 visa with ease. Secure residency, tax benefits, and a pathway to EU citizenship in Portugal. Contact us at +91 9910578099 now!',
+    url: '/portugal-d7-passive-income-visa',
+    images: [{ url: '/Residency.webp', width: 1200, height: 630, alt: 'Portugal D7 Passive Income Visa' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Portugal D7 Passive Income Visa — Residency Guide',
-    description: 'Complete guide to the Portugal D7 Passive Income Visa. Learn about advantages of living in Portugal, eligibility, and the step-by-step application process.',
-    images: ['/og-image.png'],
+    site: '@Visarapid_07 ',
+    title: 'Portugal D7 Visa for Passive Income & EU Residency - Visa Rapid',
+    description: 'Apply for the Portugal D7 visa with ease. Secure residency, tax benefits, and a pathway to EU citizenship in Portugal. Contact us at +91 9910578099 now!',
+    images: ['/Residency.webp'],
   },
 }
 
