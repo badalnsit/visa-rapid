@@ -10,6 +10,20 @@ export const metadata = {
 
 const Blogs = () => {
     const blogPosts = [
+         {
+            title: "How to Apply for a Retirement Visa Portugal: Complete Guide",
+            description: "Learn how to apply for a Retirement Visa Portugal in 2026. Follow this step-by-step D7 visa guide covering income, documents, AIMA and residency.",
+            image: "/blog38.png",
+            link: "/blogs/how-to-apply-for-a-retirement-visa-portugal",
+            category: "Retirement Abroad"
+        },
+        {
+            title: "Portugal Passive Income Visa for Americans Guide 2026",
+            description: "Thinking of moving to Portugal? Discover Portugal Passive Income Visa rules, D7 income requirements, taxes, apostille, and documents.",
+            image: "/blog37.png",
+            link: "/blogs/portugal-passive-income-visa-for-americans",
+            category: "Visa Guide"
+        },
         {
             title: "Best Countries for Americans to Retire",
             description: "The best countries for Americans to retire in 2026, covering costs, visa options, healthcare, and what life actually looks like on the ground.",
