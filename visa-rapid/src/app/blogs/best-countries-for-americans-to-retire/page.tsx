@@ -231,6 +231,7 @@ const BestCountriesAmericansRetire = () => {
                             <p className="mb-8">
                                 The best countries for Americans to retire ultimately depend on your income, lifestyle priorities, and where you feel at home. Whether you're searching for the best countries to retire as an American or just the single best country to retire for Americans, all five destinations on this list are proven, popular, and welcoming in 2026.
                             </p>
+                                        q: "What are the best countries for Americans to retire in Europe?",
                             <p className="mb-8">
                                 Americans looking to <strong><a href="https://www.visarapid.com/blogs/move-to-portugal-from-usa/" target="_blank"> move to Portugal from USA </a></strong> are increasingly choosing the <strong><a href="https://www.visarapid.com/blogs/retirement-d7-visa-portugal/" target="_blank"> D7 visa for retirees in Portugal </a></strong> thanks to its low income requirements, affordable healthcare, and clear path to EU citizenship. For remote workers, the <strong><a href="https://www.visarapid.com/blogs/digital-nomad-d8-visa-portugal/" target="_blank"> Digital Nomad Visa Portugal </a></strong> (D8) also offers an attractive alternative for long-term residency in Europe.
                             </p>
