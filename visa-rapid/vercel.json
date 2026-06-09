@@ -67,6 +67,11 @@
       "permanent": true
     },
     {
+      "source": "/blogs/digital-nomad-visa-portugal",
+      "destination": "/blogs/digital-nomad-d8-visa-portugal",
+      "permanent": true
+    },
+    {
       "source": "/blogs/moving-to-portugal-from-usa-2026",
       "destination": "/blogs/move-to-portugal-from-usa",
       "permanent": true
