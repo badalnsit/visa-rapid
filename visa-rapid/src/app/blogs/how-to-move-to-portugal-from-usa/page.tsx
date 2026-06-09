@@ -30,7 +30,7 @@ const BlueCardVsOpportunityCard = () => {
                         How to Move to Portugal from USA in 2026: Complete Guide
                     </h1>
                     <div className="flex items-center text-gray-500 text-sm">
-                        <span>Published on January 15, 2026</span>
+                        <span>Published on June 04, 2026</span>
                         <span className="mx-2">•</span>
                         <span>7 min read</span>
                     </div>

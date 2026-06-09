@@ -84,7 +84,7 @@ const BestCountriesAmericansRetire = () => {
                         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight font-open-sans">Portugal Passive Income Visa for Americans: Everything US Citizens Need to Know
                         </h1>
                         <div className="flex items-center text-gray-500 text-sm">
-                            <span>Published on April 22, 2026</span>
+                            <span>Published on June 04, 2026</span>
                             <span className="mx-2">•</span>
                             <span>12 min read</span>
                         </div>
