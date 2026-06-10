@@ -4,6 +4,9 @@ import RelatedArticles from '../../../components/RelatedArticles'
 export const metadata = {
     title: 'How to Apply for a Retirement Visa Portugal: Complete Guide',
     description: 'Learn how to apply for a Retirement Visa Portugal in 2026. Follow this step-by-step D7 visa guide covering income, documents, AIMA and residency.',
+    alternates: {
+        canonical: 'blogs/how-to-apply-for-a-retirement-visa-portugal/',
+    },
 }
 
 const BestCountriesSoftwareEngineers = () => {
@@ -49,7 +52,7 @@ const BestCountriesSoftwareEngineers = () => {
                     {/* Article Content */}
                     <article className="lg:col-span-3 prose prose-lg max-w-none text-gray-800">
 
-                        <h2 id="intro" className="text-3xl font-bold text-gray-900 mt-8 mb-4 font-open-sans">How to Apply for a Retirement Visa Portugal: Step-by-Step Process for 2026</h2>
+                        
                         <p className="mb-4">
                             So you have made up your mind. Portugal, it is. The weather, the food, the slower pace of life, the fact that your pension actually stretches there - it all adds up. Now comes the part everyone dreads. The paperwork.
                         </p>
@@ -63,7 +66,7 @@ const BestCountriesSoftwareEngineers = () => {
                             Portugal does not have something officially called a retirement visa. The visa retirees use is the D7 - also called the Passive Income Visa. It was essentially built for people in exactly the situation most retirees are in. Your money comes from somewhere outside Portugal - a pension, social security, rental property, investments - and you want to live there without working locally.
                         </p>
                         <p className="mb-4">
-                            That fits the D7 perfectly. It is the standard retirement route through the D7 visa for Portugal and the one this guide covers entirely.
+                            That fits the D7 perfectly. It is the standard retirement route through the <strong><a href="https://www.visarapid.com/portugal-d7-passive-income-visa/">D7 visa for Portugal</a></strong> and the one this guide covers entirely.
                         </p>
 
 
@@ -92,7 +95,7 @@ const BestCountriesSoftwareEngineers = () => {
                             ))}
                         </div>
                         <p className="mb-4">
-                            What matters most here is that the income shows up consistently. Consulate officers reviewing your retirement visa Portugal application want to see a steady pattern - not random deposits that are hard to explain. Three to six months of clean bank statements showing regular income coming in is the kind of proof that works well.
+                            What matters most here is that the income shows up consistently. Consulate officers reviewing your <strong><a href="https://www.visarapid.com/blogs/retirement-d7-visa-portugal/">retirement visa Portugal</a></strong> application want to see a steady pattern - not random deposits that are hard to explain. Three to six months of clean bank statements showing regular income coming in is the kind of proof that works well.
                         </p>
 
 
@@ -242,7 +245,7 @@ const BestCountriesSoftwareEngineers = () => {
                             Most retirees land permanent residency and stay there happily. Citizenship is an option if you eventually want full EU travel and residency access, but it is completely your call.
                         </p>
                         <p className="mb-4">
-                            Follow us on Instagram for the latest immigration news, travel ideas, and expert advice.
+                            Follow us on <strong><a href="https://www.instagram.com/visa.rapid/">Instagram</a></strong> for the latest immigration news, travel ideas, and expert advice.
                         </p>
 
 

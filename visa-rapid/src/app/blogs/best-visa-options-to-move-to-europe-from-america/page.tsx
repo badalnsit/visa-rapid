@@ -4,6 +4,9 @@ import RelatedArticles from '../../../components/RelatedArticles'
 export const metadata = {
     title: 'Move to Europe from America: Best Visa Options for 2026',
     description: 'Discover the best visa options to move to Europe from America in 2026. Learn about digital nomad, retirement, work, and investment visas.',
+    alternates: {
+        canonical: 'blogs/best-visa-options-to-move-to-europe-from-america/',
+    },
 }
 
 const BlueCardVsOpportunityCard = () => {
@@ -49,7 +52,7 @@ const BlueCardVsOpportunityCard = () => {
                     {/* Article Content */}
                     <article className="lg:col-span-3 prose prose-lg max-w-none text-gray-800">
 
-                        <h2 id="intro" className="text-3xl font-bold text-gray-900 mt-8 mb-4 font-open-sans">Move to Europe from America: Visa Options Every American Should Know About</h2>
+                        
                         <p className="mb-4">
                             Something shifted in the last few years. More Americans than ever are genuinely looking up what it takes to pack up and leave. Not just browsing - actually researching visa requirements, cost of living, and housing markets in cities they have never visited.
                         </p>
@@ -82,7 +85,7 @@ const BlueCardVsOpportunityCard = () => {
                         <p className="mb-6">Bank statements, employment contracts, or freelance invoices depending on your work setup. Get those documents organized before you even apply</p>
 
                         <h2 id="key-distinctions" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">Passive Income and Retirement Visas - For Those Not Working Actively</h2>
-                        <p className="mb-6">Not everyone wanting to move to Europe from America is a remote worker. Retirees, people living off investments, rental income, or dividends have their own set of visa options - and honestly, some of the more accessible ones.</p>
+                        <p className="mb-6">Not everyone wanting to <strong><a href="https://www.visarapid.com/blogs/move-to-europe-from-america/">move to Europe from America</a></strong> is a remote worker. Retirees, people living off investments, rental income, or dividends have their own set of visa options - and honestly, some of the more accessible ones.</p>
                         <p className="mb-6">Portugal's D7 Visa is the most talked about in this category. The income requirement sits around 760 euros per month - genuinely low compared to most alternatives. If you have a pension, social security, rental income, or modest investment returns, you likely qualify.</p>
                         <p className="mb-6">Other options worth knowing:</p>
                         <ul className="mb-6 space-y-4 text-lg text-gray-700">
@@ -175,13 +178,13 @@ const BlueCardVsOpportunityCard = () => {
                             ))}
                         </div>
                         <p className="mb-6 text-lg leading-loose">
-                            The country you choose matters just as much as the visa type. Portugal and Spain pull the most Americans right now, especially those researching how to move to Portugal from the USA or settle somewhere with a lower cost of living. Germany and the Netherlands attract those moving for work. Italy and Greece draw retirees and lifestyle seekers.
+                            The country you choose matters just as much as the visa type. Portugal and Spain pull the most Americans right now, especially those researching how to <strong><a href="https://www.visarapid.com/blogs/move-to-portugal-from-usa/">move to Portugal from the USA</a></strong> or settle somewhere with a lower cost of living. Germany and the Netherlands attract those moving for work. Italy and Greece draw retirees and lifestyle seekers.
                         </p>
                         <p className="mb-6 text-lg leading-loose">
                             Before submitting any application, spend time with an immigration lawyer who works specifically with American expats. One proper consultation saves you from months of wrong moves.
                         </p>
                         <p className="mb-6 text-lg leading-loose">
-                            Follow us on Instagram for expat tips, Portugal life updates, and everything you need to make your move a little easier.
+                            Follow us on <strong><a href="https://www.instagram.com/visa.rapid/">Instagram</a></strong> for expat tips, Portugal life updates, and everything you need to make your move a little easier.
                         </p>
 
                     </article>
