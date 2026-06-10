@@ -93,7 +93,7 @@ const BestCountriesAmericansRetire = () => {
                     {/* Featured Image */}
                     <div className="mb-10">
                         <img
-                            src="/blog36.jpg"
+                            src="/blog37.png"
                             alt="Best Countries for Americans to Retire"
                             className="w-full h-64 sm:h-80 lg:h-[400px] object-cover rounded-xl shadow-sm"
                         />
@@ -211,7 +211,7 @@ const BestCountriesAmericansRetire = () => {
                             <p className="mb-4">At the appointment, you submit your documents, pay the application fee of around 90 euros, and answer some basic questions about your income and plans in Portugal. Processing after that takes roughly four to eight weeks, depending on the consulate.</p>
 
                             <h2 id="comparison" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">US Tax Situation - This Part Matters</h2>
-                            <p className="mb-4">One thing that surprises some Americans is that moving to Portugal does not end their US tax obligations. The US taxes its citizens on worldwide income regardless of where they live. That does not change when you pick up your Portugal passive income visa and relocate.</p>
+                            <p className="mb-4">One thing that surprises some Americans is that moving to Portugal does not end their US tax obligations. The US taxes its citizens on worldwide income regardless of where they live. That does not change when you pick up your <strong><a href="https://www.visarapid.com/portugal-d7-passive-income-visa/" className="text-blue-600 hover:underline">Portugal passive income visa</a></strong> and relocate.</p>
                             <p className="mb-4">What this means practically:</p>
                             <div className="space-y-2 mb-6">
                                 {[
@@ -262,7 +262,7 @@ const BestCountriesAmericansRetire = () => {
                                 <li><strong>Language - </strong>English gets you through daily life in cities without much trouble. Learning basic Portuguese makes bureaucratic dealings smoother, and locals genuinely appreciate the effort.</li>
                                 <li><strong>Community - </strong>there are large, active American expat communities in Lisbon, Porto, and the Algarve. Finding your feet is much easier than going it completely alone.</li>
                             </ul>
-                            <p className="mb-4">Follow us on Instagram for more travel tips, visa updates, and Portugal living insights.</p>
+                            <p className="mb-4">Follow us on <strong><a href="https://www.instagram.com/visa.rapid/">Instagram</a></strong> for more travel tips, visa updates, and Portugal living insights.</p>
 
 
                            

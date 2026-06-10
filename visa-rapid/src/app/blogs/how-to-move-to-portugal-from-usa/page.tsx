@@ -4,6 +4,9 @@ import RelatedArticles from '../../../components/RelatedArticles'
 export const metadata = {
     title: 'How to Move to Portugal from USA in 2026: Complete Guide',
     description: 'Planning to move to Portugal from USA in 2026? Learn the visa options, costs, documents, housing, residency process, and relocation tips step by step.',
+     alternates: {
+        canonical: 'blogs/how-to-move-to-portugal-from-usa/',
+    },
 }
 
 const BlueCardVsOpportunityCard = () => {
@@ -49,7 +52,7 @@ const BlueCardVsOpportunityCard = () => {
                     {/* Article Content */}
                     <article className="lg:col-span-3 prose prose-lg max-w-none text-gray-800">
 
-                        <h2 id="intro" className="text-3xl font-bold text-gray-900 mt-8 mb-4 font-open-sans">How to Move to Portugal from USA: Complete Step-by-Step Guide for 2026</h2>
+                        
                         <p className="mb-4">
                             Somewhere between the rising rent, the hustle culture, and the general exhaustion of American life, a lot of people started Googling Portugal. And then they kept Googling. And then they actually went.
                         </p>
@@ -61,7 +64,7 @@ const BlueCardVsOpportunityCard = () => {
 
                         <h2 id="what-are-they" className="text-3xl font-bold text-gray-900 mt-10 mb-4 font-open-sans">First Things First - Pick the Right Visa</h2>
                         <p className="mb-6">Everything starts here. Americans get ninety days in Portugal visa-free as tourists. After that, you need a proper long-stay visa if you want to actually live there.</p>
-                        <p className="mb-6">The options that make most sense for Americans planning to move to Portugal from USA include:</p>
+                        <p className="mb-6">The options that make most sense for Americans planning to <strong><a href="https://www.visarapid.com/blogs/moving-to-portugal-from-usa-2026/">move to Portugal from USA</a></strong> include:</p>
                         <ul className="mb-6 space-y-4 text-lg text-gray-700">
                             <li><strong>D7 Passive Income Visa - </strong>this is the most popular one. Works for retirees, people with rental income, remote workers, or anyone with steady passive income. You need to show roughly 760 euros per month in provable income.</li>
                             <li><strong>Digital Nomad Visa - </strong>built specifically for people working remotely for non-Portuguese employers. Income requirement sits around four times Portugal's minimum wage - approximately 3,280 euros per month as of recent updates</li>
@@ -197,10 +200,10 @@ const BlueCardVsOpportunityCard = () => {
                             <li><strong>Join expat communities online and in person - </strong>Americans in Portugal Facebook group is active and helpful for everything from finding a dentist to understanding your tax situation</li>
                         </ul>
                         <p className="mb-6 text-lg leading-loose">
-                           For Americans planning a bigger lifestyle change or hoping to move to Europe from America long term, Portugal offers one of the clearest and most realistic paths available today.
+                           For Americans planning a bigger lifestyle change or hoping to <strong><a href="https://www.visarapid.com/blogs/moving-to-europe-from-usa-2026/">move to Europe from America</a></strong> long term, Portugal offers one of the clearest and most realistic paths available today.
                         </p>
                         <p className="mb-6 text-lg leading-loose">
-                            Follow us on Instagram for expat tips, Portugal life updates, and everything you need to make your move a little easier.
+                            Follow us on <strong><a href="https://www.instagram.com/visa.rapid/">Instagram</a></strong> for expat tips, Portugal life updates, and everything you need to make your move a little easier.
                         </p>
 
                     </article>
