@@ -6,7 +6,7 @@ const reasons = [
   {
     number: '01',
     title: 'Based in Europe — Not Advising From Outside',
-    desc: 'We are Blade Hire Unipessoal LDA, legally incorporated in Portugal. We operate inside the European system, not around it.',
+    desc: 'We are legally incorporated in Portugal. We operate inside the European system, not around it.',
   },
   {
     number: '02',
